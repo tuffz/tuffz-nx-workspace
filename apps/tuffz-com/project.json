@@ -1,7 +1,7 @@
 {
   "name": "tuffz-com",
-  "$schema": "node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "./src",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/tuffz-com/src",
   "projectType": "application",
   "targets": {
     "build": {
@@ -11,15 +11,18 @@
       "options": {
         "compiler": "babel",
         "outputPath": "dist/tuffz-com",
-        "index": "src/index.html",
+        "index": "apps/tuffz-com/src/index.html",
         "baseHref": "/",
-        "main": "src/main.tsx",
-        "tsConfig": "tsconfig.app.json",
-        "assets": ["src/favicon.ico", "src/assets"],
-        "styles": ["src/styles.scss"],
+        "main": "apps/tuffz-com/src/main.tsx",
+        "tsConfig": "apps/tuffz-com/tsconfig.app.json",
+        "assets": [
+          "apps/tuffz-com/src/favicon.ico",
+          "apps/tuffz-com/src/assets"
+        ],
+        "styles": ["apps/tuffz-com/src/styles.scss"],
         "scripts": [],
         "isolatedConfig": true,
-        "webpackConfig": "webpack.config.js"
+        "webpackConfig": "apps/tuffz-com/webpack.config.js"
       },
       "configurations": {
         "development": {
@@ -31,8 +34,8 @@
         "production": {
           "fileReplacements": [
             {
-              "replace": "src/environments/environment.ts",
-              "with": "src/environments/environment.prod.ts"
+              "replace": "apps/tuffz-com/src/environments/environment.ts",
+              "with": "apps/tuffz-com/src/environments/environment.prod.ts"
             }
           ],
           "optimization": true,
@@ -65,7 +68,7 @@
       "executor": "@nx/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["./src/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["apps/tuffz-com/src/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "serve-static": {
@@ -78,7 +81,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectName}"],
       "options": {
-        "jestConfig": "jest.config.ts",
+        "jestConfig": "apps/tuffz-com/jest.config.app.ts",
         "passWithNoTests": true
       },
       "configurations": {
