@@ -5,8 +5,10 @@ import NxWelcome from './nx-welcome';
 
 export function App() {
   return (
-    <div>
+    <div id='app' className='min-h-screen'>
       <NxWelcome title="tuffz-com" />
+
+      <div className='sticky top-[100vh]'>Footer</div>
     </div>
   );
 }
