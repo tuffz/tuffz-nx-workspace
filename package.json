@@ -20,7 +20,7 @@
     "@nx/cypress": "16.8.1",
     "@nx/eslint-plugin": "16.8.1",
     "@nx/jest": "16.8.1",
-    "@nx/js": "16.8.1",
+    "@nx/js": "16.10.0",
     "@nx/linter": "16.8.1",
     "@nx/react": "16.8.1",
     "@nx/webpack": "16.8.1",
