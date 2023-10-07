@@ -22,6 +22,7 @@
         "styles": ["apps/tuffz-com/src/styles.scss"],
         "scripts": [],
         "isolatedConfig": true,
+        "postcssConfig": "apps/tuffz-com/postcss.config.js",
         "webpackConfig": "apps/tuffz-com/webpack.config.js"
       },
       "configurations": {
