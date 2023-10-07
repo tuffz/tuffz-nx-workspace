@@ -24,7 +24,7 @@
     "@nx/linter": "16.8.1",
     "@nx/react": "16.8.1",
     "@nx/webpack": "16.8.1",
-    "@nx/workspace": "16.8.1",
+    "@nx/workspace": "16.10.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "@svgr/webpack": "^8.0.1",
     "@swc/cli": "~0.1.62",
