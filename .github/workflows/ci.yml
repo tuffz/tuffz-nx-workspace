@@ -21,10 +21,34 @@ jobs:
       - uses: nrwl/nx-set-shas@v3
       - run: npm ci
 
-      - run: npx nx format:check
+      - name: Check code formatting by using prettier config
+        if: github.event_name == 'push'
+        run: npx nx format:check --all
 
-      - run: npx nx affected -t lint --parallel=3
+      - name: Check code formatting by using prettier config
+        if: github.event_name == 'pull_request'
+        run: npx nx format:check
 
-      - run: npx nx affected -t test --parallel=3
+      - name: Lint
+        if: github.event_name == 'push'
+        run: npx nx run-many -t lint --parallel=3 --all
 
-      - run: npx nx affected -t build --parallel=3
+      - name: Lint
+        if: github.event_name == 'pull_request'
+        run: npx nx affected -t lint --parallel=3
+
+      - name: Test
+        if: github.event_name == 'push'
+        run: npx nx run-many -t test --parallel=3 --all
+
+      - name: Test
+        if: github.event_name == 'pull_request'
+        run: npx nx affected -t test --parallel=3
+
+      - name: Build
+        if: github.event_name == 'push'
+        run: npx nx run-many -t build --parallel=3 --all
+
+      - name: Build
+        if: github.event_name == 'pull_request'
+        run: npx nx affected -t build --parallel=3
