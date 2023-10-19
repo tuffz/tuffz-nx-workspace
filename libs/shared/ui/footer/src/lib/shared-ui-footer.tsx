@@ -1,5 +1,3 @@
-import styles from './shared-ui-footer.module.scss';
-
 /* eslint-disable-next-line */
 export interface SharedUiFooterProps {}
 
