@@ -6,20 +6,41 @@ on:
   pull_request:
 
 jobs:
-  main:
+  preinstall:
+    name: Cache install
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install packages
+        run: npm ci --loglevel error --cache .npm --prefer-offline
+
+  test:
+    needs: preinstall
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set node version
+      - name: Use Node.js 20
         uses: actions/setup-node@v3
         with:
           node-version: 20
+          cache: 'npm'
 
       - uses: nrwl/nx-set-shas@v4
-      - run: npm ci
+
+      - name: Install packages
+        run: npm ci --loglevel error --cache .npm --prefer-offline
 
       - name: Check code formatting by using prettier config
         if: github.event_name == 'push'
@@ -31,24 +52,42 @@ jobs:
 
       - name: Lint
         if: github.event_name == 'push'
-        run: npx nx run-many -t lint --parallel=3 --all
+        run: npx nx run-many --target=lint --all
 
       - name: Lint
         if: github.event_name == 'pull_request'
-        run: npx nx affected -t lint --parallel=3
+        run: npx nx affected --target=lint
 
       - name: Test
         if: github.event_name == 'push'
-        run: npx nx run-many -t test --parallel=3 --all
+        run: npx nx run-many --target=test --ci --runInBand --all
 
       - name: Test
         if: github.event_name == 'pull_request'
-        run: npx nx affected -t test --parallel=3
+        run: npx nx affected --target=test --ci --runInBand
+
+  build:
+    needs: preinstall
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: 'npm'
+      - uses: nrwl/nx-set-shas@v4
+
+      - name: Install packages
+        run: npm ci --loglevel error --cache .npm --prefer-offline
 
       - name: Build
         if: github.event_name == 'push'
-        run: npx nx run-many -t build --parallel=3 --all
+        run: npx nx run-many --target=build --all
 
       - name: Build
         if: github.event_name == 'pull_request'
-        run: npx nx affected -t build --parallel=3
+        run: npx nx affected --target=build
