@@ -21,7 +21,7 @@ jobs:
           cache: 'npm'
 
       - name: Install packages
-        run: npm ci --loglevel error --cache .npm --prefer-offline
+        run: npm ci --loglevel error --cache .npm --prefer-offline --verbose
 
   test:
     needs: preinstall
@@ -40,7 +40,7 @@ jobs:
       - uses: nrwl/nx-set-shas@v4
 
       - name: Install packages
-        run: npm ci --loglevel error --cache .npm --prefer-offline
+        run: npm ci --loglevel error --cache .npm --prefer-offline --verbose
 
       - name: Check code formatting by using prettier config
         if: github.event_name == 'push'
@@ -82,7 +82,7 @@ jobs:
       - uses: nrwl/nx-set-shas@v4
 
       - name: Install packages
-        run: npm ci --loglevel error --cache .npm --prefer-offline
+        run: npm ci --loglevel error --cache .npm --prefer-offline --verbose
 
       - name: Build
         if: github.event_name == 'push'
