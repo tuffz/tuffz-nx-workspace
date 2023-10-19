@@ -2,13 +2,14 @@
 import styles from './app.module.scss';
 
 import NxWelcome from './nx-welcome';
+import { SharedUiFooter } from 'shared-ui-footer';
 
 export function App() {
   return (
-    <div id='app' className='min-h-screen'>
+    <div id="app" className="min-h-screen">
       <NxWelcome title="tuffz-com" />
 
-      <div className='sticky top-[100vh]'>Footer</div>
+      <SharedUiFooter />
     </div>
   );
 }
