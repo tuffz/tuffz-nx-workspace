@@ -18,6 +18,14 @@ updates:
       - dependencies
     assignees:
       - tuffz
+    groups:
+      nx:
+        patterns:
+          - '@nx/*'
+        update-types:
+          - 'major'
+          - 'minor'
+          - 'patch'
 
   - package-ecosystem: github-actions
     directory: '/'
