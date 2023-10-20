@@ -17,7 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/preset-react": "^7.14.5",
-    "@nx/cypress": "16.10.0",
+    "@nx/cypress": "17.0.0",
     "@nx/eslint-plugin": "16.10.0",
     "@nx/jest": "16.10.0",
     "@nx/js": "16.10.0",
