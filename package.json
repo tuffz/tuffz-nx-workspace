@@ -17,13 +17,13 @@
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/preset-react": "^7.14.5",
-    "@nx/cypress": "17.0.0",
-    "@nx/eslint-plugin": "17.0.0",
-    "@nx/jest": "17.0.0",
-    "@nx/js": "17.0.0",
-    "@nx/react": "17.0.0",
-    "@nx/webpack": "17.0.0",
-    "@nx/workspace": "17.0.0",
+    "@nx/cypress": "17.0.1",
+    "@nx/eslint-plugin": "17.0.1",
+    "@nx/jest": "17.0.1",
+    "@nx/js": "17.0.1",
+    "@nx/react": "17.0.1",
+    "@nx/webpack": "17.0.1",
+    "@nx/workspace": "17.0.1",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "@svgr/webpack": "^8.0.1",
     "@swc/cli": "~0.1.62",
@@ -56,6 +56,6 @@
     "ts-node": "10.9.1",
     "typescript": "~5.2.2",
     "url-loader": "^4.1.1",
-    "@nx/eslint": "17.0.0"
+    "@nx/eslint": "17.0.1"
   }
 }
