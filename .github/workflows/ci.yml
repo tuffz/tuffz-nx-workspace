@@ -52,7 +52,7 @@ jobs:
 
       - name: Lint
         if: github.event_name == 'push'
-        run: npx nx run-many --target=lint --all
+        run: npx nx run-many --target=lint
 
       - name: Lint
         if: github.event_name == 'pull_request'
@@ -60,11 +60,38 @@ jobs:
 
       - name: Test
         if: github.event_name == 'push'
-        run: npx nx run-many --target=test --ci --runInBand --all
+        run: npx nx run-many --target=test --ci --runInBand
 
       - name: Test
         if: github.event_name == 'pull_request'
         run: npx nx affected --target=test --ci --runInBand
+
+  e2e:
+    needs: preinstall
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - uses: nrwl/nx-set-shas@v4
+
+      - name: Install packages
+        run: npm ci --verbose
+
+      - name: e2e
+        if: github.event_name == 'push'
+        run: npx nx run-many --target=e2e --parallel=1
+
+      - name: e2e
+        if: github.event_name == 'pull_request'
+        run: npx nx affected --target=2e2 --parallel=1
 
   build:
     needs: preinstall
@@ -86,7 +113,7 @@ jobs:
 
       - name: Build
         if: github.event_name == 'push'
-        run: npx nx run-many --target=build --all
+        run: npx nx run-many --target=build
 
       - name: Build
         if: github.event_name == 'pull_request'
