@@ -10,7 +10,7 @@
       "defaultConfiguration": "production",
       "options": {
         "compiler": "babel",
-        "outputPath": "dist/tuffz-com",
+        "outputPath": "dist/apps/tuffz-com",
         "index": "apps/tuffz-com/src/index.html",
         "baseHref": "/",
         "main": "apps/tuffz-com/src/main.tsx",
