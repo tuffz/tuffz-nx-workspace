@@ -1,3 +1,5 @@
+import { SharedUiImageEmbed } from '@tuffz-workspace/shared/ui/image-embed';
+
 /* eslint-disable-next-line */
 export interface ProfessionalBiographyShortProps {
   // firstname: string;
@@ -15,7 +17,7 @@ export function ProfessionalBiographyShort(
   return (
     <section className="flex flex-col sm:max-lg:flex-row md:justify-evenly items-center bg-white p-1 rounded-xl shadow-xl sm:m-4">
       <div className="shrink-0 mb-4 sm:mb-0 lg:m-4">
-        <img
+        <SharedUiImageEmbed
           src="/assets/personal-information/eric-buettner.jpeg"
           alt="Portrait of Eric Büttner"
           title="Portrait of Eric Büttner"
