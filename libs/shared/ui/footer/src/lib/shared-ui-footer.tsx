@@ -11,7 +11,7 @@ export function SharedUiFooter(props: SharedUiFooterProps) {
         <span role="img" aria-label="Heart">
           ❤️
         </span>{' '}
-        in{' '}
+        by{' '}
         <SharedUiAnchor
           href="https://www.tuffz.com"
           content="tuffz.com"
