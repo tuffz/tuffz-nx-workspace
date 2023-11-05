@@ -1,8 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
 
-import { SharedUiFooter } from 'shared-ui-footer';
-import { ProfessionalBiographyShort } from 'tuffz-info-professional-biography-short';
+import { SharedUiFooter } from '@tuffz-workspace/shared/ui/footer';
+import { ProfessionalBiographyShort } from '@tuffz-workspace/tuffz-info-professional-biography-short';
 
 export function App() {
   return (
