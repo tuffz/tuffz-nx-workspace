@@ -8,10 +8,12 @@ export interface SharedUiAnchorProps {
 }
 
 export function SharedUiAnchor(props: SharedUiAnchorProps) {
+  const title = props.title || props.content || null;
+
   return (
     <a
       href={props.href}
-      title={props.title}
+      {...(title && { title })}
       target={props.target}
       rel={props.rel}
     >
