@@ -3,8 +3,8 @@ export interface SharedUiFooterProps {}
 
 export function SharedUiFooter(props: SharedUiFooterProps) {
   return (
-    <div className="sticky top-[100vh] py-10">
-      <p className="text-center">
+    <div className="sticky top-[100vh] py-5">
+      <p className="text-sm text-center">
         Carefully made with{' '}
         <span role="img" aria-label="Heart">
           ❤️
