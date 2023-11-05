@@ -14,10 +14,8 @@ export function SharedUiFooter(props: SharedUiFooterProps) {
         in{' '}
         <SharedUiAnchor
           href="https://www.tuffz.com"
-          body="tuffz.com"
-          title="tuffz.com"
+          content="tuffz.com"
           target="_blank"
-          rel="noopener noreferrer"
         />
       </p>
     </div>
