@@ -1,7 +1,7 @@
 /* eslint-disable-next-line */
 export interface SharedUiAnchorProps {
   href: string;
-  body?: string;
+  content?: string;
   title?: string;
   target?: string;
   rel?: string;
@@ -15,7 +15,7 @@ export function SharedUiAnchor(props: SharedUiAnchorProps) {
       target={props.target}
       rel={props.rel}
     >
-      {props.body}
+      {props.content}
     </a>
   );
 }
