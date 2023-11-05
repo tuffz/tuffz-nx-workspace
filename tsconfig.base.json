@@ -21,6 +21,9 @@
       "@tuffz-workspace/shared/ui/footer": [
         "libs/shared/ui/footer/src/index.ts"
       ],
+      "@tuffz-workspace/shared/ui/image-embed": [
+        "libs/shared/ui/image-embed/src/index.ts"
+      ],
       "@tuffz-workspace/tuffz-info-professional-biography-short": [
         "libs/tuffz-info/professional-biography-short/src/index.ts"
       ]
