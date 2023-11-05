@@ -17,6 +17,7 @@ describe('SharedUiAnchor', () => {
     );
     const link = getByText('Link Text');
     expect(link).toBeInTheDocument();
+    expect(link).toHaveAttribute('title', 'Link Text');
   });
 
   it('renders the provided title attribute', () => {
