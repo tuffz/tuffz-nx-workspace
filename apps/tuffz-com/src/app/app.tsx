@@ -2,7 +2,7 @@
 import styles from './app.module.scss';
 
 import NxWelcome from './nx-welcome';
-import { SharedUiFooter } from 'shared-ui-footer';
+import { SharedUiFooter } from '@tuffz-workspace/shared/ui/footer';
 
 export function App() {
   return (

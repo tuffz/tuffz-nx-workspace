@@ -1,4 +1,4 @@
-import { SharedUiAnchor } from 'shared-ui-anchor';
+import { SharedUiAnchor } from '@tuffz-workspace/shared/ui/anchor';
 
 /* eslint-disable-next-line */
 export interface SharedUiFooterProps {}
