@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "shared-ui-footer": ["libs/shared/ui/footer/src/index.ts"]
+      "shared-ui-footer": ["libs/shared/ui/footer/src/index.ts"],
+      "tuffz-info-professional-biography-short": [
+        "libs/tuffz-info/professional-biography-short/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

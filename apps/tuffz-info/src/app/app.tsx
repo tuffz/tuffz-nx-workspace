@@ -2,10 +2,14 @@
 import styles from './app.module.scss';
 
 import { SharedUiFooter } from 'shared-ui-footer';
+import { ProfessionalBiographyShort } from 'tuffz-info-professional-biography-short';
 
 export function App() {
   return (
-    <div id="app" className="min-h-screen">
+    <div id="app" className="min-h-screen bg-gray-300">
+      <main className="container mx-auto p-2">
+        <ProfessionalBiographyShort />
+      </main>
       <SharedUiFooter />
     </div>
   );
