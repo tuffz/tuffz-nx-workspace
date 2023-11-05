@@ -1,3 +1,5 @@
+import { SharedUiAnchor } from 'shared-ui-anchor';
+
 /* eslint-disable-next-line */
 export interface SharedUiFooterProps {}
 
@@ -10,13 +12,13 @@ export function SharedUiFooter(props: SharedUiFooterProps) {
           ❤️
         </span>{' '}
         in{' '}
-        <a
+        <SharedUiAnchor
           href="https://www.tuffz.com"
+          body="tuffz.com"
+          title="tuffz.com"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          tuffz.com
-        </a>
+        />
       </p>
     </div>
   );
