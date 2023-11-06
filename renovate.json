@@ -1,6 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["config:base"],
+  "baseBranches": ["main"],
+  "assignees": ["tuffz"],
+  "labels": ["renovate", "dependencies"],
+  "rebaseWhen": "behind-base-branch",
+  "separateMajorMinor": true,
+  "separateMultipleMajor": true,
+  "separateMinorPatch": true
 }
