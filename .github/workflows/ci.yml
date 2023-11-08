@@ -7,7 +7,7 @@ on:
 
 jobs:
   preinstall:
-    name: Cache install
+    name: cache install
     runs-on: ubuntu-latest
 
     steps:
@@ -20,7 +20,16 @@ jobs:
           node-version: 20
           cache: 'npm'
 
+      - name: Cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          lookup-only: true
+          path: '**/node_modules'
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+
       - name: Install packages
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci --verbose
 
   test:
@@ -39,7 +48,15 @@ jobs:
 
       - uses: nrwl/nx-set-shas@v4
 
+      - name: Cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: '**/node_modules'
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+
       - name: Install packages
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci --verbose
 
       - name: Check code formatting by using prettier config
@@ -82,7 +99,15 @@ jobs:
 
       - uses: nrwl/nx-set-shas@v4
 
+      - name: Cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: '**/node_modules'
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+
       - name: Install packages
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci --verbose
 
       - name: e2e
@@ -108,7 +133,15 @@ jobs:
           cache: 'npm'
       - uses: nrwl/nx-set-shas@v4
 
+      - name: Cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: '**/node_modules'
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+
       - name: Install packages
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci --verbose
 
       - name: Build
