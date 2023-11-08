@@ -7,7 +7,7 @@ on:
 
 env:
   CYPRESS_CACHE_FOLDER: ${{ github.workspace }}/.cypress
-    
+
 jobs:
   preinstall:
     name: cache install
@@ -46,7 +46,6 @@ jobs:
       - name: Install Cypress
         if: steps.cache-cypress.outputs.cache-hit != 'true'
         run: npx cypress install
-
 
   test:
     needs: preinstall
