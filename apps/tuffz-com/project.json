@@ -84,6 +84,12 @@
       "options": {
         "jestConfig": "apps/tuffz-com/jest.config.app.ts"
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional"
+      }
     }
   },
   "tags": []

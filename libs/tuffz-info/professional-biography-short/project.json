@@ -20,6 +20,12 @@
       "options": {
         "jestConfig": "libs/tuffz-info/professional-biography-short/jest.config.ts"
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional"
+      }
     }
   }
 }

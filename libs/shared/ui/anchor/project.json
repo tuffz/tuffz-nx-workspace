@@ -18,6 +18,12 @@
       "options": {
         "jestConfig": "libs/shared/ui/anchor/jest.config.ts"
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional"
+      }
     }
   }
 }

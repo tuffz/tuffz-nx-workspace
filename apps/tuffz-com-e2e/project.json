@@ -26,6 +26,12 @@
           "devServerTarget": "tuffz-com:serve-static"
         }
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional"
+      }
     }
   },
   "tags": [],
