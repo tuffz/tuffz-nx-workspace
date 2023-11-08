@@ -75,11 +75,6 @@ jobs:
         run: npm ci --verbose
 
       - name: Check code formatting by using prettier config
-        if: github.event_name == 'push'
-        run: npx nx format:check --all
-
-      - name: Check code formatting by using prettier config
-        if: github.event_name == 'pull_request'
         run: npx nx format:check
 
       - name: Lint
