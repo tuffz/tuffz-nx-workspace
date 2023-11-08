@@ -5,6 +5,9 @@ on:
       - main
   pull_request:
 
+env:
+  CYPRESS_CACHE_FOLDER: ${{ github.workspace }}/.cypress
+
 jobs:
   preinstall:
     name: cache install
@@ -31,6 +34,18 @@ jobs:
       - name: Install packages
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci --verbose
+
+      - name: Cache Cypress
+        id: cache-cypress
+        uses: actions/cache@v3
+        with:
+          lookup-only: true
+          path: '${{ github.workspace }}/.cypress'
+          key: cypress
+
+      - name: Install Cypress
+        if: steps.cache-cypress.outputs.cache-hit != 'true'
+        run: npx cypress install
 
   test:
     needs: preinstall
@@ -109,6 +124,17 @@ jobs:
       - name: Install packages
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci --verbose
+
+      - name: Cache Cypress
+        id: cache-cypress
+        uses: actions/cache@v3
+        with:
+          path: '${{ github.workspace }}/.cypress'
+          key: cypress
+
+      - name: Install Cypress
+        if: steps.cache-cypress.outputs.cache-hit != 'true'
+        run: npx cypress install
 
       - name: e2e
         if: github.event_name == 'push'
