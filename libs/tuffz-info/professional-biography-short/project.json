@@ -3,7 +3,7 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/tuffz-info/professional-biography-short/src",
   "projectType": "library",
-  "tags": ["tuffz-info-professional-biography-short"],
+  "tags": ["type:feature", "scope:biography"],
   "targets": {
     "lint": {
       "executor": "@nx/eslint:lint",

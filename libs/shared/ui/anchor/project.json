@@ -3,7 +3,7 @@
   "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/shared/ui/anchor/src",
   "projectType": "library",
-  "tags": ["shared-ui-anchor"],
+  "tags": ["type:ui", "scope:shared"],
   "targets": {
     "lint": {
       "executor": "@nx/eslint:lint",
