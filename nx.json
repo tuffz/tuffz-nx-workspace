@@ -42,6 +42,9 @@
           "codeCoverage": true
         }
       }
+    },
+    "version": {
+      "dependsOn": ["^version"]
     }
   },
   "namedInputs": {
