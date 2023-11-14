@@ -30,4 +30,4 @@ jobs:
       - name: Release
         uses: ./.github/actions/release
         with:
-          git_bot_token: ${{ secrets.GIT_BOT_TOKEN }}
+          github_token: ${{ secrets.GIT_BOT_TOKEN }}

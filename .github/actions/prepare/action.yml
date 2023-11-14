@@ -17,7 +17,7 @@ inputs:
       - name: 🔍️ Checkout all commits
         uses: actions/checkout@v4
         with:
-          git_bot_token: ${{ inputs.git_bot_token || github.token }}
+          token: ${{ inputs.git_bot_token || github.token }}
           fetch-depth: 0
 
       - name: 🔧 Use Node.js 20
