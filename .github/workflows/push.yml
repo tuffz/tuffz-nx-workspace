@@ -21,8 +21,9 @@ jobs:
     # needs: [test]
 
     steps:
+      - uses: actions/checkout@v4
       - name: Prepare
-        uses: ./github/actions/prepare
+        uses: ./.github/actions/prepare
         with:
           git_bot_token: ${{ secrets.GIT_BOT_TOKEN }}
 
