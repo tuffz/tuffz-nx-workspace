@@ -1,0 +1,41 @@
+name: Prepare
+
+description: Initiate the Node.js comprehensive caching process, execute the installation of dependencies, and establish the configuration for the Git user
+
+inputs:
+  git_bot_token:
+    description: The Git Bot token is utilized specifically for pushing changes to protected branches due to the limitations of the GitHub token
+    required: false
+  node_version:
+    description: Node.js version
+    required: false
+    default: '20'
+
+  runs:
+    using: composite
+    steps:
+      - name: 🔍️ Checkout all commits
+        uses: actions/checkout@v4
+        with:
+          git_bot_token: ${{ inputs.git_bot_token || github.token }}
+          fetch-depth: 0
+
+      - name: 🔧 Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 🔒️ Cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: '**/node_modules'
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+
+      - name: 📦️ Install packages
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: npm ci --loglevel error --prefer-offline --verbose
+
+      - name: 🔧 Set Git user to "🤖 tuffz Bot"
+        shell: bash
+        run: git config user.email "-" && git config user.name "🤖 tuffz Bot"

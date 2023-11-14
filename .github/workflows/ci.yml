@@ -179,40 +179,48 @@ jobs:
         if: github.event_name == 'pull_request'
         run: npx nx affected --target=build
 
-  release:
-    name: 🔖 Release
-    needs: ['preinstall', 'test', 'e2e', 'build']
-    runs-on: ubuntu-latest
-    steps:
-      - name: 🔍️ Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+  # release:
+  #   name: 🔖 Release
+  #   runs-on: ubuntu-latest
 
-      - name: 🔧 Use Node.js 20
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'npm'
+  #   if: github.ref == 'refs/heads/main'
 
-      - name: 🔒️ Cache node_modules
-        id: cache-node-modules
-        uses: actions/cache@v3
-        with:
-          path: '**/node_modules'
-          key: node-modules-${{ hashFiles('package-lock.json') }}
+  #   needs: ['preinstall', 'test', 'e2e', 'build']
 
-      - name: 📦️ Install packages
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci --loglevel error --prefer-offline --verbose
+  #   steps:
+  #     - name: 🔍️ Checkout
+  #       uses: actions/checkout@v4
+  #       with:
+  #         fetch-depth: 0
+  #         git_bot_token: ${{ secrets.GIT_BOT_TOKEN }}
 
-      - name: 🔧 Setup git user to "🤖 SemVer Bot"
-        shell: bash
-        run: git config user.email "semver-bot@tuffz.com" && git config user.name "🤖 SemVer Bot"
+  #     - name: 🔧 Use Node.js 20
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         node-version: 20
+  #         cache: 'npm'
 
-      - name: 🔖 Release
-        shell: bash
-        if: github.event_name == 'push'
-        run: npx nx affected --base=$(git describe --tags $(git rev-list --tags --max-count=1)) --target=version --trackDeps --with-deps --allow-empty-release --push --parallel=1 --verbose
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  #     - name: 🔒️ Cache node_modules
+  #       id: cache-node-modules
+  #       uses: actions/cache@v3
+  #       with:
+  #         path: '**/node_modules'
+  #         key: node-modules-${{ hashFiles('package-lock.json') }}
+
+  #     - name: 📦️ Install packages
+  #       if: steps.cache-node-modules.outputs.cache-hit != 'true'
+  #       run: npm ci --loglevel error --prefer-offline --verbose
+
+  #     - name: 🔧 Setup git user to "🤖 SemVer Bot"
+  #       shell: bash
+  #       run: git config user.email "semver-bot@tuffz.com" && git config user.name "🤖 SemVer Bot"
+
+  #     - name: 🔖 Release
+  #       # shell: bash
+  #       # if: github.event_name == 'push'
+  #       # run: npx nx affected --base=$(git describe --tags $(git rev-list --tags --max-count=1)) --target=version --trackDeps --with-deps --allow-empty-release --push --parallel=1 --verbose
+  #       # env:
+  #       #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  #       uses: ./.github/actions/release
+  #       with:
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
