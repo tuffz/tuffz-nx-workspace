@@ -233,10 +233,16 @@ jobs:
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ steps.app-token.outputs.token }}
-          repository: tuffz/nx-semver-playground
-          branch: ${{ github.ref }}
-          tags: true
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ steps.app-token.outputs.token }}
+      #     repository: tuffz/nx-semver-playground
+      #     branch: ${{ github.ref }}
+      #     tags: true
+
+      - name: Use the token
+        env:
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          gh api octocat
