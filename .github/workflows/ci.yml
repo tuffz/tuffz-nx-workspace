@@ -47,137 +47,137 @@ jobs:
         if: steps.cache-cypress.outputs.cache-hit != 'true'
         run: npx cypress install
 
-  # test:
-  #   name: ✅ Tests
-  #   needs: preinstall
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: 🔍️ Checkout
-  #       uses: actions/checkout@v4
-  #       with:
-  #         fetch-depth: 0
+  test:
+    name: ✅ Tests
+    needs: preinstall
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔍️ Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-  #     - name: 🔧 Use Node.js 20
-  #       uses: actions/setup-node@v4
-  #       with:
-  #         node-version: 20
-  #         cache: 'npm'
+      - name: 🔧 Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
 
-  #     - uses: nrwl/nx-set-shas@v4
+      - uses: nrwl/nx-set-shas@v4
 
-  #     - name: 🔒️ Cache node_modules
-  #       id: cache-node-modules
-  #       uses: actions/cache@v3
-  #       with:
-  #         path: '**/node_modules'
-  #         key: node-modules-${{ hashFiles('package-lock.json') }}
+      - name: 🔒️ Cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: '**/node_modules'
+          key: node-modules-${{ hashFiles('package-lock.json') }}
 
-  #     - name: 📦️ Install packages
-  #       if: steps.cache-node-modules.outputs.cache-hit != 'true'
-  #       run: npm ci --loglevel error --prefer-offline --verbose
+      - name: 📦️ Install packages
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: npm ci --loglevel error --prefer-offline --verbose
 
-  #     - name: 💄 Check code formatting by using prettier config
-  #       run: npx nx format:check
+      - name: 💄 Check code formatting by using prettier config
+        run: npx nx format:check
 
-  #     - name: 🚨 Lint
-  #       if: github.event_name == 'push'
-  #       run: npx nx run-many --target=lint
+      - name: 🚨 Lint
+        if: github.event_name == 'push'
+        run: npx nx run-many --target=lint
 
-  #     - name: 🚨 Lint
-  #       if: github.event_name == 'pull_request'
-  #       run: npx nx affected --target=lint
+      - name: 🚨 Lint
+        if: github.event_name == 'pull_request'
+        run: npx nx affected --target=lint
 
-  #     - name: ✅ Tests
-  #       if: github.event_name == 'push'
-  #       run: npx nx run-many --target=test --ci --runInBand
+      - name: ✅ Tests
+        if: github.event_name == 'push'
+        run: npx nx run-many --target=test --ci --runInBand
 
-  #     - name: ✅ Tests
-  #       if: github.event_name == 'pull_request'
-  #       run: npx nx affected --target=test --ci --runInBand
+      - name: ✅ Tests
+        if: github.event_name == 'pull_request'
+        run: npx nx affected --target=test --ci --runInBand
 
-  # e2e:
-  #   name: 📸 End-to-End Testing
-  #   needs: preinstall
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: 🔍️ Checkout
-  #       uses: actions/checkout@v4
-  #       with:
-  #         fetch-depth: 0
+  e2e:
+    name: 📸 End-to-End Testing
+    needs: preinstall
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔍️ Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-  #     - name: 🔧 Use Node.js 20
-  #       uses: actions/setup-node@v4
-  #       with:
-  #         node-version: 20
-  #         cache: 'npm'
+      - name: 🔧 Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
 
-  #     - uses: nrwl/nx-set-shas@v4
+      - uses: nrwl/nx-set-shas@v4
 
-  #     - name: 🔒️ Cache node_modules
-  #       id: cache-node-modules
-  #       uses: actions/cache@v3
-  #       with:
-  #         path: '**/node_modules'
-  #         key: node-modules-${{ hashFiles('package-lock.json') }}
+      - name: 🔒️ Cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: '**/node_modules'
+          key: node-modules-${{ hashFiles('package-lock.json') }}
 
-  #     - name: 📦️ Install packages
-  #       if: steps.cache-node-modules.outputs.cache-hit != 'true'
-  #       run: npm ci --loglevel error --prefer-offline --verbose
+      - name: 📦️ Install packages
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: npm ci --loglevel error --prefer-offline --verbose
 
-  #     - name: 🔒️ Cache Cypress
-  #       id: cache-cypress
-  #       uses: actions/cache@v3
-  #       with:
-  #         path: '${{ github.workspace }}/.cypress'
-  #         key: cypress
+      - name: 🔒️ Cache Cypress
+        id: cache-cypress
+        uses: actions/cache@v3
+        with:
+          path: '${{ github.workspace }}/.cypress'
+          key: cypress
 
-  #     - name: 📦️ Install Cypress
-  #       if: steps.cache-cypress.outputs.cache-hit != 'true'
-  #       run: npx cypress install
+      - name: 📦️ Install Cypress
+        if: steps.cache-cypress.outputs.cache-hit != 'true'
+        run: npx cypress install
 
-  #     - name: 📸 e2e
-  #       if: github.event_name == 'push'
-  #       run: npx nx run-many --target=e2e --parallel=1
+      - name: 📸 e2e
+        if: github.event_name == 'push'
+        run: npx nx run-many --target=e2e --parallel=1
 
-  #     - name: 📸 e2e
-  #       if: github.event_name == 'pull_request'
-  #       run: npx nx affected --target=2e2 --parallel=1
+      - name: 📸 e2e
+        if: github.event_name == 'pull_request'
+        run: npx nx affected --target=2e2 --parallel=1
 
-  # build:
-  #   name: 📦️ Build
-  #   needs: preinstall
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: 🔍️ Checkout
-  #       uses: actions/checkout@v4
-  #       with:
-  #         fetch-depth: 0
+  build:
+    name: 📦️ Build
+    needs: preinstall
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔍️ Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-  #     - name: 🔧 Use Node.js 20
-  #       uses: actions/setup-node@v4
-  #       with:
-  #         node-version: 20
-  #         cache: 'npm'
-  #     - uses: nrwl/nx-set-shas@v4
+      - name: 🔧 Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+      - uses: nrwl/nx-set-shas@v4
 
-  #     - name: 🔒️ Cache node_modules
-  #       id: cache-node-modules
-  #       uses: actions/cache@v3
-  #       with:
-  #         path: '**/node_modules'
-  #         key: node-modules-${{ hashFiles('package-lock.json') }}
+      - name: 🔒️ Cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: '**/node_modules'
+          key: node-modules-${{ hashFiles('package-lock.json') }}
 
-  #     - name: 📦️ Install packages
-  #       if: steps.cache-node-modules.outputs.cache-hit != 'true'
-  #       run: npm ci --loglevel error --prefer-offline --verbose
+      - name: 📦️ Install packages
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: npm ci --loglevel error --prefer-offline --verbose
 
-  #     - name: 📦️ Build
-  #       if: github.event_name == 'push'
-  #       run: npx nx run-many --target=build
+      - name: 📦️ Build
+        if: github.event_name == 'push'
+        run: npx nx run-many --target=build
 
-  #     - name: 📦️ Build
-  #       if: github.event_name == 'pull_request'
-  #       run: npx nx affected --target=build
+      - name: 📦️ Build
+        if: github.event_name == 'pull_request'
+        run: npx nx affected --target=build
 
   release:
     name: 🔖 Release
@@ -235,6 +235,6 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ inputs.github_token }}
+          github_token: ${{ steps.app-token.outputs.token }}
           branch: ${{ github.ref }}
           tags: true
