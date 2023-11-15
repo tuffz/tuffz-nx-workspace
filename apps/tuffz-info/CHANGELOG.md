@@ -2,6 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.34](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.33...tuffz-info-0.2.34) (2023-11-15)
+
+### Dependency Updates
+
+* `tuffz-info-professional-biography-short` updated to version `0.1.26`
 ## [0.2.33](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.32...tuffz-info-0.2.33) (2023-11-15)
 
 ### Dependency Updates
