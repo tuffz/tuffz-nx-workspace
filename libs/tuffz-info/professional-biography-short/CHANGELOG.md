@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.26](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-professional-biography-short-0.1.25...tuffz-info-professional-biography-short-0.1.26) (2023-11-15)
+
+
+### Bug Fixes
+
+* testing pipeline ([b288786](https://github.com/tuffz/nx-semver-playground/commit/b2887867643ecd8b69a9287c74f361993f956f08))
+
 ## [0.1.25](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-professional-biography-short-0.1.24...tuffz-info-professional-biography-short-0.1.25) (2023-11-15)
 
 
