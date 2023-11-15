@@ -16,6 +16,10 @@ runs:
         token: ${{ inputs.git_bot_token || github.token }}
         fetch-depth: 0
 
+    - name: 🔧 Set Git user to "🤖 tuffz Bot"
+      shell: bash
+      run: git config user.email "-" && git config user.name "🤖 tuffz Bot"
+
     - name: 🔧 Use Node.js 20
       uses: actions/setup-node@v4
       with:
@@ -32,7 +36,3 @@ runs:
       if: steps.cache-node-modules.outputs.cache-hit != 'true'
       shell: bash
       run: npm ci --loglevel error --prefer-offline --verbose
-
-    - name: 🔧 Set Git user to "🤖 tuffz Bot"
-      shell: bash
-      run: git config user.email "-" && git config user.name "🤖 tuffz Bot"
