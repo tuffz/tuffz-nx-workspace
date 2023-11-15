@@ -15,7 +15,7 @@ runs:
   steps:
     - name: 🔧 Set Git user to "🤖 tuffz Bot"
       shell: bash
-      run: git config user.email "-" && git config user.name "🤖 tuffz Bot"
+      run: git config user.email "tuffz-bot@tuffz.com" && git config user.name "🤖 tuffz Bot"
 
     - name: 🔍️ Checkout all commits
       uses: actions/checkout@v4

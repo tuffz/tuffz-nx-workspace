@@ -1,8 +1,8 @@
 name: 👷 Continuous Integration
 on:
   push:
-    # branches:
-    #   - main
+    branches:
+      - main
   pull_request:
 
 env:
@@ -47,53 +47,53 @@ jobs:
         if: steps.cache-cypress.outputs.cache-hit != 'true'
         run: npx cypress install
 
-  # test:
-  #   name: ✅ Tests
-  #   needs: preinstall
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: 🔍️ Checkout
-  #       uses: actions/checkout@v4
-  #       with:
-  #         fetch-depth: 0
+  test:
+    name: ✅ Tests
+    needs: preinstall
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔍️ Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-  #     - name: 🔧 Use Node.js 20
-  #       uses: actions/setup-node@v4
-  #       with:
-  #         node-version: 20
-  #         cache: 'npm'
+      - name: 🔧 Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
 
-  #     - uses: nrwl/nx-set-shas@v4
+      - uses: nrwl/nx-set-shas@v4
 
-  #     - name: 🔒️ Cache node_modules
-  #       id: cache-node-modules
-  #       uses: actions/cache@v3
-  #       with:
-  #         path: '**/node_modules'
-  #         key: node-modules-${{ hashFiles('package-lock.json') }}
+      - name: 🔒️ Cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: '**/node_modules'
+          key: node-modules-${{ hashFiles('package-lock.json') }}
 
-  #     - name: 📦️ Install packages
-  #       if: steps.cache-node-modules.outputs.cache-hit != 'true'
-  #       run: npm ci --loglevel error --prefer-offline --verbose
+      - name: 📦️ Install packages
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: npm ci --loglevel error --prefer-offline --verbose
 
-  #     - name: 💄 Check code formatting by using prettier config
-  #       run: npx nx format:check
+      - name: 💄 Check code formatting by using prettier config
+        run: npx nx format:check
 
-  #     - name: 🚨 Lint
-  #       if: github.event_name == 'push'
-  #       run: npx nx run-many --target=lint
+      - name: 🚨 Lint
+        if: github.event_name == 'push'
+        run: npx nx run-many --target=lint
 
-  #     - name: 🚨 Lint
-  #       if: github.event_name == 'pull_request'
-  #       run: npx nx affected --target=lint
+      - name: 🚨 Lint
+        if: github.event_name == 'pull_request'
+        run: npx nx affected --target=lint
 
-  #     - name: ✅ Tests
-  #       if: github.event_name == 'push'
-  #       run: npx nx run-many --target=test --ci --runInBand
+      - name: ✅ Tests
+        if: github.event_name == 'push'
+        run: npx nx run-many --target=test --ci --runInBand
 
-  #     - name: ✅ Tests
-  #       if: github.event_name == 'pull_request'
-  #       run: npx nx affected --target=test --ci --runInBand
+      - name: ✅ Tests
+        if: github.event_name == 'pull_request'
+        run: npx nx affected --target=test --ci --runInBand
 
   e2e:
     name: 📸 End-to-End Testing
@@ -183,16 +183,13 @@ jobs:
     name: 🔖 Release
     runs-on: ubuntu-latest
 
-    if: github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
-    needs: [
-      'preinstall',
-      # 'test',
-      # 'e2e',
-      # 'build'
-    ]
+    needs: ['preinstall', 'test', 'e2e', 'build']
 
     steps:
+      - name: 🔍️ Checkout
+        uses: actions/checkout@v4
 
       - uses: actions/create-github-app-token@v1
         id: app-token
@@ -200,60 +197,13 @@ jobs:
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
 
-      - name: 🔍️ Checkout
-        uses: actions/checkout@v4
+      - name: Prepare
+        uses: ./.github/actions/prepare
         with:
-          fetch-depth: 0
-          token: ${{ steps.app-token.outputs.token }}
+          cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
+          git_bot_token: ${{ steps.app-token.outputs.token }}
 
-      - name: 🔧 Use Node.js 20
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'npm'
-
-      - name: 🔒️ Cache node_modules
-        id: cache-node-modules
-        uses: actions/cache@v3
-        with:
-          path: '**/node_modules'
-          key: node-modules-${{ hashFiles('package-lock.json') }}
-
-      - name: 📦️ Install packages
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci --loglevel error --prefer-offline --verbose
-
-      - name: 🔧 Setup git user to "🤖 SemVer Bot"
-        shell: bash
-        run: git config user.email "semver-bot@tuffz.com" && git config user.name "🤖 SemVer Bot"
-
-      - run: echo $(git describe --abbrev=0 --tags)
-        shell: bash
-
-      - run: echo $(git describe --tags $(git rev-list --tags --max-count=1))
-        shell: bash
-
-      - run: echo ${{ github.ref }}
-        shell: bash
-
-      - name: 🔖 Release
-        shell: bash
-        if: github.event_name == 'push'
-        run: npx nx affected --base=$(git describe --tags $(git rev-list --tags --max-count=1)) --target=version --trackDeps --with-deps --allow-empty-release --parallel=1 --verbose
-
-      - run: git status
-        shell: bash
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Release
+        uses: ./.github/actions/release
         with:
           github_token: ${{ steps.app-token.outputs.token }}
-          repository: tuffz/nx-semver-playground
-          tags: true
-          force: true
-
-      # - name: Use the token
-      #   env:
-      #     GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
-      #   run: |
-      #     gh api octocat
