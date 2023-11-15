@@ -44,7 +44,7 @@ jobs:
           cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
           git_bot_token: ${{ steps.app-token.outputs.token }}
 
-      # - name: Release
-      #   uses: ./.github/actions/release
-      #   with:
-      #     github_token: ${{ secrets.GIT_BOT_TOKEN }}
+      - name: Release
+        uses: ./.github/actions/release
+        with:
+          github_token: ${{ steps.app-token.outputs.token }}
