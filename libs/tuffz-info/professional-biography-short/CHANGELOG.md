@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.29](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-professional-biography-short-0.1.28...tuffz-info-professional-biography-short-0.1.29) (2023-11-15)
+
+
+### Bug Fixes
+
+* remove YT from tuffz.info website ([d16379c](https://github.com/tuffz/nx-semver-playground/commit/d16379cd267040d774bbd8305903bc35da26b62e))
+
 ## [0.1.28](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-professional-biography-short-0.1.27...tuffz-info-professional-biography-short-0.1.28) (2023-11-15)
 
 
