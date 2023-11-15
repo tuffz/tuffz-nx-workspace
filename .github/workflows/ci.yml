@@ -219,6 +219,9 @@ jobs:
         shell: bash
         run: git config user.email "semver-bot@tuffz.com" && git config user.name "🤖 SemVer Bot"
 
+      - run: echo $(git describe --tags $(git rev-list --tags --max-count=1))
+        shell: bash
+
       - name: 🔖 Release
         shell: bash
         if: github.event_name == 'push'
