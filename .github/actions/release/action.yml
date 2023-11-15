@@ -3,8 +3,9 @@ name: 🔖 Release
 description: Release applications
 
 inputs:
-  github_token: GitHub token
-  required: true
+  github_token:
+    description: GitHub token
+    required: true
 
 runs:
   using: composite
