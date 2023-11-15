@@ -10,7 +10,7 @@ export interface ProfessionalBiographyShortProps {
 }
 
 export function ProfessionalBiographyShort(
-  props: ProfessionalBiographyShortProps
+  props: ProfessionalBiographyShortProps,
 ) {
   return (
     <section className="flex flex-col sm:max-lg:flex-row md:justify-evenly items-center bg-white p-1 rounded-xl shadow-xl sm:m-4">
@@ -35,7 +35,7 @@ export function ProfessionalBiographyShort(
             {/* <span className="px-1 text-sm">Facebook</span> */}
             <span className="px-1 text-sm">GitHub</span>
             {/* <span className="px-1 text-sm">GitLab</span> */}
-            {/* <span className="px-1 text-sm">Instagram</span> */}
+            <span className="px-1 text-sm">Instagram</span>
             <span className="px-1 text-sm">Twitter</span>
             {/* <span className="px-1 text-sm">Twitch</span> */}
             {/* <span className="px-1 text-sm">Youtube</span> */}
