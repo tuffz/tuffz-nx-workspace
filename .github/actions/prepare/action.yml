@@ -30,6 +30,7 @@ runs:
 
     - name: 📦️ Install packages
       if: steps.cache-node-modules.outputs.cache-hit != 'true'
+      shell: bash
       run: npm ci --loglevel error --prefer-offline --verbose
 
     - name: 🔧 Set Git user to "🤖 tuffz Bot"
