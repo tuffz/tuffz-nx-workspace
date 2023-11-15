@@ -235,13 +235,13 @@ jobs:
         if: github.event_name == 'push'
         run: npx nx affected --base=$(git describe --tags $(git rev-list --tags --max-count=1)) --target=version --trackDeps --with-deps --allow-empty-release --parallel=1 --verbose
 
-      # - name: Push changes
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ steps.app-token.outputs.token }}
-      #     repository: tuffz/nx-semver-playground
-      #     branch: ${{ github.ref }}
-      #     tags: true
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ steps.app-token.outputs.token }}
+          repository: tuffz/nx-semver-playground
+          branch: ${{ github.ref }}
+          tags: true
 
       - name: Use the token
         env:
