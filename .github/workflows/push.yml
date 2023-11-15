@@ -24,8 +24,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Prepare
         uses: ./.github/actions/prepare
-        with:
-          git_bot_token: ${{ secrets.GIT_BOT_TOKEN }}
+        # with:
+        #   git_bot_token: ${{ secrets.GIT_BOT_TOKEN }}
 
       - name: Release
         uses: ./.github/actions/release
