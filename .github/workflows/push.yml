@@ -32,6 +32,7 @@ jobs:
       - name: Prepare
         uses: ./.github/actions/prepare
         with:
+          cache_key: node-modules-${{ hashFiles('package-lock.json') }}
           git_bot_token: ${{ steps.app-token.outputs.token }}
 
       # - name: Release
