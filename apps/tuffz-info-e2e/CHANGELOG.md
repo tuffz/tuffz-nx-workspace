@@ -4,6 +4,8 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [0.1.42](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.41...tuffz-info-e2e-0.1.42) (2023-11-15)
 
+## [0.1.42](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.41...tuffz-info-e2e-0.1.42) (2023-11-15)
+
 ## [0.1.41](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.40...tuffz-info-e2e-0.1.41) (2023-11-15)
 
 ## [0.1.40](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.39...tuffz-info-e2e-0.1.40) (2023-11-15)
