@@ -245,6 +245,7 @@ jobs:
           repository: tuffz/nx-semver-playground
           branch: ${{ github.ref }}
           tags: true
+          force: true
 
       # - name: Use the token
       #   env:
