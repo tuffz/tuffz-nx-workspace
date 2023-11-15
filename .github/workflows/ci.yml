@@ -237,5 +237,6 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ steps.app-token.outputs.token }}
+          repository: tuffz/nx-semver-playground
           branch: ${{ github.ref }}
           tags: true
