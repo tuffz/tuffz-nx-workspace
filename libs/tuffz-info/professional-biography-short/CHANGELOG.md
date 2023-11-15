@@ -2,6 +2,19 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.0](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-professional-biography-short-0.1.29...tuffz-info-professional-biography-short-0.2.0) (2023-11-15)
+
+
+### Features
+
+* add GitLab to tuffz-info ([ee67899](https://github.com/tuffz/nx-semver-playground/commit/ee67899aba306317b4cf845631cdae593cf9cf65))
+
+
+### Bug Fixes
+
+* remove GitLab ([ab45534](https://github.com/tuffz/nx-semver-playground/commit/ab455346763d017dc9406eb3480f95ff7e5c752a))
+* something ([5830972](https://github.com/tuffz/nx-semver-playground/commit/583097274109f2a416e36aac380046c2106d497e))
+
 ## [0.1.30](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-professional-biography-short-0.1.29...tuffz-info-professional-biography-short-0.1.30) (2023-11-15)
 
 
