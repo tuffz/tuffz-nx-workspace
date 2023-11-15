@@ -27,7 +27,7 @@ jobs:
         # with:
         #   git_bot_token: ${{ secrets.GIT_BOT_TOKEN }}
 
-      - name: Release
-        uses: ./.github/actions/release
-        with:
-          github_token: ${{ secrets.GIT_BOT_TOKEN }}
+      # - name: Release
+      #   uses: ./.github/actions/release
+      #   with:
+      #     github_token: ${{ secrets.GIT_BOT_TOKEN }}

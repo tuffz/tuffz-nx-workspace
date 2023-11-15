@@ -10,31 +10,31 @@ runs:
         app-id: ${{ vars.GH_APP_ID }}
         private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
 
-    - name: 🔍️ Checkout all commits
-      uses: actions/checkout@v4
-      with:
-        token: ${{ steps.app-token.outputs.token }}
-        fetch-depth: 0
-        # Make sure the value of GITHUB_TOKEN will not be persisted in repo's config
-        persist-credentials: false
-
-    - name: 🔧 Use Node.js 20
-      uses: actions/setup-node@v4
-      with:
-        node-version: 20
-
-    # - name: 🔒️ Cache node_modules
-    #   id: cache-node-modules
-    #   uses: actions/cache@v3
+    # - name: 🔍️ Checkout all commits
+    #   uses: actions/checkout@v4
     #   with:
-    #     path: '**/node_modules'
-    #     key: node-modules-${{ hashFiles('package-lock.json') }}
+    #     token: ${{ steps.app-token.outputs.token }}
+    #     fetch-depth: 0
+    #     # Make sure the value of GITHUB_TOKEN will not be persisted in repo's config
+    #     persist-credentials: false
 
-    - name: 📦️ Install packages
-      if: steps.cache-node-modules.outputs.cache-hit != 'true'
-      shell: bash
-      run: npm ci --loglevel error --prefer-offline --verbose
+    # - name: 🔧 Use Node.js 20
+    #   uses: actions/setup-node@v4
+    #   with:
+    #     node-version: 20
 
-    - name: 🔧 Set Git user to "🤖 tuffz Bot"
-      shell: bash
-      run: git config user.email "-" && git config user.name "🤖 tuffz Bot"
+    # # - name: 🔒️ Cache node_modules
+    # #   id: cache-node-modules
+    # #   uses: actions/cache@v3
+    # #   with:
+    # #     path: '**/node_modules'
+    # #     key: node-modules-${{ hashFiles('package-lock.json') }}
+
+    # - name: 📦️ Install packages
+    #   if: steps.cache-node-modules.outputs.cache-hit != 'true'
+    #   shell: bash
+    #   run: npm ci --loglevel error --prefer-offline --verbose
+
+    # - name: 🔧 Set Git user to "🤖 tuffz Bot"
+    #   shell: bash
+    #   run: git config user.email "-" && git config user.name "🤖 tuffz Bot"
