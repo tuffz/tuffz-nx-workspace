@@ -5,10 +5,6 @@ description: Initiate the Node.js comprehensive caching process, execute the ins
 runs:
   using: composite
   steps:
-    - name: 🔧 Set Git user to "🤖 tuffz Bot"
-      shell: bash
-      run: git config user.email "-" && git config user.name "🤖 tuffz Bot"
-
     - uses: actions/create-github-app-token@v1
       with:
         app-id: ${{ vars.GH_APP_ID }}
@@ -38,3 +34,7 @@ runs:
       if: steps.cache-node-modules.outputs.cache-hit != 'true'
       shell: bash
       run: npm ci --loglevel error --prefer-offline --verbose
+
+    - name: 🔧 Set Git user to "🤖 tuffz Bot"
+      shell: bash
+      run: git config user.email "-" && git config user.name "🤖 tuffz Bot"
