@@ -193,10 +193,18 @@ jobs:
     ]
 
     steps:
+
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+
       - name: 🔍️ Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: 🔧 Use Node.js 20
         uses: actions/setup-node@v4
@@ -226,12 +234,6 @@ jobs:
         shell: bash
         if: github.event_name == 'push'
         run: npx nx affected --base=$(git describe --tags $(git rev-list --tags --max-count=1)) --target=version --trackDeps --with-deps --allow-empty-release --parallel=1 --verbose
-
-      - uses: actions/create-github-app-token@v1
-        id: app-token
-        with:
-          app-id: ${{ vars.GH_APP_ID }}
-          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
 
       # - name: Push changes
       #   uses: ad-m/github-push-action@master
