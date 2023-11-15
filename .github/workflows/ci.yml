@@ -233,6 +233,9 @@ jobs:
       - run: echo $(git describe --tags $(git rev-list --tags --max-count=1))
         shell: bash
 
+      - run: echo ${{ github.ref }}
+        shell: bash
+
       - name: 🔖 Release
         shell: bash
         if: github.event_name == 'push'
@@ -243,7 +246,7 @@ jobs:
         with:
           github_token: ${{ steps.app-token.outputs.token }}
           repository: tuffz/nx-semver-playground
-          branch: ${{ github.ref }}
+          branch: $GITHUB_REF_NAME
           tags: true
           force: true
 
