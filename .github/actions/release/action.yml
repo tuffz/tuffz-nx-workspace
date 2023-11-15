@@ -10,6 +10,9 @@ inputs:
 runs:
   using: composite
   steps:
+    - run: echo git tags --list
+      shell: bash
+
     - name: Version
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
