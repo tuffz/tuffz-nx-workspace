@@ -36,7 +36,7 @@ export function ProfessionalBiographyShort(
             <span className="px-1 text-sm">GitHub</span>
             <span className="px-1 text-sm">GitLab</span>
             {/* <span className="px-1 text-sm">Instagram</span> */}
-            {/* <span className="px-1 text-sm">Twitter</span> */}
+            <span className="px-1 text-sm">Twitter</span>
             {/* <span className="px-1 text-sm">Twitch</span> */}
             <span className="px-1 text-sm">Youtube</span>
             {/* <span className="px-1 text-sm">Xing</span> */}

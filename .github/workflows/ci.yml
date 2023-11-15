@@ -243,8 +243,8 @@ jobs:
           branch: ${{ github.ref }}
           tags: true
 
-      - name: Use the token
-        env:
-          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
-        run: |
-          gh api octocat
+      # - name: Use the token
+      #   env:
+      #     GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+      #   run: |
+      #     gh api octocat
