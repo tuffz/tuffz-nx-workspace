@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.3.0](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-professional-biography-short-0.2.0...tuffz-info-professional-biography-short-0.3.0) (2023-11-15)
+
+
+### Features
+
+* add Instagram ([#14](https://github.com/tuffz/nx-semver-playground/issues/14)) ([352b51d](https://github.com/tuffz/nx-semver-playground/commit/352b51dfe93b333acf01c2a44319049f315608a8))
+
 ## [0.2.0](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-professional-biography-short-0.1.29...tuffz-info-professional-biography-short-0.2.0) (2023-11-15)
 
 
