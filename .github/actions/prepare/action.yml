@@ -11,8 +11,8 @@ runs:
 
     - uses: actions/create-github-app-token@v1
       with:
-      app-id: ${{ vars.GH_APP_ID }}
-      private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+        app-id: ${{ vars.GH_APP_ID }}
+        private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
 
     - name: 🔍️ Checkout all commits
       uses: actions/checkout@v4
