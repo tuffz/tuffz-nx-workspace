@@ -6,14 +6,11 @@ inputs:
   git_bot_token:
     description: The Git Bot token is utilized specifically for pushing changes to protected branches due to the limitations of the GitHub token
     required: false
-  node_version:
-    description: Node.js version
-    required: false
-    default: '20'
 
   runs:
     using: composite
     steps:
+      - run: echo ${{ inputs.git_bot_token }}
       - name: 🔍️ Checkout all commits
         uses: actions/checkout@v4
         with:
