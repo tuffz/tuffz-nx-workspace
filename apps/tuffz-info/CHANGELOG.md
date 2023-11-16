@@ -2,56 +2,6 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
-## [0.2.39](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.38...tuffz-info-0.2.39) (2023-11-15)
-
-### Dependency Updates
-
-* `tuffz-info-professional-biography-short` updated to version `0.3.0`
-## [0.2.38](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.37...tuffz-info-0.2.38) (2023-11-15)
-
-### Dependency Updates
-
-* `tuffz-info-professional-biography-short` updated to version `0.2.0`
-## [0.2.38](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.37...tuffz-info-0.2.38) (2023-11-15)
-
-### Dependency Updates
-
-* `tuffz-info-professional-biography-short` updated to version `0.1.30`
-## [0.2.37](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.36...tuffz-info-0.2.37) (2023-11-15)
-
-### Dependency Updates
-
-* `tuffz-info-professional-biography-short` updated to version `0.1.29`
-## [0.2.36](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.35...tuffz-info-0.2.36) (2023-11-15)
-
-### Dependency Updates
-
-* `tuffz-info-professional-biography-short` updated to version `0.1.28`
-## [0.2.35](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.34...tuffz-info-0.2.35) (2023-11-15)
-
-### Dependency Updates
-
-* `tuffz-info-professional-biography-short` updated to version `0.1.27`
-## [0.2.34](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.33...tuffz-info-0.2.34) (2023-11-15)
-
-### Dependency Updates
-
-* `tuffz-info-professional-biography-short` updated to version `0.1.26`
-## [0.2.33](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.32...tuffz-info-0.2.33) (2023-11-15)
-
-### Dependency Updates
-
-* `tuffz-info-professional-biography-short` updated to version `0.1.25`
-## [0.2.32](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.31...tuffz-info-0.2.32) (2023-11-15)
-
-### Dependency Updates
-
-* `tuffz-info-professional-biography-short` updated to version `0.1.24`
-## [0.2.31](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-0.2.30...tuffz-info-0.2.31) (2023-11-15)
-
-### Dependency Updates
-
-* `tuffz-info-professional-biography-short` updated to version `0.1.23`
 ## [0.2.30](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.29...tuffz-info-0.2.30) (2023-11-13)
 
 ## [0.2.29](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.28...tuffz-info-0.2.29) (2023-11-13)

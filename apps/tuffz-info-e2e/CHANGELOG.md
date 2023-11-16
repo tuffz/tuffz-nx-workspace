@@ -2,26 +2,6 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
-## [0.1.43](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.42...tuffz-info-e2e-0.1.43) (2023-11-15)
-
-## [0.1.42](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.41...tuffz-info-e2e-0.1.42) (2023-11-15)
-
-## [0.1.42](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.41...tuffz-info-e2e-0.1.42) (2023-11-15)
-
-## [0.1.41](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.40...tuffz-info-e2e-0.1.41) (2023-11-15)
-
-## [0.1.40](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.39...tuffz-info-e2e-0.1.40) (2023-11-15)
-
-## [0.1.39](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.38...tuffz-info-e2e-0.1.39) (2023-11-15)
-
-## [0.1.38](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.37...tuffz-info-e2e-0.1.38) (2023-11-15)
-
-## [0.1.37](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.36...tuffz-info-e2e-0.1.37) (2023-11-15)
-
-## [0.1.36](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.35...tuffz-info-e2e-0.1.36) (2023-11-15)
-
-## [0.1.35](https://github.com/tuffz/nx-semver-playground/compare/tuffz-info-e2e-0.1.34...tuffz-info-e2e-0.1.35) (2023-11-15)
-
 ## [0.1.34](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-e2e-0.1.33...tuffz-info-e2e-0.1.34) (2023-11-13)
 
 ## [0.1.33](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-e2e-0.1.32...tuffz-info-e2e-0.1.33) (2023-11-13)
