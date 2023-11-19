@@ -1,0 +1,30 @@
+name: 🔖 Release
+
+description: Release applications
+
+inputs:
+  github_token:
+    description: GitHub token
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - run: git describe --tags $(git rev-list --tags --max-count=1)
+      shell: bash
+
+    - run: git tag -l shared-ui-anchor
+      shell: bash
+
+    - name: Version
+      env:
+        GITHUB_TOKEN: ${{ inputs.github_token }}
+      shell: bash
+      run: npx nx affected --base=$(git describe --tags $(git rev-list --tags --max-count=1)) --target=version --trackDeps --with-deps --allow-empty-release --parallel=1 --verbose
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ inputs.github_token }}
+        branch: ${{ github.ref }}
+        tags: true

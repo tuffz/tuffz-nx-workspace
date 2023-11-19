@@ -181,38 +181,29 @@ jobs:
 
   release:
     name: 🔖 Release
-    needs: ['preinstall', 'test', 'e2e', 'build']
     runs-on: ubuntu-latest
+
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    needs: ['preinstall', 'test', 'e2e', 'build']
+
     steps:
       - name: 🔍️ Checkout
         uses: actions/checkout@v4
+
+      - uses: actions/create-github-app-token@v1
+        id: app-token
         with:
-          fetch-depth: 0
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
 
-      - name: 🔧 Use Node.js 20
-        uses: actions/setup-node@v4
+      - name: Prepare
+        uses: ./.github/actions/prepare
         with:
-          node-version: 20
-          cache: 'npm'
+          cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
+          git_bot_token: ${{ steps.app-token.outputs.token }}
 
-      - name: 🔒️ Cache node_modules
-        id: cache-node-modules
-        uses: actions/cache@v3
+      - name: Release
+        uses: ./.github/actions/release
         with:
-          path: '**/node_modules'
-          key: node-modules-${{ hashFiles('package-lock.json') }}
-
-      - name: 📦️ Install packages
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci --loglevel error --prefer-offline --verbose
-
-      - name: 🔧 Setup git user to "🤖 SemVer Bot"
-        shell: bash
-        run: git config user.email "semver-bot@tuffz.com" && git config user.name "🤖 SemVer Bot"
-
-      - name: 🔖 Release
-        shell: bash
-        if: github.event_name == 'push'
-        run: npx nx affected --base=$(git describe --tags $(git rev-list --tags --max-count=1)) --target=version --trackDeps --with-deps --allow-empty-release --push --parallel=1 --verbose
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ steps.app-token.outputs.token }}
