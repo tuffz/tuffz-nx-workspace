@@ -13,9 +13,6 @@ runs:
     - run: git describe --tags $(git rev-list --tags --max-count=1)
       shell: bash
 
-    - run: git tag -l shared-ui-anchor
-      shell: bash
-
     - name: Version
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
