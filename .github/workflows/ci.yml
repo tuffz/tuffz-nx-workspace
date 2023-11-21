@@ -10,7 +10,7 @@ env:
 
 jobs:
   preinstall:
-    name: 🔒️ Cache install
+    name: 🏗️ Preparation
     runs-on: ubuntu-latest
 
     steps:
@@ -54,27 +54,13 @@ jobs:
     steps:
       - name: 🔍️ Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: 🔧 Use Node.js 20
-        uses: actions/setup-node@v4
+      - name: 👷 Prepare CI
+        uses: ./.github/actions/prepare
         with:
-          node-version: 20
-          cache: 'npm'
+          cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
 
       - uses: nrwl/nx-set-shas@v4
-
-      - name: 🔒️ Cache node_modules
-        id: cache-node-modules
-        uses: actions/cache@v3
-        with:
-          path: '**/node_modules'
-          key: node-modules-${{ hashFiles('package-lock.json') }}
-
-      - name: 📦️ Install packages
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci --loglevel error --prefer-offline --verbose
 
       - name: 💄 Check code formatting by using prettier config
         run: npx nx format:check
@@ -102,27 +88,11 @@ jobs:
     steps:
       - name: 🔍️ Checkout
         uses: actions/checkout@v4
+
+      - name: 👷 Prepare CI
+        uses: ./.github/actions/prepare
         with:
-          fetch-depth: 0
-
-      - name: 🔧 Use Node.js 20
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'npm'
-
-      - uses: nrwl/nx-set-shas@v4
-
-      - name: 🔒️ Cache node_modules
-        id: cache-node-modules
-        uses: actions/cache@v3
-        with:
-          path: '**/node_modules'
-          key: node-modules-${{ hashFiles('package-lock.json') }}
-
-      - name: 📦️ Install packages
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci --loglevel error --prefer-offline --verbose
+          cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
 
       - name: 🔒️ Cache Cypress
         id: cache-cypress
@@ -134,6 +104,8 @@ jobs:
       - name: 📦️ Install Cypress
         if: steps.cache-cypress.outputs.cache-hit != 'true'
         run: npx cypress install
+
+      - uses: nrwl/nx-set-shas@v4
 
       - name: 📸 e2e
         if: github.event_name == 'push'
@@ -150,26 +122,13 @@ jobs:
     steps:
       - name: 🔍️ Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: 🔧 Use Node.js 20
-        uses: actions/setup-node@v4
+      - name: 👷 Prepare CI
+        uses: ./.github/actions/prepare
         with:
-          node-version: 20
-          cache: 'npm'
+          cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
+
       - uses: nrwl/nx-set-shas@v4
-
-      - name: 🔒️ Cache node_modules
-        id: cache-node-modules
-        uses: actions/cache@v3
-        with:
-          path: '**/node_modules'
-          key: node-modules-${{ hashFiles('package-lock.json') }}
-
-      - name: 📦️ Install packages
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci --loglevel error --prefer-offline --verbose
 
       - name: 📦️ Build
         if: github.event_name == 'push'
@@ -197,7 +156,7 @@ jobs:
           app-id: ${{ vars.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
 
-      - name: Prepare
+      - name: 👷 Prepare CI
         uses: ./.github/actions/prepare
         with:
           cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
