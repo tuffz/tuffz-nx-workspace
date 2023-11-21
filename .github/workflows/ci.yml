@@ -17,23 +17,11 @@ jobs:
       - name: 🔍️ Checkout
         uses: actions/checkout@v4
 
-      - name: 🔧 Use Node.js 20
-        uses: actions/setup-node@v4
+      - name: 👷 Prepare CI
+        uses: ./.github/actions/prepare
         with:
-          node-version: 20
-          cache: 'npm'
-
-      - name: 🔒️ Cache node_modules
-        id: cache-node-modules
-        uses: actions/cache@v3
-        with:
-          lookup-only: true
-          path: '**/node_modules'
-          key: node-modules-${{ hashFiles('package-lock.json') }}
-
-      - name: 📦️ Install packages
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci --loglevel error --prefer-offline --verbose
+          cache_lookup_only: true
+          cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
 
       - name: 🔒️ Cache Cypress
         id: cache-cypress

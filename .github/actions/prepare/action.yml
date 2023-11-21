@@ -6,6 +6,10 @@ inputs:
   cache_node_modules_key:
     description: node_modules cache key
     required: true
+  cache_lookup_only:
+    description: If true, only checks if cache entry exists and skips download. Does not change save cache behavior.
+    required: false
+    default: false
   git_bot_token:
     description: The Git Bot token is utilized specifically for pushing changes to protected branches due to the limitations of the GitHub token
     required: false
@@ -35,6 +39,7 @@ runs:
       id: cache-node-modules
       uses: actions/cache@v3
       with:
+        lookup-only: ${{ inputs.cache_lookup_only }}
         path: '**/node_modules'
         key: ${{ inputs.cache_node_modules_key }}
 
