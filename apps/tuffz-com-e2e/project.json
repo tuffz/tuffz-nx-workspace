@@ -3,6 +3,8 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/tuffz-com-e2e/src",
   "projectType": "application",
+  "tags": ["type:e2e", "scope:tuffz-com"],
+  "implicitDependencies": ["tuffz-com"],
   "targets": {
     "lint": {
       "executor": "@nx/eslint:lint",
@@ -35,7 +37,5 @@
         "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
       }
     }
-  },
-  "tags": [],
-  "implicitDependencies": ["tuffz-com"]
+  }
 }

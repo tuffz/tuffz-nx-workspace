@@ -13,24 +13,24 @@
             "allow": [],
             "depConstraints": [
               {
-                "sourceTag": "*",
-                "onlyDependOnLibsWithTags": ["*"]
+                "sourceTag": "scope:shared",
+                "onlyDependOnLibsWithTags": ["scope:shared"]
+              },
+              {
+                "sourceTag": "scope:tuffz-com",
+                "onlyDependOnLibsWithTags": ["scope:shared", "scope:tuffz-com"]
+              },
+              {
+                "sourceTag": "scope:tuffz-info",
+                "onlyDependOnLibsWithTags": ["scope:shared", "scope:tuffz-info"]
               },
               {
                 "sourceTag": "type:feature",
-                "onlyDependOnLibsWithTags": ["type:feature", "type:ui"]
+                "onlyDependOnLibsWithTags": ["type:ui", "type:feature"]
               },
               {
                 "sourceTag": "type:ui",
                 "onlyDependOnLibsWithTags": ["type:ui"]
-              },
-              {
-                "sourceTag": "scope:biography",
-                "onlyDependOnLibsWithTags": ["scope:biography", "scope:shared"]
-              },
-              {
-                "sourceTag": "scope:shared",
-                "onlyDependOnLibsWithTags": ["scope:shared"]
               }
             ]
           }

@@ -3,6 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/tuffz-com/src",
   "projectType": "application",
+  "tags": ["type:app", "scope:tuffz-com"],
   "targets": {
     "build": {
       "executor": "@nx/webpack:webpack",
@@ -93,6 +94,5 @@
         "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
       }
     }
-  },
-  "tags": []
+  }
 }
