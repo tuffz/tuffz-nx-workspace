@@ -1,4 +1,3 @@
-/* eslint-disable-next-line */
 export interface SharedUiAnchorProps {
   href: string;
   content?: string;
@@ -27,7 +26,7 @@ export function setRelAttribute(props: SharedUiAnchorProps): string | null {
 
       // Remove 'noopener' and 'noreferrer' from relArray
       const filteredPropsRelArray = propsRelArray.filter(
-        (part) => part !== 'noopener' && part !== 'noreferrer'
+        (part) => part !== 'noopener' && part !== 'noreferrer',
       );
 
       // Merge propsRelArray with relArray and set rel
