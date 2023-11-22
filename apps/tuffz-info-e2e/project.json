@@ -3,6 +3,8 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/tuffz-info-e2e/src",
+  "tags": ["type:app", "scope:tuffz-com"],
+  "implicitDependencies": ["tuffz-info"],
   "targets": {
     "e2e": {
       "executor": "@nx/cypress:cypress",
@@ -35,7 +37,5 @@
         "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
       }
     }
-  },
-  "implicitDependencies": ["tuffz-info"],
-  "tags": []
+  }
 }
