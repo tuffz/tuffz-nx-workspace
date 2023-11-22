@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.35](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.34...tuffz-info-professional-biography-short-0.1.35) (2023-11-22)
+
 ## [0.1.34](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.33...tuffz-info-professional-biography-short-0.1.34) (2023-11-21)
 
 ## [0.1.33](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.32...tuffz-info-professional-biography-short-0.1.33) (2023-11-21)
