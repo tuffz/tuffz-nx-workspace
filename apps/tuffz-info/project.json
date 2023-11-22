@@ -90,13 +90,7 @@
       "options": {
         "commitMessageFormat": "chore({projectName}): 🚀 release version ${version}",
         "preset": "conventional",
-        "skipCommitTypes": [
-          "build",
-          "chore",
-          "ci",
-          "docs",
-          "style"
-        ]
+        "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
       }
     }
   },
