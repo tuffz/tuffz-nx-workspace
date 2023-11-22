@@ -12,6 +12,9 @@ jobs:
   preinstall:
     name: 🏗️ Preparation
     runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      actions: 'read'
 
     steps:
       - name: 🔍️ Checkout
@@ -39,6 +42,10 @@ jobs:
     name: ✅ Tests
     needs: preinstall
     runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      actions: 'read'
+
     steps:
       - name: 🔍️ Checkout
         uses: actions/checkout@v4
@@ -73,6 +80,10 @@ jobs:
     name: 📸 End-to-End Testing
     needs: preinstall
     runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      actions: 'read'
+
     steps:
       - name: 🔍️ Checkout
         uses: actions/checkout@v4
@@ -107,6 +118,10 @@ jobs:
     name: 📦️ Build
     needs: preinstall
     runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      actions: 'read'
+
     steps:
       - name: 🔍️ Checkout
         uses: actions/checkout@v4
@@ -128,11 +143,10 @@ jobs:
 
   release:
     name: 🔖 Release
+    needs: ['preinstall', 'test', 'e2e', 'build']
     runs-on: ubuntu-latest
 
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-
-    needs: ['preinstall', 'test', 'e2e', 'build']
 
     steps:
       - name: 🔍️ Checkout
