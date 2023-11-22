@@ -13,8 +13,8 @@ jobs:
     name: 🏗️ Preparation
     runs-on: ubuntu-latest
     permissions:
-      contents: "read"
-      actions: "read"
+      contents: 'read'
+      actions: 'read'
 
     steps:
       - name: 🔍️ Checkout
@@ -43,8 +43,8 @@ jobs:
     needs: preinstall
     runs-on: ubuntu-latest
     permissions:
-      contents: "read"
-      actions: "read"
+      contents: 'read'
+      actions: 'read'
 
     steps:
       - name: 🔍️ Checkout
@@ -81,8 +81,8 @@ jobs:
     needs: preinstall
     runs-on: ubuntu-latest
     permissions:
-      contents: "read"
-      actions: "read"
+      contents: 'read'
+      actions: 'read'
 
     steps:
       - name: 🔍️ Checkout
@@ -119,8 +119,8 @@ jobs:
     needs: preinstall
     runs-on: ubuntu-latest
     permissions:
-      contents: "read"
-      actions: "read"
+      contents: 'read'
+      actions: 'read'
 
     steps:
       - name: 🔍️ Checkout
