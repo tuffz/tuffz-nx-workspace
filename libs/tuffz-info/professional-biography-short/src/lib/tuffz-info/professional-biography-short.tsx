@@ -1,6 +1,5 @@
 import { SharedUiImageEmbed } from '@tuffz-workspace/shared/ui/image-embed';
 
-/* eslint-disable-next-line */
 export interface ProfessionalBiographyShortProps {
   // firstname: string;
   // surname: string;
@@ -12,7 +11,7 @@ export interface ProfessionalBiographyShortProps {
 }
 
 export function ProfessionalBiographyShort(
-  props: ProfessionalBiographyShortProps
+  props: ProfessionalBiographyShortProps,
 ) {
   return (
     <section className="flex flex-col sm:max-lg:flex-row md:justify-evenly items-center bg-white p-1 rounded-xl shadow-xl sm:m-4">
@@ -20,7 +19,6 @@ export function ProfessionalBiographyShort(
         <SharedUiImageEmbed
           src="/assets/personal-information/eric-buettner.jpeg"
           alt="Portrait of Eric Büttner"
-          title="Portrait of Eric Büttner"
           className="rounded-xl sm:rounded-xl sm:w-60 shadow-xl"
         />
       </div>

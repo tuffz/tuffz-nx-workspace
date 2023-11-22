@@ -10,7 +10,7 @@ describe('ProfessionalBiographyShort', () => {
     expect(image).toBeInTheDocument();
     expect(image).toHaveAttribute(
       'src',
-      '/assets/personal-information/eric-buettner.jpeg'
+      '/assets/personal-information/eric-buettner.jpeg',
     );
     expect(image).toHaveAttribute('alt', 'Portrait of Eric Büttner');
     expect(image).toHaveAttribute('title', 'Portrait of Eric Büttner');
