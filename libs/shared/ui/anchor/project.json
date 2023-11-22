@@ -24,13 +24,7 @@
       "options": {
         "commitMessageFormat": "chore({projectName}): 🚀 release version ${version} [skip ci]",
         "preset": "conventional",
-        "skipCommitTypes": [
-          "build",
-          "chore",
-          "ci",
-          "docs",
-          "style"
-        ]
+        "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
       }
     }
   }
