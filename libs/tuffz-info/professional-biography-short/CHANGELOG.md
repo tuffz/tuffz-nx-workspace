@@ -2,6 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.36](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.35...tuffz-info-professional-biography-short-0.1.36) (2023-11-22)
+
+### Dependency Updates
+
+* `shared-ui-image-embed` updated to version `0.1.0`
 ## [0.1.35](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.34...tuffz-info-professional-biography-short-0.1.35) (2023-11-22)
 
 ## [0.1.34](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.33...tuffz-info-professional-biography-short-0.1.34) (2023-11-21)
