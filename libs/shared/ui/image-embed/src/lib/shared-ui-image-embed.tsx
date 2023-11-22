@@ -1,4 +1,3 @@
-/* eslint-disable-next-line */
 export interface SharedUiImageEmbedProps {
   src: string;
   alt: string;
@@ -7,11 +6,13 @@ export interface SharedUiImageEmbedProps {
 }
 
 export function SharedUiImageEmbed(props: SharedUiImageEmbedProps) {
+  const title = props.title || props.alt;
+
   return (
     <img
       src={props.src}
       alt={props.alt}
-      title={props.title}
+      {...(title && { title })}
       className={props.className}
     />
   );
