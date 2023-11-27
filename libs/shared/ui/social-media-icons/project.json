@@ -20,14 +20,14 @@
       "options": {
         "jestConfig": "libs/shared/ui/social-media-icons/jest.config.ts"
       }
-    }
-  },
-  "version": {
-    "executor": "@jscutlery/semver:version",
-    "options": {
-      "commitMessageFormat": "chore({projectName}): 🚀 release version ${version} [skip ci]",
-      "preset": "conventional",
-      "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "commitMessageFormat": "chore({projectName}): 🚀 release version ${version} [skip ci]",
+        "preset": "conventional",
+        "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
+      }
     }
   }
 }
