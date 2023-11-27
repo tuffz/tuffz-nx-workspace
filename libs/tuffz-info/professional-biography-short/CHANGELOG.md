@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.41](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.40...tuffz-info-professional-biography-short-0.1.41) (2023-11-27)
+
+### Dependency Updates
+
+* `ui-social-media-icons` updated to version `1.0.0`
+
+### Bug Fixes
+
+* **shared-ui-social-media-icons:** resolve versioning configuration issue ([#181](https://github.com/tuffz/tuffz-nx-workspace/issues/181)) ([841b15c](https://github.com/tuffz/tuffz-nx-workspace/commit/841b15cea38322a264e290b40cae55128a2877b2))
+
 ## [0.1.40](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.39...tuffz-info-professional-biography-short-0.1.40) (2023-11-27)
 
 ## [0.1.39](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.38...tuffz-info-professional-biography-short-0.1.39) (2023-11-27)
