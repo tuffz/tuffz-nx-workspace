@@ -1,4 +1,5 @@
 import { SharedUiImageEmbed } from '@tuffz-workspace/shared/ui/image-embed';
+import { UiSocialMediaIcons } from '@tuffz-workspace/shared/ui/social-media-icons';
 
 export interface ProfessionalBiographyShortProps {
   // firstname: string;
@@ -32,14 +33,9 @@ export function ProfessionalBiographyShort(
         </p>
         <div className="p-2">
           <p className="flex flex-wrap justify-center">
-            {/* <span className="px-1 text-sm">Facebook</span> */}
-            <span className="px-1 text-sm">GitHub</span>
-            <span className="px-1 text-sm">GitLab</span>
-            {/* <span className="px-1 text-sm">Instagram</span> */}
-            <span className="px-1 text-sm">Twitter</span>
-            {/* <span className="px-1 text-sm">Twitch</span> */}
-            <span className="px-1 text-sm">Youtube</span>
-            {/* <span className="px-1 text-sm">Xing</span> */}
+            <span className="px-1 text-sm">
+              <UiSocialMediaIcons url="https://github.com/tuffz" />
+            </span>
           </p>
         </div>
       </div>
