@@ -24,6 +24,9 @@
       "@tuffz-workspace/shared/ui/image-embed": [
         "libs/shared/ui/image-embed/src/index.ts"
       ],
+      "@tuffz-workspace/shared/ui/social-media-icons": [
+        "libs/shared/ui/social-media-icons/src/index.ts"
+      ],
       "@tuffz-workspace/tuffz-info-professional-biography-short": [
         "libs/tuffz-info/professional-biography-short/src/index.ts"
       ]
