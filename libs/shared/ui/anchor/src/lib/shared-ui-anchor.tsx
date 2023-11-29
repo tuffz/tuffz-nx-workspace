@@ -1,17 +1,13 @@
+import React, { ReactNode } from 'react';
+
 export interface SharedUiAnchorProps {
   href: string;
-  content?: string;
+  content?: ReactNode | string;
   title?: string;
   target?: string;
   rel?: string;
 }
 
-/**
- * Sets the 'rel' attribute for an anchor tag based on the provided props.
- *
- * @param props - The anchor tag properties.
- * @returns The 'rel' attribute value.
- */
 export function setRelAttribute(props: SharedUiAnchorProps): string | null {
   let relAttributeValue: string | null = null;
 
@@ -39,14 +35,9 @@ export function setRelAttribute(props: SharedUiAnchorProps): string | null {
   return relAttributeValue;
 }
 
-/**
- * A shared anchor tag component with customizable attributes.
- *
- * @param props - The anchor tag properties.
- * @returns The anchor tag element.
- */
 export function SharedUiAnchor(props: SharedUiAnchorProps) {
-  const title = props.title || props.content || null;
+  const title =
+    props.title || (typeof props.content === 'string' ? props.content : null);
   const rel = setRelAttribute(props);
 
   return (
