@@ -36,6 +36,9 @@ export function ProfessionalBiographyShort(
             <span className="px-1 text-sm">
               <UiSocialMediaIcons url="https://github.com/tuffz" />
             </span>
+            <span className="px-1 text-sm">
+              <UiSocialMediaIcons url="https://gitlab.com/tuffz" />
+            </span>
           </p>
         </div>
       </div>
