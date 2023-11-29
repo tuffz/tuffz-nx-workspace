@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.42...tuffz-info-professional-biography-short-0.2.0) (2023-11-29)
+
+### Dependency Updates
+
+* `ui-social-media-icons` updated to version `1.1.0`
+
+### Features
+
+* **tuffz-info-professional-biography-short:** add social media icon of GitLab ([dabf25b](https://github.com/tuffz/tuffz-nx-workspace/commit/dabf25bbff0a6843c47026faa6d05f67b4549bf4))
+
 ## [0.1.42](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.41...tuffz-info-professional-biography-short-0.1.42) (2023-11-27)
 
 ## [0.1.41](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.40...tuffz-info-professional-biography-short-0.1.41) (2023-11-27)
