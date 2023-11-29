@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-1.0.1...ui-social-media-icons-1.1.0) (2023-11-29)
+
+
+### Features
+
+* **shared-social-media-icons:** add GitLab icon ([bede60f](https://github.com/tuffz/tuffz-nx-workspace/commit/bede60f879127822f53e41ffc7104dea39551f32))
+
 ## [1.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-1.0.0...ui-social-media-icons-1.0.1) (2023-11-27)
 
 ## 1.0.0 (2023-11-27)
