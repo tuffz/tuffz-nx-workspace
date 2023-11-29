@@ -1,5 +1,6 @@
 // Import SVG components for each platform
 import UiSocialMediaIconGitHub from './icons/github';
+import UiSocialMediaIconGitLab from './icons/gitlab';
 
 export interface UiSocialMediaIconsProps {
   url: string;
@@ -16,6 +17,10 @@ const platformMappings: Record<string, PlatformMapping> = {
   GitHub: {
     component: UiSocialMediaIconGitHub,
     domain: ['github.com', 'www.github.com'],
+  },
+  GitLab: {
+    component: UiSocialMediaIconGitLab,
+    domain: ['gitlab.com', 'www.gitlab.com'],
   },
   // Add more platforms as needed
 };

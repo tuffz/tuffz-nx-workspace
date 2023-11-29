@@ -9,4 +9,11 @@ describe('UiSocialMediaIcons', () => {
     );
     expect(baseElement).toBeTruthy();
   });
+
+  it('GitLab should render successfully', () => {
+    const { baseElement } = render(
+      <UiSocialMediaIcons url="http://gitlab.com/tuffz" />,
+    );
+    expect(baseElement).toBeTruthy();
+  });
 });
