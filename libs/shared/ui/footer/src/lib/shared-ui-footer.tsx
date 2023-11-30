@@ -15,6 +15,7 @@ export function SharedUiFooter(props: SharedUiFooterProps) {
         <SharedUiAnchor
           href="https://www.tuffz.com"
           content="tuffz.com"
+          title="tuffz.com"
           target="_blank"
         />
       </p>
