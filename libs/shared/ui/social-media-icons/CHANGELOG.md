@@ -2,6 +2,17 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-1.1.0...ui-social-media-icons-1.2.0) (2023-11-30)
+
+### Dependency Updates
+
+* `shared-ui-anchor` updated to version `2.0.0`
+
+### Features
+
+* **shared-ui-social-media-icons:** add dynamic links for social media icons ([0d5de1f](https://github.com/tuffz/tuffz-nx-workspace/commit/0d5de1fb818e8fe359c7f2876384e62874647bbb))
+* **shared-ui-social-media-icons:** add hover effect for GitHub and GitLab icons ([3ad5aa3](https://github.com/tuffz/tuffz-nx-workspace/commit/3ad5aa31c8688ae03ac26a38d9e864bf7c4b3929))
+
 ## [1.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-1.0.1...ui-social-media-icons-1.1.0) (2023-11-29)
 
 
