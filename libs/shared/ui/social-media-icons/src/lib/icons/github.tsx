@@ -1,9 +1,11 @@
+import './github.scss';
+
 export interface UiSocialMediaIconGithubProps {}
 
 export function UiSocialMediaIconGithub() {
   return (
     <svg
-      className="w-5 h-5"
+      className="social-media-icon-github w-5 h-5"
       fill="fillColor"
       width="24"
       height="24"
