@@ -2,6 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.52](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.51...tuffz-info-0.2.52) (2023-11-30)
+
+### Dependency Updates
+
+* `shared-ui-footer` updated to version `1.0.0`
 ## [0.2.51](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.50...tuffz-info-0.2.51) (2023-11-29)
 
 ### Dependency Updates
