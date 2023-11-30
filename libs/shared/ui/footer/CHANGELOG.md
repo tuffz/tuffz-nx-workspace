@@ -2,6 +2,20 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.2.46...shared-ui-footer-1.0.0) (2023-11-30)
+
+### Dependency Updates
+
+* `shared-ui-anchor` updated to version `2.0.0`
+
+### ⚠ BREAKING CHANGES
+
+* **shared-ui-anchor:** SharedUiAnchorProps interface's `title` property is mandatory instead of optional.
+
+### Code Refactoring
+
+* **shared-ui-anchor:** require `title` as a mandatory property ([ed09cde](https://github.com/tuffz/tuffz-nx-workspace/commit/ed09cde2179c680b68dddb559bfcab2301e139d3))
+
 ## [0.2.46](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.2.45...shared-ui-footer-0.2.46) (2023-11-27)
 
 ## [0.2.45](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.2.44...shared-ui-footer-0.2.45) (2023-11-27)
