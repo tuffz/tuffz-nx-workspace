@@ -1,9 +1,11 @@
+import './gitlab.scss';
+
 export interface UiSocialMediaIconGitLabProps {}
 
 export function UiSocialMediaIconGitLab() {
   return (
     <svg
-      className="w-5 h-5"
+      className="social-media-icon-gitlab w-5 h-5"
       fill="fillColor"
       width="24"
       height="24"
