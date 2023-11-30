@@ -3,7 +3,7 @@ import React, { ReactNode } from 'react';
 export interface SharedUiAnchorProps {
   href: string;
   content?: ReactNode | string;
-  title?: string;
+  title: string;
   target?: string;
   rel?: string;
 }
@@ -36,14 +36,12 @@ export function setRelAttribute(props: SharedUiAnchorProps): string | null {
 }
 
 export function SharedUiAnchor(props: SharedUiAnchorProps) {
-  const title =
-    props.title || (typeof props.content === 'string' ? props.content : null);
   const rel = setRelAttribute(props);
 
   return (
     <a
       href={props.href}
-      {...(title && { title })}
+      title={props.title}
       target={props.target}
       {...(rel && { rel })}
     >
