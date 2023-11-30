@@ -2,6 +2,22 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-1.2.38...shared-ui-anchor-2.0.0) (2023-11-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **shared-ui-anchor:** SharedUiAnchorProps interface's `title` property is mandatory instead of optional.
+
+### Features
+
+* **shared-ui-anchor:** allow ReactNode as content property value ([e4bca18](https://github.com/tuffz/tuffz-nx-workspace/commit/e4bca186347d2989fa558d0e6123528fc0862ec6))
+
+
+### Code Refactoring
+
+* **shared-ui-anchor:** require `title` as a mandatory property ([ed09cde](https://github.com/tuffz/tuffz-nx-workspace/commit/ed09cde2179c680b68dddb559bfcab2301e139d3))
+
 ## [1.2.38](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-1.2.37...shared-ui-anchor-1.2.38) (2023-11-27)
 
 ## [1.2.37](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-1.2.36...shared-ui-anchor-1.2.37) (2023-11-27)
