@@ -2,6 +2,25 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-0.2.1...ericbuettner-com/profile-snapshot-1.0.0) (2023-12-01)
+
+### Dependency Updates
+
+* `ui-image-embed` updated to version `1.0.0`
+* `ui-social-media-icons` updated to version `2.0.0`
+
+### ⚠ BREAKING CHANGES
+
+* remove the obsolete `shared` prefix in `shared-ui-anchor`, `shared-ui-footer` and `shared-ui-image-embed` library and class names
+* **tuffz-info:** rename `tuffz-info` app to `ericbuettner-com`
+* **tuffz-info-professional-biography-short:** rename `tuffz-info-professional-biography-short` library to `ericbuettner-com/profile-snapshot`
+
+### Code Refactoring
+
+* remove the obsolete `shared` prefix in the shared library names ([1db32ce](https://github.com/tuffz/tuffz-nx-workspace/commit/1db32ce775fab41bbf2c5e837ef307af32269b76))
+* **tuffz-info-professional-biography-short:** rename library to `ericbuettner-com/profile-snapshot` ([64c6b7b](https://github.com/tuffz/tuffz-nx-workspace/commit/64c6b7b895c54140b7647b51069fb01fdfb7c226))
+* **tuffz-info:** rename app to `ericbuettner-com` ([2aefb24](https://github.com/tuffz/tuffz-nx-workspace/commit/2aefb24c04685871cbb019a5b8a5bde20e892421))
+
 ## [0.2.1](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.2.0...tuffz-info-professional-biography-short-0.2.1) (2023-11-30)
 
 ### Dependency Updates
