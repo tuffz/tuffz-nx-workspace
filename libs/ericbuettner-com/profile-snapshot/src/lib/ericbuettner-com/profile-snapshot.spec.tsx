@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
-import ProfessionalBiographyShort from './professional-biography-short';
+import ProfileSnapshot from './profile-snapshot';
 
-describe('ProfessionalBiographyShort', () => {
+describe('ProfileSnapshot', () => {
   it('renders the component with the expected structure and content', () => {
-    const { getByAltText } = render(<ProfessionalBiographyShort />);
+    const { getByAltText } = render(<ProfileSnapshot />);
 
     // Check that the image is rendered with the correct attributes
     const image = getByAltText('Portrait of Eric Büttner');

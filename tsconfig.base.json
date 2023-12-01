@@ -27,8 +27,8 @@
       "@tuffz-workspace/shared/ui/social-media-icons": [
         "libs/shared/ui/social-media-icons/src/index.ts"
       ],
-      "@tuffz-workspace/tuffz-info-professional-biography-short": [
-        "libs/tuffz-info/professional-biography-short/src/index.ts"
+      "@tuffz/ericbuettner-com/profile-snapshot": [
+        "libs/ericbuettner-com/profile-snapshot/src/index.ts"
       ]
     }
   },
