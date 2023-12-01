@@ -2,6 +2,20 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-0.1.56...ericbuettner-com-e2e-1.0.0) (2023-12-01)
+
+### Dependency Updates
+
+* `ericbuettner-com` updated to version `1.0.0`
+
+### ⚠ BREAKING CHANGES
+
+* **tuffz-info-e2e:** rename `tuffz-info-e2e` app to `ericbuettner-com-e2e`
+
+### Code Refactoring
+
+* **tuffz-info-e2e:** rename app to `ericbuettner-com-e2e` ([79ae05f](https://github.com/tuffz/tuffz-nx-workspace/commit/79ae05f31d253f772de33dff6facc1fd062210be))
+
 ## [0.1.56](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-e2e-0.1.55...tuffz-info-e2e-0.1.56) (2023-11-30)
 
 ## [0.1.55](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-e2e-0.1.54...tuffz-info-e2e-0.1.55) (2023-11-29)
