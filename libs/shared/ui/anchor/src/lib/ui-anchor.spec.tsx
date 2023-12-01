@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
 
-import { UiAnchor } from './shared-ui-anchor';
-import { UiAnchorProps } from './shared-ui-anchor';
-import { setRelAttribute } from './shared-ui-anchor';
+import { UiAnchor } from './ui-anchor';
+import { UiAnchorProps } from './ui-anchor';
+import { setRelAttribute } from './ui-anchor';
 
 describe('UiAnchor', () => {
   it('renders a link with the provided href and title', () => {

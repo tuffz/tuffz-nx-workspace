@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 
-import UiFooter from './shared-ui-footer';
+import UiFooter from './ui-footer';
 
 describe('UiFooter', () => {
   it('should render correctly', () => {

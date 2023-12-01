@@ -1,1 +1,1 @@
-export * from './lib/shared-ui-image-embed';
+export * from './lib/ui-image-embed';

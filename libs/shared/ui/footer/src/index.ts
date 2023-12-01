@@ -1,1 +1,1 @@
-export * from './lib/shared-ui-footer';
+export * from './lib/ui-footer';

@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 
-import UiImageEmbed from './shared-ui-image-embed';
-import { UiImageEmbedProps } from './shared-ui-image-embed';
+import UiImageEmbed from './ui-image-embed';
+import { UiImageEmbedProps } from './ui-image-embed';
 
 describe('UiImageEmbed', () => {
   const defaultProps: UiImageEmbedProps = {

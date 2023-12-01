@@ -1,1 +1,1 @@
-export * from './lib/shared-ui-anchor';
+export * from './lib/ui-anchor';
