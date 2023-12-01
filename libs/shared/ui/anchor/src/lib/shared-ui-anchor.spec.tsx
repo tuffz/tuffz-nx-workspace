@@ -1,13 +1,13 @@
 import { render } from '@testing-library/react';
 
-import { SharedUiAnchor } from './shared-ui-anchor';
-import { SharedUiAnchorProps } from './shared-ui-anchor';
+import { UiAnchor } from './shared-ui-anchor';
+import { UiAnchorProps } from './shared-ui-anchor';
 import { setRelAttribute } from './shared-ui-anchor';
 
-describe('SharedUiAnchor', () => {
+describe('UiAnchor', () => {
   it('renders a link with the provided href and title', () => {
     const { getByRole } = render(
-      <SharedUiAnchor href="https://www.tuffz.com" title="DummyTitle" />,
+      <UiAnchor href="https://www.tuffz.com" title="DummyTitle" />,
     );
     const link = getByRole('link');
     expect(link).toHaveAttribute('href', 'https://www.tuffz.com');
@@ -16,7 +16,7 @@ describe('SharedUiAnchor', () => {
 
   it('renders the provided dummy content', () => {
     const { getByText } = render(
-      <SharedUiAnchor
+      <UiAnchor
         href="https://www.tuffz.com"
         content="DummyContent"
         title="DummyTitle"
@@ -29,7 +29,7 @@ describe('SharedUiAnchor', () => {
 
   it('renders the target attribute', () => {
     const { getByRole } = render(
-      <SharedUiAnchor
+      <UiAnchor
         href="https://www.tuffz.com"
         title="DummyTitle"
         target="_blank"
@@ -42,7 +42,7 @@ describe('SharedUiAnchor', () => {
 
   it('renders the provided rel attribute', () => {
     const { getByRole } = render(
-      <SharedUiAnchor
+      <UiAnchor
         href="https://www.tuffz.com"
         title="DummyTitle"
         rel="nofollow"
@@ -54,7 +54,7 @@ describe('SharedUiAnchor', () => {
 
   it('renders the rel attribute for _blank target', () => {
     const { getByRole } = render(
-      <SharedUiAnchor
+      <UiAnchor
         href="https://www.tuffz.com"
         title="DummyTitle"
         target="_blank"
@@ -66,7 +66,7 @@ describe('SharedUiAnchor', () => {
 
   it('renders the provided rel and the rel attribute for _blank target', () => {
     const { getByRole } = render(
-      <SharedUiAnchor
+      <UiAnchor
         href="https://www.tuffz.com"
         title="DummyTitle"
         target="_blank"
@@ -79,7 +79,7 @@ describe('SharedUiAnchor', () => {
 
   it('renders the provided rel and the rel attribute for _blank target and makes sure that the rel attributes for _blank are not doubled in rel', () => {
     const { getByRole } = render(
-      <SharedUiAnchor
+      <UiAnchor
         href="https://www.tuffz.com"
         title="DummyTitle"
         target="_blank"
@@ -92,7 +92,7 @@ describe('SharedUiAnchor', () => {
 
   it('does not render the rel attribute for non-_blank target', () => {
     const { getByRole } = render(
-      <SharedUiAnchor href="https://www.tuffz.com" title="DummyTitle" />,
+      <UiAnchor href="https://www.tuffz.com" title="DummyTitle" />,
     );
     const link = getByRole('link');
     expect(link).not.toHaveAttribute('rel');
@@ -101,7 +101,7 @@ describe('SharedUiAnchor', () => {
 
 describe('setRelAttribute', () => {
   it('sets rel attribute to "noopener noreferrer" when target is "_blank"', () => {
-    const props: SharedUiAnchorProps = {
+    const props: UiAnchorProps = {
       href: 'https://www.tuffz.info',
       title: 'DummyTitle',
       target: '_blank',
@@ -114,7 +114,7 @@ describe('setRelAttribute', () => {
   });
 
   it('merges props.rel with rel when target is "_blank" and props.rel is defined', () => {
-    const props: SharedUiAnchorProps = {
+    const props: UiAnchorProps = {
       href: 'https://www.tuffz.info',
       title: 'DummyTitle',
       target: '_blank',
@@ -128,7 +128,7 @@ describe('setRelAttribute', () => {
   });
 
   it('sets rel attribute to props.rel when target is not "_blank"', () => {
-    const props: SharedUiAnchorProps = {
+    const props: UiAnchorProps = {
       href: 'https://www.tuffz.info',
       title: 'DummyTitle',
       rel: 'nofollow',

@@ -1,18 +1,18 @@
 import { render } from '@testing-library/react';
 
-import SharedUiFooter from './shared-ui-footer';
+import UiFooter from './shared-ui-footer';
 
-describe('SharedUiFooter', () => {
+describe('UiFooter', () => {
   it('should render correctly', () => {
-    const { baseElement } = render(<SharedUiFooter />);
+    const { baseElement } = render(<UiFooter />);
 
     // Check that the component renders without errors
     expect(baseElement).toBeInTheDocument();
   });
 });
 
-describe('SharedUiFooter contains the tuffz.com link', () => {
-  const { getByText } = render(<SharedUiFooter />);
+describe('UiFooter contains the tuffz.com link', () => {
+  const { getByText } = render(<UiFooter />);
 
   // Check that the "tuffz.com" link is present
   const link = getByText('tuffz.com');

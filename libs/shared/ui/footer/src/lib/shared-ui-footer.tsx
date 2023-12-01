@@ -1,9 +1,9 @@
-import { SharedUiAnchor } from '@tuffz-workspace/shared/ui/anchor';
+import { UiAnchor } from '@tuffz/shared/ui/anchor';
 
 /* eslint-disable-next-line */
-export interface SharedUiFooterProps {}
+export interface UiFooterProps {}
 
-export function SharedUiFooter(props: SharedUiFooterProps) {
+export function UiFooter(props: UiFooterProps) {
   return (
     <div className="sticky top-[100vh] py-5">
       <p className="text-sm text-center">
@@ -12,7 +12,7 @@ export function SharedUiFooter(props: SharedUiFooterProps) {
           ❤️
         </span>{' '}
         by{' '}
-        <SharedUiAnchor
+        <UiAnchor
           href="https://www.tuffz.com"
           content="tuffz.com"
           title="tuffz.com"
@@ -23,4 +23,4 @@ export function SharedUiFooter(props: SharedUiFooterProps) {
   );
 }
 
-export default SharedUiFooter;
+export default UiFooter;

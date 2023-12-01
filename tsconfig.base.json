@@ -15,20 +15,16 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@tuffz-workspace/shared/ui/anchor": [
-        "libs/shared/ui/anchor/src/index.ts"
-      ],
-      "@tuffz-workspace/shared/ui/footer": [
-        "libs/shared/ui/footer/src/index.ts"
-      ],
-      "@tuffz-workspace/shared/ui/image-embed": [
-        "libs/shared/ui/image-embed/src/index.ts"
-      ],
-      "@tuffz-workspace/shared/ui/social-media-icons": [
-        "libs/shared/ui/social-media-icons/src/index.ts"
-      ],
       "@tuffz/ericbuettner-com/profile-snapshot": [
         "libs/ericbuettner-com/profile-snapshot/src/index.ts"
+      ],
+      "@tuffz/shared/ui/anchor": ["libs/shared/ui/anchor/src/index.ts"],
+      "@tuffz/shared/ui/footer": ["libs/shared/ui/footer/src/index.ts"],
+      "@tuffz/shared/ui/image-embed": [
+        "libs/shared/ui/image-embed/src/index.ts"
+      ],
+      "@tuffz/shared/ui/social-media-icons": [
+        "libs/shared/ui/social-media-icons/src/index.ts"
       ]
     }
   },

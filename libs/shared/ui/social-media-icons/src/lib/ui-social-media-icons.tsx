@@ -1,7 +1,7 @@
 // Import SVG components for each platform
 import UiSocialMediaIconGitHub from './icons/github';
 import UiSocialMediaIconGitLab from './icons/gitlab';
-import { SharedUiAnchor } from '@tuffz-workspace/shared/ui/anchor';
+import { UiAnchor } from '@tuffz/shared/ui/anchor';
 
 export interface UiSocialMediaIconsProps {
   url: string;
@@ -49,7 +49,7 @@ export function UiSocialMediaIcons(props: UiSocialMediaIconsProps) {
     ] as PlatformMapping;
 
     return (
-      <SharedUiAnchor
+      <UiAnchor
         href={props.url}
         title={platform}
         target="_blank"

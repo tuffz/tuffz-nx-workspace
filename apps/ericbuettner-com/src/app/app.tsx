@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
 
-import { SharedUiFooter } from '@tuffz-workspace/shared/ui/footer';
+import { UiFooter } from '@tuffz/shared/ui/footer';
 import { ProfileSnapshot } from '@tuffz/ericbuettner-com/profile-snapshot';
 
 export function App() {
@@ -10,7 +10,7 @@ export function App() {
       <main className="container mx-auto p-2">
         <ProfileSnapshot />
       </main>
-      <SharedUiFooter />
+      <UiFooter />
     </div>
   );
 }
