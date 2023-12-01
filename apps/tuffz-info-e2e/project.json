@@ -3,22 +3,22 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/tuffz-info-e2e/src",
-  "tags": ["type:app", "scope:tuffz-com"],
-  "implicitDependencies": ["tuffz-info"],
+  "tags": ["type:app", "scope:tuffz-info"],
+  "implicitDependencies": ["ericbuettner-com"],
   "targets": {
     "e2e": {
       "executor": "@nx/cypress:cypress",
       "options": {
         "cypressConfig": "apps/tuffz-info-e2e/cypress.config.ts",
         "testingType": "e2e",
-        "devServerTarget": "tuffz-info:serve"
+        "devServerTarget": "ericbuettner-com:serve"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "tuffz-info:serve:production"
+          "devServerTarget": "ericbuettner-com:serve:production"
         },
         "ci": {
-          "devServerTarget": "tuffz-info:serve-static"
+          "devServerTarget": "ericbuettner-com:serve-static"
         }
       }
     },

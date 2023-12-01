@@ -1,4 +1,4 @@
-# tuffz-info/professional-biography-short
+# ericbuettner-com/profile-snapshot
 
 This library was generated with [Nx](https://nx.dev).
 

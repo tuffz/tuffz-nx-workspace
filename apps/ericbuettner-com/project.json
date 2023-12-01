@@ -1,9 +1,9 @@
 {
-  "name": "tuffz-info",
+  "name": "ericbuettner-com",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/tuffz-info/src",
+  "sourceRoot": "apps/ericbuettner-com/src",
   "projectType": "application",
-  "tags": ["type:app", "scope:tuffz-info"],
+  "tags": ["type:app", "scope:ericbuettner-com"],
   "targets": {
     "build": {
       "executor": "@nx/webpack:webpack",
@@ -11,20 +11,20 @@
       "defaultConfiguration": "production",
       "options": {
         "compiler": "babel",
-        "outputPath": "dist/apps/tuffz-info",
-        "index": "apps/tuffz-info/src/index.html",
+        "outputPath": "dist/apps/ericbuettner-com",
+        "index": "apps/ericbuettner-com/src/index.html",
         "baseHref": "/",
-        "main": "apps/tuffz-info/src/main.tsx",
-        "tsConfig": "apps/tuffz-info/tsconfig.app.json",
+        "main": "apps/ericbuettner-com/src/main.tsx",
+        "tsConfig": "apps/ericbuettner-com/tsconfig.app.json",
         "assets": [
-          "apps/tuffz-info/src/favicon.ico",
-          "apps/tuffz-info/src/assets"
+          "apps/ericbuettner-com/src/favicon.ico",
+          "apps/ericbuettner-com/src/assets"
         ],
-        "styles": ["apps/tuffz-info/src/styles.scss"],
+        "styles": ["apps/ericbuettner-com/src/styles.scss"],
         "scripts": [],
         "isolatedConfig": true,
-        "postcssConfig": "apps/tuffz-info/postcss.config.js",
-        "webpackConfig": "apps/tuffz-info/webpack.config.js"
+        "postcssConfig": "apps/ericbuettner-com/postcss.config.js",
+        "webpackConfig": "apps/ericbuettner-com/webpack.config.js"
       },
       "configurations": {
         "development": {
@@ -36,8 +36,8 @@
         "production": {
           "fileReplacements": [
             {
-              "replace": "apps/tuffz-info/src/environments/environment.ts",
-              "with": "apps/tuffz-info/src/environments/environment.prod.ts"
+              "replace": "apps/ericbuettner-com/src/environments/environment.ts",
+              "with": "apps/ericbuettner-com/src/environments/environment.prod.ts"
             }
           ],
           "optimization": true,
@@ -53,15 +53,15 @@
       "executor": "@nx/webpack:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "tuffz-info:build",
+        "buildTarget": "ericbuettner-com:build",
         "hmr": true
       },
       "configurations": {
         "development": {
-          "buildTarget": "tuffz-info:build:development"
+          "buildTarget": "ericbuettner-com:build:development"
         },
         "production": {
-          "buildTarget": "tuffz-info:build:production",
+          "buildTarget": "ericbuettner-com:build:production",
           "hmr": false
         }
       }
@@ -70,20 +70,20 @@
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/tuffz-info/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["apps/ericbuettner-com/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "serve-static": {
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "tuffz-info:build"
+        "buildTarget": "ericbuettner-com:build"
       }
     },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/tuffz-info/jest.config.ts"
+        "jestConfig": "apps/ericbuettner-com/jest.config.ts"
       }
     },
     "version": {
