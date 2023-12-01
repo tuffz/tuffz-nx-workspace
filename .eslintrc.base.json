@@ -17,6 +17,10 @@
                 "onlyDependOnLibsWithTags": ["scope:shared"]
               },
               {
+                "sourceTag": "scope:eric-buettner",
+                "onlyDependOnLibsWithTags": ["scope:shared", "scope:eric-buettner"]
+              },
+              {
                 "sourceTag": "scope:tuffz-com",
                 "onlyDependOnLibsWithTags": ["scope:shared", "scope:tuffz-com"]
               },

@@ -1,7 +1,7 @@
 import { SharedUiImageEmbed } from '@tuffz-workspace/shared/ui/image-embed';
 import { UiSocialMediaIcons } from '@tuffz-workspace/shared/ui/social-media-icons';
 
-export interface ProfessionalBiographyShortProps {
+export interface ProfileSnapshotProps {
   // firstname: string;
   // surname: string;
   // latest_job_position: string;
@@ -11,9 +11,7 @@ export interface ProfessionalBiographyShortProps {
   // location_country: string;
 }
 
-export function ProfessionalBiographyShort(
-  props: ProfessionalBiographyShortProps,
-) {
+export function ProfileSnapshot(props: ProfileSnapshotProps) {
   return (
     <section className="flex flex-col sm:max-lg:flex-row md:justify-evenly items-center bg-white p-1 rounded-xl shadow-xl sm:m-4">
       <div className="shrink-0 mb-4 sm:mb-0 lg:m-4">
@@ -46,4 +44,4 @@ export function ProfessionalBiographyShort(
   );
 }
 
-export default ProfessionalBiographyShort;
+export default ProfileSnapshot;
