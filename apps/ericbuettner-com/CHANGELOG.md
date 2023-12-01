@@ -2,6 +2,23 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-0.2.52...ericbuettner-com-1.0.0) (2023-12-01)
+
+### Dependency Updates
+
+* `ui-footer` updated to version `2.0.0`
+* `ericbuettner-com/profile-snapshot` updated to version `1.0.0`
+
+### ⚠ BREAKING CHANGES
+
+* remove the obsolete `shared` prefix in `shared-ui-anchor`, `shared-ui-footer` and `shared-ui-image-embed` library and class names
+* **tuffz-info:** rename `tuffz-info` app to `ericbuettner-com`
+
+### Code Refactoring
+
+* remove the obsolete `shared` prefix in the shared library names ([1db32ce](https://github.com/tuffz/tuffz-nx-workspace/commit/1db32ce775fab41bbf2c5e837ef307af32269b76))
+* **tuffz-info:** rename app to `ericbuettner-com` ([2aefb24](https://github.com/tuffz/tuffz-nx-workspace/commit/2aefb24c04685871cbb019a5b8a5bde20e892421))
+
 ## [0.2.52](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.51...tuffz-info-0.2.52) (2023-11-30)
 
 ### Dependency Updates
