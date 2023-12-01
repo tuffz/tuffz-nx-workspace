@@ -2,6 +2,20 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-1.0.0...ui-footer-2.0.0) (2023-12-01)
+
+### Dependency Updates
+
+* `ui-anchor` updated to version `3.0.0`
+
+### ⚠ BREAKING CHANGES
+
+* remove the obsolete `shared` prefix in `shared-ui-anchor`, `shared-ui-footer` and `shared-ui-image-embed` library and class names
+
+### Code Refactoring
+
+* remove the obsolete `shared` prefix in the shared library names ([1db32ce](https://github.com/tuffz/tuffz-nx-workspace/commit/1db32ce775fab41bbf2c5e837ef307af32269b76))
+
 ## [1.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.2.46...shared-ui-footer-1.0.0) (2023-11-30)
 
 ### Dependency Updates
