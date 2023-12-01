@@ -2,6 +2,23 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## 1.0.0 (2023-12-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove the obsolete `shared` prefix in `shared-ui-anchor`, `shared-ui-footer` and `shared-ui-image-embed` library and class names
+
+### Features
+
+* **shared-ui-image-embed:** add new library ([9d8c445](https://github.com/tuffz/tuffz-nx-workspace/commit/9d8c445f29aa5ec0f97537ba4df57e3eb411a4e3))
+* **shared-ui-image-embed:** implement fallback to utilize 'alt' when 'title' is not provided ([158b222](https://github.com/tuffz/tuffz-nx-workspace/commit/158b222948f72e573d4fd5592d1d6f44a79ba543))
+
+
+### Code Refactoring
+
+* remove the obsolete `shared` prefix in the shared library names ([1db32ce](https://github.com/tuffz/tuffz-nx-workspace/commit/1db32ce775fab41bbf2c5e837ef307af32269b76))
+
 ## [0.1.5](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-0.1.4...shared-ui-image-embed-0.1.5) (2023-11-27)
 
 ## [0.1.4](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-0.1.3...shared-ui-image-embed-0.1.4) (2023-11-27)
