@@ -1,5 +1,5 @@
 {
-  "name": "shared-ui-image-embed",
+  "name": "ui-image-embed",
   "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/shared/ui/image-embed/src",
   "projectType": "library",

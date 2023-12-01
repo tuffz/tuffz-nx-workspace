@@ -1,4 +1,4 @@
-# ui-social-media-icons
+# UI Social Media Icons library
 
 This library was generated with [Nx](https://nx.dev).
 

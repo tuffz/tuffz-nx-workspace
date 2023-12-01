@@ -1,5 +1,5 @@
 {
-  "name": "shared-ui-footer",
+  "name": "ui-footer",
   "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/shared/ui/footer/src",
   "projectType": "library",
