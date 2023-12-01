@@ -29,8 +29,12 @@
                 "onlyDependOnLibsWithTags": ["scope:shared", "scope:tuffz-info"]
               },
               {
-                "sourceTag": "type:feature",
+                "sourceTag": "type:app",
                 "onlyDependOnLibsWithTags": ["type:ui", "type:feature"]
+              },
+              {
+                "sourceTag": "type:feature",
+                "onlyDependOnLibsWithTags": ["type:ui"]
               },
               {
                 "sourceTag": "type:ui",
