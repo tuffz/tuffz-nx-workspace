@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.2](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.0.1...ericbuettner-com-1.0.2) (2023-12-02)
+
+### Dependency Updates
+
+* `ericbuettner-com/profile-snapshot` updated to version `2.0.1`
+
+### Bug Fixes
+
+* **profile-snapshot:** Resolve job title rendering and HTML title element in app ericbuettner-com ([#192](https://github.com/tuffz/tuffz-nx-workspace/issues/192)) ([a2d9e28](https://github.com/tuffz/tuffz-nx-workspace/commit/a2d9e2833dc7729eec79df41b7acdf2a6cc948d9))
+
 ## [1.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.0.0...ericbuettner-com-1.0.1) (2023-12-02)
 
 ### Dependency Updates
