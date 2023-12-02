@@ -11,16 +11,16 @@ describe('UiFooter', () => {
   });
 });
 
-describe('UiFooter contains the tuffz.com link', () => {
+describe('UiFooter contains the ericbuettner.com link', () => {
   const { getByText } = render(<UiFooter />);
 
-  // Check that the "tuffz.com" link is present
-  const link = getByText('tuffz.com');
+  // Check that the "ericbuettner.com" link is present
+  const link = getByText('Eric Büttner');
   expect(link).toBeInTheDocument();
 
   // Check that the link has the correct attributes
-  expect(link).toHaveAttribute('href', 'https://www.tuffz.com');
-  expect(link).toHaveAttribute('title', 'tuffz.com');
+  expect(link).toHaveAttribute('href', 'https://www.ericbuettner.com');
+  expect(link).toHaveAttribute('title', 'Eric Büttner');
   expect(link).toHaveAttribute('target', '_blank');
   expect(link).toHaveAttribute('rel', 'noopener noreferrer');
 });
