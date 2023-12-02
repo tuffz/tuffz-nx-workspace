@@ -32,10 +32,22 @@ export function ProfileSnapshot(props: ProfileSnapshotProps) {
         <div className="p-2">
           <p className="flex flex-wrap justify-center">
             <span className="px-1 text-sm">
-              <UiSocialMediaIcons url="https://github.com/tuffz" />
+              <UiSocialMediaIcons
+                size="1.5rem"
+                url="https://github.com/tuffz"
+              />
             </span>
             <span className="px-1 text-sm">
-              <UiSocialMediaIcons url="https://gitlab.com/tuffz" />
+              <UiSocialMediaIcons
+                size="1.5rem"
+                url="https://gitlab.com/tuffz"
+              />
+            </span>
+            <span className="px-1 text-sm">
+              <UiSocialMediaIcons
+                size="1.5rem"
+                url="https://twitter.com/tuffzCOM"
+              />
             </span>
           </p>
         </div>
