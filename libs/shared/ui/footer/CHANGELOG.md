@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-2.0.0...ui-footer-2.0.1) (2023-12-02)
+
+### Dependency Updates
+
+* `ui-anchor` updated to version `3.0.1`
+
+### Bug Fixes
+
+* **ui-footer:** replace unavailable tuffz.com link with ericbuettner.com ([f58b35c](https://github.com/tuffz/tuffz-nx-workspace/commit/f58b35c43a33914067b3356d270ab7fee978fb19))
+
 ## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-1.0.0...ui-footer-2.0.0) (2023-12-01)
 
 ### Dependency Updates
