@@ -2,6 +2,21 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-1.0.0...ericbuettner-com/profile-snapshot-2.0.0) (2023-12-02)
+
+### Dependency Updates
+
+* `ui-image-embed` updated to version `1.0.1`
+* `ui-social-media-icons` updated to version `3.0.0`
+
+### ⚠ BREAKING CHANGES
+
+* **ui-social-media-icons:** `size` property is now mandatory for the 'ui-social-media-icons' component
+
+### Code Refactoring
+
+* **ui-social-media-icons:** introduce `size` property for flexible icon sizing ([2f042c4](https://github.com/tuffz/tuffz-nx-workspace/commit/2f042c4a04cf37a6fddfd8ee2642dde4f4590704))
+
 ## [1.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-0.2.1...ericbuettner-com/profile-snapshot-1.0.0) (2023-12-01)
 
 ### Dependency Updates
