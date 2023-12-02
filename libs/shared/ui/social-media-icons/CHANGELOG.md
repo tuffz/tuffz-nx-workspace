@@ -2,6 +2,25 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-2.0.0...ui-social-media-icons-3.0.0) (2023-12-02)
+
+### Dependency Updates
+
+* `ui-anchor` updated to version `3.0.1`
+
+### ⚠ BREAKING CHANGES
+
+* **ui-social-media-icons:** `size` property is now mandatory for the 'ui-social-media-icons' component
+
+### Features
+
+* **ui-social-media-icons:** add twitter and x.com ([35b4894](https://github.com/tuffz/tuffz-nx-workspace/commit/35b4894130afa2e70c5db8bc09ddb994165f1818))
+
+
+### Code Refactoring
+
+* **ui-social-media-icons:** introduce `size` property for flexible icon sizing ([2f042c4](https://github.com/tuffz/tuffz-nx-workspace/commit/2f042c4a04cf37a6fddfd8ee2642dde4f4590704))
+
 ## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-1.2.0...ui-social-media-icons-2.0.0) (2023-12-01)
 
 ### Dependency Updates
