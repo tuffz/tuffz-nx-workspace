@@ -24,7 +24,7 @@ export function ProfileSnapshot(props: ProfileSnapshotProps) {
       <div className="text-center sm:grow lg:grow-0">
         <h1 className="text-2xl py-2">Eric Büttner</h1>
         <p className="text-gray-700 py-2">
-          Head of Software at allmyhomes GmbH
+          Head of Software Engineering at allmyhomes GmbH
         </p>
         <p className="text-sm text-gray-500 py-2">
           Eberswalde, Brandenburg, Germany
