@@ -1,12 +1,14 @@
 import './x.scss';
 
-export function UiSocialMediaIconX() {
+import { UiSocialMediaIconProps } from '../ui-social-media-icons';
+
+export function UiSocialMediaIconX(props: UiSocialMediaIconProps) {
   return (
     <svg
       className="social-media-icon-x inline"
       fill="fillColor"
-      width="24"
-      height="24"
+      width={props.size}
+      height={props.size}
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"

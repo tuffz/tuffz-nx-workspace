@@ -6,10 +6,13 @@ import UiSocialMediaIconX from './icons/x';
 import { UiAnchor } from '@tuffz/shared/ui/anchor';
 
 export interface UiSocialMediaIconsProps {
+  size: string;
   url: string;
 }
 
-interface UiSocialMediaIconProps {}
+export interface UiSocialMediaIconProps {
+  size: string;
+}
 
 interface PlatformMapping {
   component: (props: UiSocialMediaIconProps) => JSX.Element;
@@ -64,7 +67,7 @@ export function UiSocialMediaIcons(props: UiSocialMediaIconsProps) {
         title={platform}
         target="_blank"
         rel="nofollow"
-        content={<UiSocialMediaIcon />}
+        content={<UiSocialMediaIcon size={props.size} />}
       />
     );
   } else {
