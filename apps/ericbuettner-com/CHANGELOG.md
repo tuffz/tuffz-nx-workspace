@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.0.8...ericbuettner-com-1.1.0) (2023-12-03)
+
+
+### Features
+
+* **ericbuettner-com:** add Plausible analytics script ([#199](https://github.com/tuffz/tuffz-nx-workspace/issues/199)) ([6a807d9](https://github.com/tuffz/tuffz-nx-workspace/commit/6a807d97197e1fa4ab84c1f58edd82411a09b89c))
+
 ## [1.0.8](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.0.7...ericbuettner-com-1.0.8) (2023-12-03)
 
 ### Dependency Updates
