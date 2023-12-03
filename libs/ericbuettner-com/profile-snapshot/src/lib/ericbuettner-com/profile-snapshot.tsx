@@ -31,19 +31,19 @@ export function ProfileSnapshot(props: ProfileSnapshotProps) {
         </p>
         <div className="p-2">
           <p className="flex flex-wrap justify-center">
-            <span className="px-1 text-sm">
+            <span className="px-1 mx-1 text-sm">
               <UiSocialMediaIcons
                 size="1.5rem"
                 url="https://github.com/tuffz"
               />
             </span>
-            <span className="px-1 text-sm">
+            <span className="px-1 mx-1 text-sm">
               <UiSocialMediaIcons
                 size="1.5rem"
                 url="https://gitlab.com/tuffz"
               />
             </span>
-            <span className="px-1 text-sm">
+            <span className="px-1 mx-1 text-sm">
               <UiSocialMediaIcons
                 size="1.5rem"
                 url="https://twitter.com/tuffzCOM"
