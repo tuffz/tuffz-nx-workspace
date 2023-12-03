@@ -46,6 +46,12 @@ export function ProfileSnapshot(props: ProfileSnapshotProps) {
             <span className="px-1 mx-1 text-sm">
               <UiSocialMediaIcons
                 size="1.5rem"
+                url="https://www.linkedin.com/in/eric-buettner/"
+              />
+            </span>
+            <span className="px-1 mx-1 text-sm">
+              <UiSocialMediaIcons
+                size="1.5rem"
                 url="https://twitter.com/tuffzCOM"
               />
             </span>
