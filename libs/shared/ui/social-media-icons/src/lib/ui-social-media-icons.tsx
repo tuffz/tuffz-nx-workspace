@@ -35,11 +35,11 @@ const platformMappings: Record<string, PlatformMapping> = {
   },
   Twitter: {
     component: UiSocialMediaIconTwitter,
-    domain: ['twitter.com', 'www.twitter.com'],
+    domain: [],
   },
   X: {
     component: UiSocialMediaIconX,
-    domain: ['x.com', 'www.x.com'],
+    domain: ['twitter.com', 'www.twitter.com', 'x.com', 'www.x.com'],
   },
   // Add more platforms as needed
 };
