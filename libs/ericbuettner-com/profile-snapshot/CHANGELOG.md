@@ -2,6 +2,17 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.0.6...ericbuettner-com/profile-snapshot-2.1.0) (2023-12-03)
+
+### Dependency Updates
+
+* `ui-social-media-icons` updated to version `3.1.0`
+
+### Features
+
+* **profile-snapshot:** add LinkedIn icon ([6e697d8](https://github.com/tuffz/tuffz-nx-workspace/commit/6e697d89d92c55e00c687fce92513c77ead6006e))
+* **profile-snapshot:** adjust social media icon spacing ([2f73cfd](https://github.com/tuffz/tuffz-nx-workspace/commit/2f73cfd59662fae7338b2281e4d40ffb3b5fdad1))
+
 ## [2.0.6](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.0.5...ericbuettner-com/profile-snapshot-2.0.6) (2023-12-03)
 
 ## [2.0.5](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.0.4...ericbuettner-com/profile-snapshot-2.0.5) (2023-12-03)
