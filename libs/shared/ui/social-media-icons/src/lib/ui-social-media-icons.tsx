@@ -1,6 +1,7 @@
 // Import SVG components for each platform
 import UiSocialMediaIconGitHub from './icons/github';
 import UiSocialMediaIconGitLab from './icons/gitlab';
+import UiSocialMediaIconLinkedIn from './icons/linkedin';
 import UiSocialMediaIconTwitter from './icons/twitter';
 import UiSocialMediaIconX from './icons/x';
 import { UiAnchor } from '@tuffz/shared/ui/anchor';
@@ -27,6 +28,10 @@ const platformMappings: Record<string, PlatformMapping> = {
   GitLab: {
     component: UiSocialMediaIconGitLab,
     domain: ['gitlab.com', 'www.gitlab.com'],
+  },
+  LinkedIn: {
+    component: UiSocialMediaIconLinkedIn,
+    domain: ['linkedin.com', 'www.linkedin.com'],
   },
   Twitter: {
     component: UiSocialMediaIconTwitter,
