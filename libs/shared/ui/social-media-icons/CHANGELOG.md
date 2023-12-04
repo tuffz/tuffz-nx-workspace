@@ -11,7 +11,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 * **ui-social-media-icons:** introduce LinkedIn icon ([b74bb35](https://github.com/tuffz/tuffz-nx-workspace/commit/b74bb358aeba0ddd7b2eb87d998e4fa3e3a3220b))
 * **ui-social-media-icons:** update social media platform mappings ([1cf76d1](https://github.com/tuffz/tuffz-nx-workspace/commit/1cf76d17c0aae791107c4a961122dc21825b91f6))
-* **ui-social-media-icons:** update X icon hover styles ([c4ac8d0](https://github.com/tuffz/tuffz-nx-workspace/commit/c4ac8d0f85190c745daedffa288fece3e143c58b)), closes [#000000](https://github.com/tuffz/tuffz-nx-workspace/issues/000000)
+* **ui-social-media-icons:** update X icon hover styles ([c4ac8d0](https://github.com/tuffz/tuffz-nx-workspace/commit/c4ac8d0f85190c745daedffa288fece3e143c58b))
 
 ## [3.0.6](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-3.0.5...ui-social-media-icons-3.0.6) (2023-12-03)
 
