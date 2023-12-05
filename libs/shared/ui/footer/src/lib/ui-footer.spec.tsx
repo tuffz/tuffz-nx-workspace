@@ -19,7 +19,10 @@ describe('UiFooter contains the ericbuettner.com link', () => {
   expect(link).toBeInTheDocument();
 
   // Check that the link has the correct attributes
-  expect(link).toHaveAttribute('href', 'https://www.ericbuettner.com/?utm_source=ericbuettner-com&utm_medium=link&utm_campaign=crafted-with-heart');
+  expect(link).toHaveAttribute(
+    'href',
+    'https://www.ericbuettner.com/?utm_source=ericbuettner-com&utm_medium=link&utm_campaign=crafted-with-heart',
+  );
   expect(link).toHaveAttribute('title', 'Eric Büttner');
   expect(link).toHaveAttribute('target', '_blank');
   expect(link).toHaveAttribute('rel', 'noopener noreferrer');
