@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.0.116](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-e2e-0.0.115...tuffz-com-e2e-0.0.116) (2023-12-05)
+
 ## [0.0.115](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-e2e-0.0.114...tuffz-com-e2e-0.0.115) (2023-12-05)
 
 ## [0.0.114](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-e2e-0.0.113...tuffz-com-e2e-0.0.114) (2023-12-04)
