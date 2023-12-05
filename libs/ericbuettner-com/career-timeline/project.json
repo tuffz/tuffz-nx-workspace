@@ -20,6 +20,14 @@
       "options": {
         "jestConfig": "libs/ericbuettner-com/career-timeline/jest.config.ts"
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "commitMessageFormat": "chore({projectName}): 🚀 release version ${version} [skip ci]",
+        "preset": "conventional",
+        "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
+      }
     }
   }
 }
