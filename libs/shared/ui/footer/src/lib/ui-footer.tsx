@@ -13,7 +13,7 @@ export function UiFooter(props: UiFooterProps) {
         </span>{' '}
         by{' '}
         <UiAnchor
-          href="https://www.ericbuettner.com"
+          href="https://www.ericbuettner.com/?utm_source=ericbuettner-com&utm_medium=link&utm_campaign=crafted-with-heart"
           content="Eric Büttner"
           title="Eric Büttner"
           target="_blank"
