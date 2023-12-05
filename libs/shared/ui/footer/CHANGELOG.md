@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-2.0.11...ui-footer-2.1.0) (2023-12-05)
+
+
+### Features
+
+* **ui-footer:** introduce UTM params in `crafted-with-heart` link ([#209](https://github.com/tuffz/tuffz-nx-workspace/issues/209)) ([cdaa674](https://github.com/tuffz/tuffz-nx-workspace/commit/cdaa6742c6730f4041a834d39a7cc83d10267b35))
+
 ## [2.0.11](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-2.0.10...ui-footer-2.0.11) (2023-12-05)
 
 ## [2.0.10](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-2.0.9...ui-footer-2.0.10) (2023-12-05)
