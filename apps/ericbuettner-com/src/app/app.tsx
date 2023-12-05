@@ -1,4 +1,5 @@
 import { UiFooter, Website } from '@tuffz/shared/ui/footer';
+import { CareerTimeline } from '@tuffz/ericbuettner-com/career-timeline';
 import { ProfileSnapshot } from '@tuffz/ericbuettner-com/profile-snapshot';
 
 export function App() {
@@ -14,6 +15,7 @@ export function App() {
           location_state="Brandenburg"
           location_country="Germany"
         />
+        <CareerTimeline />
       </main>
       <UiFooter website={Website.ERICBUETTNERCOM} />
     </div>
