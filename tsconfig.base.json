@@ -18,6 +18,9 @@
       "@tuffz/coding-booth/under-construction": [
         "libs/coding-booth-com/under-construction/src/index.ts"
       ],
+      "@tuffz/ericbuettner-com/career-timeline": [
+        "libs/ericbuettner-com/career-timeline/src/index.ts"
+      ],
       "@tuffz/ericbuettner-com/profile-snapshot": [
         "libs/ericbuettner-com/profile-snapshot/src/index.ts"
       ],
