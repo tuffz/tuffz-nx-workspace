@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.1.8...ericbuettner-com-1.2.0) (2023-12-07)
+
+
+### Features
+
+* **ericbuettner-com:** create web manifest and add platform-specific images ([#215](https://github.com/tuffz/tuffz-nx-workspace/issues/215)) ([d3542c4](https://github.com/tuffz/tuffz-nx-workspace/commit/d3542c45969c7a1ec41344a91ac5038bd0ec3d56)), closes [#200](https://github.com/tuffz/tuffz-nx-workspace/issues/200)
+
 ## [1.1.8](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.1.7...ericbuettner-com-1.1.8) (2023-12-07)
 
 ## [1.1.7](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.1.6...ericbuettner-com-1.1.7) (2023-12-06)
