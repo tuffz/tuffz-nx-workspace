@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.3.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.3.0...ericbuettner-com-1.3.1) (2023-12-07)
+
+
+### Bug Fixes
+
+* **ericbuettner-com:** relocate site assets for favicon and icons ([#220](https://github.com/tuffz/tuffz-nx-workspace/issues/220)) ([b26a9db](https://github.com/tuffz/tuffz-nx-workspace/commit/b26a9db51a9bd9c5880052e8669fc3369eff8769))
+
 ## [1.3.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.2.1...ericbuettner-com-1.3.0) (2023-12-07)
 
 
