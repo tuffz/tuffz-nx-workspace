@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.2.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.2.0...ericbuettner-com-1.2.1) (2023-12-07)
+
+
+### Bug Fixes
+
+* **ericbuettner-com:** add missing link elements to fulfill favicon requirements for Android and iOS ([#218](https://github.com/tuffz/tuffz-nx-workspace/issues/218)) ([34fa8c7](https://github.com/tuffz/tuffz-nx-workspace/commit/34fa8c78d3f3881b21dc73ff30f71fcd94a2d778)), closes [#200](https://github.com/tuffz/tuffz-nx-workspace/issues/200)
+
 ## [1.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.1.8...ericbuettner-com-1.2.0) (2023-12-07)
 
 
