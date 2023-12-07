@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.3.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.2.1...ericbuettner-com-1.3.0) (2023-12-07)
+
+
+### Features
+
+* **ericbuettner-com:** add canonical URL for SEO improvement ([#219](https://github.com/tuffz/tuffz-nx-workspace/issues/219)) ([19ecaa2](https://github.com/tuffz/tuffz-nx-workspace/commit/19ecaa21a2c056b59ee9798902c79ee0f9626694))
+
 ## [1.2.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.2.0...ericbuettner-com-1.2.1) (2023-12-07)
 
 
