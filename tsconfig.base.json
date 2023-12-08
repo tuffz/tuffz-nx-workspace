@@ -25,6 +25,9 @@
       ],
       "@tuffz/shared/ui/social-media-icons": [
         "libs/shared/ui/social-media-icons/src/index.ts"
+      ],
+      "@tuffz/utils-format-location": [
+        "libs/shared/utils/format-location/src/index.ts"
       ]
     }
   },
