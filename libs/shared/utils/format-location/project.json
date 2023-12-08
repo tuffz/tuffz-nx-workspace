@@ -1,0 +1,44 @@
+{
+  "name": "utils-format-location",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/utils/format-location/src",
+  "projectType": "library",
+  "tags": ["scope:shared", "type:util"],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/shared/utils/format-location",
+        "main": "libs/shared/utils/format-location/src/index.ts",
+        "tsConfig": "libs/shared/utils/format-location/tsconfig.lib.json",
+        "assets": ["libs/shared/utils/format-location/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/shared/utils/format-location/**/*.ts",
+          "libs/shared/utils/format-location/package.json"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/shared/utils/format-location/jest.config.ts"
+      }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "commitMessageFormat": "chore({projectName}): 🚀 release version ${version} [skip ci]",
+        "preset": "conventional",
+        "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
+      }
+    }
+  }
+}
