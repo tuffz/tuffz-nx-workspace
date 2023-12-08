@@ -1,5 +1,6 @@
 import { UiImageEmbed } from '@tuffz/shared/ui/image-embed';
 import { UiSocialMediaIcons } from '@tuffz/shared/ui/social-media-icons';
+import { formatLocation, Location } from '@tuffz/utils-format-location';
 
 export interface ProfileSnapshotProps {
   first_name: string;
@@ -12,32 +13,11 @@ export interface ProfileSnapshotProps {
 }
 
 export function ProfileSnapshot(props: ProfileSnapshotProps) {
-  interface Location {
-    city: string;
-    state?: string;
-    country: string;
-  }
-
-  function formatLocation(location: Location): string {
-    const { city, state, country } = location;
-    let result = `${city},`;
-
-    if (state !== null && state !== undefined && state !== '') {
-      result += ` ${state},`;
-    }
-
-    result += ` ${country}`;
-
-    return result.trim();
-  }
-
-  // Retrieve city, state, and country from props or any other source
   const location: Location = {
     city: props.location_city,
     state: props.location_state,
     country: props.location_country,
   };
-
   const formattedLocation = formatLocation(location);
 
   return (
