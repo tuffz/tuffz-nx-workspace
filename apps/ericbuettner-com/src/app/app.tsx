@@ -8,7 +8,15 @@ export function App() {
   return (
     <div id="app" className="min-h-screen bg-gray-300">
       <main className="container mx-auto p-2">
-        <ProfileSnapshot />
+        <ProfileSnapshot
+          first_name="Eric"
+          last_name="Büttner"
+          latest_job_position="Head of Software Engineering"
+          latest_job_company="allmyhomes GmbH"
+          location_city="Eberswalde"
+          location_state="Brandenburg"
+          location_country="Germany"
+        />
       </main>
       <UiFooter />
     </div>
