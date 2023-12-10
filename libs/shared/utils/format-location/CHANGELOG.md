@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.2](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-format-location-1.0.1...utils-format-location-1.0.2) (2023-12-10)
+
 ## [1.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-format-location-1.0.0...utils-format-location-1.0.1) (2023-12-10)
 
 ## 1.0.0 (2023-12-10)
