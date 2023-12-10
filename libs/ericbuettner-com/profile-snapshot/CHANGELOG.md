@@ -2,6 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.1.10](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.1.9...ericbuettner-com/profile-snapshot-2.1.10) (2023-12-10)
+
+### Dependency Updates
+
+* `utils-format-location` updated to version `1.0.0`
 ## [2.1.9](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.1.8...ericbuettner-com/profile-snapshot-2.1.9) (2023-12-08)
 
 ## [2.1.8](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.1.7...ericbuettner-com/profile-snapshot-2.1.8) (2023-12-08)
