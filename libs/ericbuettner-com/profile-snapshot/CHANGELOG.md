@@ -2,6 +2,26 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.1.16...ericbuettner-com/profile-snapshot-3.0.0) (2023-12-10)
+
+### Dependency Updates
+
+* `utils-locations` updated to version `2.0.0`
+
+### ⚠ BREAKING CHANGES
+
+* **utils-locations:** Rename library from `utils-format-locations` to `utils-locations`
+
+Split the location functionality into distinct files
+- `structure-location.ts` contains the interfaces and the `structureLocation` function
+  for converting `Location` to `StructuredLocation`
+- `format-location.ts` holds the `formatLocationToString` function for formatting
+  `StructuredLocation`into a string
+
+### Features
+
+* **utils-locations:** separate location-related functions into individual files ([#233](https://github.com/tuffz/tuffz-nx-workspace/issues/233)) ([f270263](https://github.com/tuffz/tuffz-nx-workspace/commit/f270263dee2df66a6aa3b9495ebe2a21e13905a6))
+
 ## [2.1.16](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.1.15...ericbuettner-com/profile-snapshot-2.1.16) (2023-12-10)
 
 ## [2.1.15](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.1.14...ericbuettner-com/profile-snapshot-2.1.15) (2023-12-10)
