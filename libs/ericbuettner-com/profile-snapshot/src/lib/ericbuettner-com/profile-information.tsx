@@ -1,4 +1,8 @@
-import { formatLocation, Location } from '@tuffz/utils-format-location';
+import {
+  formatLocationToString,
+  Location,
+  structureLocation,
+} from '@tuffz/utils-locations';
 
 interface ProfileInformationProps {
   first_name: string;
@@ -16,7 +20,9 @@ export function ProfileInformation(props: ProfileInformationProps) {
     state: props.location_state,
     country: props.location_country,
   };
-  const formattedLocation = formatLocation(location);
+
+  const structuredLocation = structureLocation(location);
+  const formattedLocation = formatLocationToString(structuredLocation);
 
   return (
     <div className="profile-information text-center sm:grow lg:grow-0">
