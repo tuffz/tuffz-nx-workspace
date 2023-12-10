@@ -9,7 +9,8 @@
     }
   },
   "workspaceLayout": {
-    "projectNameAndRootFormat": "as-provided"
+    "appsDir": "apps",
+    "libsDir": "libs"
   },
   "targetDefaults": {
     "build": {
