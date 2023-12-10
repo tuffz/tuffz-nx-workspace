@@ -1,29 +1,22 @@
 import { UiSocialMediaIcons } from '@tuffz/shared/ui/social-media-icons';
 
-export interface SocialMediaLinksProps {}
+export interface SocialMediaLink {
+  url: string;
+}
 
-export function SocialMediaLinks(props: SocialMediaLinksProps) {
+export interface SocialMediaLinksProps {
+  socialMediaLinks: SocialMediaLink[];
+}
+
+export function SocialMediaLinks({ socialMediaLinks }: SocialMediaLinksProps) {
   return (
-    <div className="p-2">
+    <div className="social-media-links p-2">
       <p className="flex flex-wrap justify-center">
-        <span className="px-1 mx-1 text-sm">
-          <UiSocialMediaIcons size="1.5rem" url="https://github.com/tuffz" />
-        </span>
-        <span className="px-1 mx-1 text-sm">
-          <UiSocialMediaIcons size="1.5rem" url="https://gitlab.com/tuffz" />
-        </span>
-        <span className="px-1 mx-1 text-sm">
-          <UiSocialMediaIcons
-            size="1.5rem"
-            url="https://www.linkedin.com/in/eric-buettner/"
-          />
-        </span>
-        <span className="px-1 mx-1 text-sm">
-          <UiSocialMediaIcons
-            size="1.5rem"
-            url="https://twitter.com/tuffzCOM"
-          />
-        </span>
+        {socialMediaLinks.map((link, index) => (
+          <span key={index} className="px-1 mx-1 text-sm">
+            <UiSocialMediaIcons size="1.5rem" url={link.url} />
+          </span>
+        ))}
       </p>
     </div>
   );
