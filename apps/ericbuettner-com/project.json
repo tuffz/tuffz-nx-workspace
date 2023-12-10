@@ -22,7 +22,6 @@
         ],
         "styles": ["apps/ericbuettner-com/src/styles.scss"],
         "scripts": [],
-        "isolatedConfig": true,
         "postcssConfig": "apps/ericbuettner-com/postcss.config.js",
         "webpackConfig": "apps/ericbuettner-com/webpack.config.js"
       },
