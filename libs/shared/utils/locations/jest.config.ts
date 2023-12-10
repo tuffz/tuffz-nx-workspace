@@ -1,11 +1,12 @@
-/* eslint-disable */
 export default {
-  displayName: 'utils-format-location',
+  displayName: 'utils-locations',
   preset: '../../../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
+    // Exclude .js files from transformation
+    '^.+\\.js$': 'babel-jest',
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../../../coverage/libs/shared/utils/format-location',
+  coverageDirectory: '../../../../coverage/libs/shared/utils/locations',
 };
