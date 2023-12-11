@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.2](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.1...utils-locations-2.0.2) (2023-12-11)
+
 ## [2.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.0...utils-locations-2.0.1) (2023-12-11)
 
 ## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-1.0.6...utils-locations-2.0.0) (2023-12-10)
