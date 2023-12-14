@@ -16,8 +16,14 @@
         "main": "apps/coding-booth-com/src/main.tsx",
         "tsConfig": "apps/coding-booth-com/tsconfig.app.json",
         "assets": [
+          "apps/coding-booth-com/src/assets",
+          "apps/coding-booth-com/src/android-chrome-192x192.png",
+          "apps/coding-booth-com/src/android-chrome-512x512.png",
+          "apps/coding-booth-com/src/apple-touch-icon.png",
           "apps/coding-booth-com/src/favicon.ico",
-          "apps/coding-booth-com/src/assets"
+          "apps/coding-booth-com/src/favicon-16x16.png",
+          "apps/coding-booth-com/src/favicon-32x32.png",
+          "apps/coding-booth-com/src/site.webmanifest"
         ],
         "styles": ["apps/coding-booth-com/src/styles.scss"],
         "scripts": [],
