@@ -79,6 +79,15 @@
       "options": {
         "jestConfig": "apps/coding-booth-com/jest.config.ts"
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "baseBranch": "main",
+        "preset": "conventionalcommits",
+        "commitMessageFormat": "chore({projectName}): 🚀 release version",
+        "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
+      }
     }
   },
   "tags": []
