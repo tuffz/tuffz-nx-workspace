@@ -21,7 +21,8 @@
         ],
         "styles": ["apps/coding-booth-com/src/styles.scss"],
         "scripts": [],
-        "webpackConfig": "apps/coding-booth-com/webpack.config.js"
+        "webpackConfig": "apps/coding-booth-com/webpack.config.js",
+        "postcssConfig": "apps/coding-booth-com/postcss.config.js"
       },
       "configurations": {
         "development": {
