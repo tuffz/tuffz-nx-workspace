@@ -1,0 +1,28 @@
+# Changelog
+
+This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
+
+## 1.0.0 (2023-12-15)
+
+### Dependency Updates
+
+* `ui-image-embed` updated to version `1.0.30`
+* `ui-footer` updated to version `3.0.0`
+
+### ⚠ BREAKING CHANGES
+
+* **coding-booth-com:** Bump up major version
+* **ui-footer:** `UiFooterProps` interface now requires a `website` property.
+
+### Features
+
+* **coding-booth-com:** introduce Favicon ([3c6a1b4](https://github.com/tuffz/tuffz-nx-workspace/commit/3c6a1b43af585390b32a748ad64b3251552445dd))
+* **coding-booth-com:** introduce new application for `coding-booth.com` ([da58a47](https://github.com/tuffz/tuffz-nx-workspace/commit/da58a4738efd84638e8fc0304f43fc2c19980c91))
+* **coding-booth-com:** introduce Plausible.io analytics ([dab408e](https://github.com/tuffz/tuffz-nx-workspace/commit/dab408e19ef6bbc1930147260bba6cb6c7f427fb))
+* **coding-booth-com:** redesign main application layout and content ([ef03a67](https://github.com/tuffz/tuffz-nx-workspace/commit/ef03a67e512f81aa80b280c7e2e1e2d5f1855ed2))
+* **ui-footer:** introduce dynamic utm_source query in the footer link ([68ce45c](https://github.com/tuffz/tuffz-nx-workspace/commit/68ce45c447a3ffb446aa7e36e3bb53d8dfa22265))
+
+
+### Bug Fixes
+
+* **coding-booth-com:** introduce missing project tags to resolve linter warnings ([926d92a](https://github.com/tuffz/tuffz-nx-workspace/commit/926d92a5dc1ed698108257bece4a06246d4b4358))
