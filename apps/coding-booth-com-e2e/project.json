@@ -3,6 +3,8 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/coding-booth-com-e2e/src",
+  "tags": ["type:app", "scope:coding-booth-com"],
+  "implicitDependencies": ["coding-booth-com"],
   "targets": {
     "e2e": {
       "executor": "@nx/cypress:cypress",
@@ -24,7 +26,5 @@
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"]
     }
-  },
-  "implicitDependencies": ["coding-booth-com"],
-  "tags": []
+  }
 }
