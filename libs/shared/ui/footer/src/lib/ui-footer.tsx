@@ -3,6 +3,7 @@ import { UiAnchor } from '@tuffz/shared/ui/anchor';
 export enum Website {
   CODINGBOOTHCOM = 'coding-booth.com',
   ERICBUETTNERCOM = 'ericbuettner.com',
+  TUFFZCOM = 'tuffz.com',
 }
 
 export interface UiFooterProps {
