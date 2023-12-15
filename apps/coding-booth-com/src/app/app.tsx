@@ -1,55 +1,25 @@
 import { Component } from 'react';
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
-
-import { Route, Routes, Link } from 'react-router-dom';
+import { UiImageEmbed } from '@tuffz/shared/ui/image-embed';
 import { UiFooter, Website } from '@tuffz/shared/ui/footer';
 
 export class App extends Component {
   render() {
     return (
-      <div>
-        <NxWelcome title="coding-booth-com" />
-
-        {/* START: routes */}
-        {/* These routes and navigation have been generated for you */}
-        {/* Feel free to move and update them to fit your needs */}
-        <br />
-        <hr />
-        <br />
-        <div role="navigation">
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/page-2">Page 2</Link>
-            </li>
-          </ul>
-        </div>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <div>
-                This is the generated root route.{' '}
-                <Link to="/page-2">Click here for page 2.</Link>
-              </div>
-            }
-          />
-          <Route
-            path="/page-2"
-            element={
-              <div>
-                <Link to="/">Click here to go back to root page.</Link>
-              </div>
-            }
-          />
-        </Routes>
-        {/* END: routes */}
+      <div id="app" className="min-h-screen bg-white">
+        <main className="container mx-auto p-2">
+          <div className="flex flex-col min-h-screen justify-center items-center">
+            <h1>
+              <UiImageEmbed
+                src="assets/welcome.png"
+                alt="Welcome at Coding Booth"
+              />
+            </h1>
+            <p className="text-xl">
+              Exciting updates are on the way! Stay tuned as we build something
+              amazing for you.
+            </p>
+          </div>
+        </main>
         <UiFooter website={Website.CODINGBOOTHCOM} />
       </div>
     );
