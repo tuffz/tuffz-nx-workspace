@@ -1,9 +1,20 @@
 import { UiAnchor } from '@tuffz/shared/ui/anchor';
 
-/* eslint-disable-next-line */
-export interface UiFooterProps {}
+export enum Website {
+  CODINGBOOTHCOM = 'coding-booth.com',
+  ERICBUETTNERCOM = 'ericbuettner.com',
+}
+
+export interface UiFooterProps {
+  website: Website;
+}
 
 export function UiFooter(props: UiFooterProps) {
+  const footerUrl =
+    'https://www.ericbuettner.com/?utm_source=' +
+    props.website +
+    '&utm_medium=link&utm_campaign=crafted-with-heart';
+
   return (
     <div className="sticky top-[100vh] py-5 text-sm text-center">
       <p>
@@ -13,7 +24,7 @@ export function UiFooter(props: UiFooterProps) {
         </span>{' '}
         by{' '}
         <UiAnchor
-          href="https://www.ericbuettner.com/?utm_source=ericbuettner-com&utm_medium=link&utm_campaign=crafted-with-heart"
+          href={footerUrl}
           content="Eric Büttner"
           title="Eric Büttner"
           target="_blank"
