@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-1.0.31...tuffz-com-1.1.0) (2023-12-15)
+
+### Dependency Updates
+
+* `ui-footer` updated to version `3.0.0`
+
+### Features
+
+* **tuffz-com:** integrate 'Website' enum with 'UiFooter' component ([b2bc81b](https://github.com/tuffz/tuffz-nx-workspace/commit/b2bc81b3879d1d6b2d41566a79ca87de6f86ce3f))
+
 ## [1.0.31](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-1.0.30...tuffz-com-1.0.31) (2023-12-14)
 
 ## [1.0.30](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-1.0.29...tuffz-com-1.0.30) (2023-12-13)
