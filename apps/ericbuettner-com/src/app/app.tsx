@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
 
-import { UiFooter } from '@tuffz/shared/ui/footer';
+import { UiFooter, Website } from '@tuffz/shared/ui/footer';
 import { ProfileSnapshot } from '@tuffz/ericbuettner-com/profile-snapshot';
 
 export function App() {
@@ -18,7 +18,7 @@ export function App() {
           location_country="Germany"
         />
       </main>
-      <UiFooter />
+      <UiFooter website={Website.ERICBUETTNERCOM} />
     </div>
   );
 }

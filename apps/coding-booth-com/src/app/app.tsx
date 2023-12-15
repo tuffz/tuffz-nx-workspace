@@ -6,6 +6,7 @@ import styles from './app.module.scss';
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
+import { UiFooter, Website } from '@tuffz/shared/ui/footer';
 
 export class App extends Component {
   render() {
@@ -49,6 +50,7 @@ export class App extends Component {
           />
         </Routes>
         {/* END: routes */}
+        <UiFooter website={Website.CODINGBOOTHCOM} />
       </div>
     );
   }
