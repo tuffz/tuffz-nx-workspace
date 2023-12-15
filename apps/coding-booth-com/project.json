@@ -3,6 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/coding-booth-com/src",
   "projectType": "application",
+  "tags": ["type:app", "scope:coding-booth-com"],
   "targets": {
     "build": {
       "executor": "@nx/webpack:webpack",
@@ -96,6 +97,5 @@
         "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
       }
     }
-  },
-  "tags": []
+  }
 }
