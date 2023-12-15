@@ -2,6 +2,25 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.3.18...ericbuettner-com-2.0.0) (2023-12-15)
+
+### Dependency Updates
+
+* `ui-footer` updated to version `3.0.0`
+
+### ⚠ BREAKING CHANGES
+
+* **ui-footer:** `UiFooterProps` interface now requires a `website` property.
+
+### Features
+
+* **ui-footer:** introduce dynamic utm_source query in the footer link ([68ce45c](https://github.com/tuffz/tuffz-nx-workspace/commit/68ce45c447a3ffb446aa7e36e3bb53d8dfa22265))
+
+
+### Bug Fixes
+
+* **ericbuettner-com:** move Favicons to root folder ([62b7220](https://github.com/tuffz/tuffz-nx-workspace/commit/62b72204e864226b7c0c738c3ee42b0309b206f5))
+
 ## [1.3.18](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.3.17...ericbuettner-com-1.3.18) (2023-12-14)
 
 ## [1.3.17](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.3.16...ericbuettner-com-1.3.17) (2023-12-13)
