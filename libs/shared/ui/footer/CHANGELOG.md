@@ -2,6 +2,18 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-2.1.18...ui-footer-3.0.0) (2023-12-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ui-footer:** `UiFooterProps` interface now requires a `website` property.
+
+### Features
+
+* **ui-footer:** add `tuffz.com` to Website enum ([b58b865](https://github.com/tuffz/tuffz-nx-workspace/commit/b58b8651e757701f95bf8d3ad442c8048ee7d4bc))
+* **ui-footer:** introduce dynamic utm_source query in the footer link ([68ce45c](https://github.com/tuffz/tuffz-nx-workspace/commit/68ce45c447a3ffb446aa7e36e3bb53d8dfa22265))
+
 ## [2.1.18](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-2.1.17...ui-footer-2.1.18) (2023-12-14)
 
 ## [2.1.17](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-2.1.16...ui-footer-2.1.17) (2023-12-13)
