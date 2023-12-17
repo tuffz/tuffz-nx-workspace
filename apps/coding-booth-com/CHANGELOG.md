@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.0.6...coding-booth-com-1.1.0) (2023-12-17)
+
+### Dependency Updates
+
+* `coding-booth-com/under-construction` updated to version `0.1.0`
+
+### Features
+
+* **coding-booth-com/under-construction:** move the rendering logic to separate library ([#254](https://github.com/tuffz/tuffz-nx-workspace/issues/254)) ([5f0bbc5](https://github.com/tuffz/tuffz-nx-workspace/commit/5f0bbc5d077d6bb66b4846abc2843ffe2733af00))
+
 ## [1.0.6](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.0.5...coding-booth-com-1.0.6) (2023-12-17)
 
 
