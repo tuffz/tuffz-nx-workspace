@@ -1,10 +1,11 @@
 import { UiAnchor } from '@tuffz/shared/ui/anchor';
+
 // Import SVG components for each platform
-import UiSocialMediaIconGitHub from './icons/github';
-import UiSocialMediaIconGitLab from './icons/gitlab';
-import UiSocialMediaIconLinkedIn from './icons/linkedin';
-import UiSocialMediaIconTwitter from './icons/twitter';
-import UiSocialMediaIconX from './icons/x';
+import { UiSocialMediaIconGitHub } from './icons/github';
+import { UiSocialMediaIconGitLab } from './icons/gitlab';
+import { UiSocialMediaIconLinkedIn } from './icons/linkedin';
+import { UiSocialMediaIconTwitter } from './icons/twitter';
+import { UiSocialMediaIconX } from './icons/x';
 
 export interface UiSocialMediaIconsProps {
   size: string;

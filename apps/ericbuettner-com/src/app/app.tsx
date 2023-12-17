@@ -1,6 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
 import { UiFooter, Website } from '@tuffz/shared/ui/footer';
 import { ProfileSnapshot } from '@tuffz/ericbuettner-com/profile-snapshot';
 

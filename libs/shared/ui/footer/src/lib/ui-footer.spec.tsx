@@ -1,6 +1,6 @@
 import { cleanup, render } from '@testing-library/react';
 
-import UiFooter from './ui-footer';
+import { UiFooter } from './ui-footer';
 
 describe('UiFooter', () => {
   it('should render correctly', () => {

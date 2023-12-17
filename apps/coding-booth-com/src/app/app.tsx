@@ -1,6 +1,7 @@
-import { UiFooter, Website } from '@tuffz/shared/ui/footer';
 import { Component } from 'react';
+
 import { UnderConstruction } from '@tuffz/coding-booth/under-construction';
+import { UiFooter, Website } from '@tuffz/shared/ui/footer';
 
 export class App extends Component {
   render() {

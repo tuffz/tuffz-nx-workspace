@@ -1,6 +1,6 @@
-import SocialMediaLinks, { SocialMediaLink } from './social-media-links';
 import { ProfileImage } from './profile-image';
 import { ProfileInformation } from './profile-information';
+import { SocialMediaLink, SocialMediaLinks } from './social-media-links';
 
 export interface ProfileSnapshotProps {
   first_name: string;
