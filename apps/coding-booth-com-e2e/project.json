@@ -25,6 +25,15 @@
     "lint": {
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"]
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "baseBranch": "main",
+        "preset": "conventionalcommits",
+        "commitMessageFormat": "chore({projectName}): 🚀 release version [skip ci]",
+        "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
+      }
     }
   }
 }
