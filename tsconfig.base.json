@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@tuffz/coding-booth/under-construction": [
+        "libs/coding-booth-com/under-construction/src/index.ts"
+      ],
       "@tuffz/ericbuettner-com/profile-snapshot": [
         "libs/ericbuettner-com/profile-snapshot/src/index.ts"
       ],
