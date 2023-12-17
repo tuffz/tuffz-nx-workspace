@@ -1,5 +1,5 @@
-import { formatLocationToString } from './format-location';
 import { StructuredLocation } from './structure-location';
+import { formatLocationToString } from './format-location';
 
 describe('formatLocationToString', () => {
   it('should format location with all properties', () => {
