@@ -1,4 +1,5 @@
 import { render } from '@testing-library/react';
+
 import { ProfileInformation } from './profile-information'; // Update the import path as needed
 
 describe('ProfileInformation Component', () => {

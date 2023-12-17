@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 
-import UiSocialMediaIcons from './ui-social-media-icons';
+import { UiSocialMediaIcons } from './ui-social-media-icons';
 
 describe('UiSocialMediaIcons', () => {
   it('GitHub should render successfully', () => {

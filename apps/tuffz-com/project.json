@@ -87,7 +87,7 @@
       "options": {
         "baseBranch": "main",
         "commitMessageFormat": "chore({projectName}): 🚀 release version ${version}",
-        "preset": "conventional",
+        "preset": "conventionalcommits",
         "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
       }
     }

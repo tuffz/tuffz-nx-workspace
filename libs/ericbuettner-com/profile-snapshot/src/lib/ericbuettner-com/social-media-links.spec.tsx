@@ -1,5 +1,6 @@
 import { render } from '@testing-library/react';
-import SocialMediaLinks from './social-media-links';
+
+import { SocialMediaLinks } from './social-media-links';
 
 describe('SocialMediaLinks Component', () => {
   const socialLinks = [

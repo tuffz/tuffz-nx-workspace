@@ -1,4 +1,5 @@
 import { render } from '@testing-library/react';
+
 import { ProfileImage } from './profile-image';
 
 describe('ProfileImage Component', () => {

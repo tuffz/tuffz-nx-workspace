@@ -1,6 +1,6 @@
 import {
-  formatLocationToString,
   Location,
+  formatLocationToString,
   structureLocation,
 } from '@tuffz/utils-locations';
 

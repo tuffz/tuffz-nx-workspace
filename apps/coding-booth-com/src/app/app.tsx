@@ -1,4 +1,5 @@
 import { Component } from 'react';
+
 import { UnderConstruction } from '@tuffz/coding-booth/under-construction';
 import { UiFooter, Website } from '@tuffz/shared/ui/footer';
 

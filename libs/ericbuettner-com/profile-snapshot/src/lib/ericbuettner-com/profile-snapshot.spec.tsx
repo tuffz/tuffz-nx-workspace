@@ -1,5 +1,6 @@
 import { render } from '@testing-library/react';
-import ProfileSnapshot from './profile-snapshot';
+
+import { ProfileSnapshot } from './profile-snapshot';
 
 describe('ProfileSnapshot Component', () => {
   const mockProps = {

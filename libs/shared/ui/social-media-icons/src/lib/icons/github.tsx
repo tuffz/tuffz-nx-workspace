@@ -2,7 +2,7 @@ import './github.scss';
 
 import { UiSocialMediaIconProps } from '../ui-social-media-icons';
 
-export function UiSocialMediaIconGithub(props: UiSocialMediaIconProps) {
+export function UiSocialMediaIconGitHub(props: UiSocialMediaIconProps) {
   return (
     <svg
       className="inline social-media-icon-github"
@@ -19,4 +19,4 @@ export function UiSocialMediaIconGithub(props: UiSocialMediaIconProps) {
   );
 }
 
-export default UiSocialMediaIconGithub;
+export default UiSocialMediaIconGitHub;
