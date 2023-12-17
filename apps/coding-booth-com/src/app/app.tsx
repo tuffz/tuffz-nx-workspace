@@ -7,8 +7,8 @@ export class App extends Component {
     return (
       <div id="app" className="min-h-screen bg-white">
         <main className="container mx-auto p-2">
-          <div className="flex flex-col min-h-screen justify-center items-center">
-            <h1>
+          <div className="flex flex-col justify-center items-center">
+            <h1 className="max-w-3xl">
               <UiImageEmbed
                 src="assets/welcome.png"
                 alt="Welcome at Coding Booth"
