@@ -19,8 +19,9 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
+        "baseBranch": "main",
         "commitMessageFormat": "chore({projectName}): 🚀 release version ${version} [skip ci]",
-        "preset": "conventional",
+        "preset": "conventionalcommits",
         "skipCommitTypes": ["build", "chore", "ci", "docs", "style"]
       }
     }
