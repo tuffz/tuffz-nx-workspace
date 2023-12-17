@@ -1,7 +1,13 @@
 {
   "root": true,
   "ignorePatterns": ["**/*"],
-  "plugins": ["@nx", "@typescript-eslint", "prettier", "import"],
+  "plugins": [
+    "@nx",
+    "@stylistic/eslint-plugin",
+    "@typescript-eslint",
+    "prettier",
+    "import"
+  ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -70,6 +76,14 @@
             "includeExports": true
           }
         ],
+        "@stylistic/no-multiple-empty-lines": [
+          "error",
+          {
+            "max": 1,
+            "maxBOF": 0,
+            "maxEOF": 1
+          }
+        ],
         "sort-imports": [
           "error",
           {
@@ -77,7 +91,7 @@
             "ignoreDeclarationSort": true,
             "ignoreMemberSort": false,
             "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
-            "allowSeparatedGroups": false
+            "allowSeparatedGroups": true
           }
         ],
         "import/no-unresolved": "error",
