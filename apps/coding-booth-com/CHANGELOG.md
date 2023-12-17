@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.6](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.0.5...coding-booth-com-1.0.6) (2023-12-17)
+
+
+### Bug Fixes
+
+* **coding-booth-com:** refine layout and styling ([#252](https://github.com/tuffz/tuffz-nx-workspace/issues/252)) ([7152b5e](https://github.com/tuffz/tuffz-nx-workspace/commit/7152b5e6a14d0982e744b9098bc9bf3d20b3d91b))
+
 ## [1.0.5](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.0.4...coding-booth-com-1.0.5) (2023-12-17)
 
 ## [1.0.4](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.0.3...coding-booth-com-1.0.4) (2023-12-16)
