@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.26](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.0.25...ericbuettner-com/profile-snapshot-3.0.26) (2024-01-03)
+
+
+### Bug Fixes
+
+* **ericbuettner-com/profile-snapshot:** adjust position of social media icons for small and medium screen sizes ([982bd45](https://github.com/tuffz/tuffz-nx-workspace/commit/982bd45fcf51e399c9c9983e226957a1ee2f5594)), closes [#278](https://github.com/tuffz/tuffz-nx-workspace/issues/278)
+
 ## [3.0.25](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.0.24...ericbuettner-com/profile-snapshot-3.0.25) (2024-01-02)
 
 ## [3.0.24](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.0.23...ericbuettner-com/profile-snapshot-3.0.24) (2024-01-02)
