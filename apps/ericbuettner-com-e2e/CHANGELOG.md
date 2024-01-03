@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.58](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.57...ericbuettner-com-e2e-1.0.58) (2024-01-03)
+
 ## [1.0.57](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.56...ericbuettner-com-e2e-1.0.57) (2024-01-02)
 
 ## [1.0.56](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.55...ericbuettner-com-e2e-1.0.56) (2024-01-02)
