@@ -26,16 +26,18 @@ export function ProfileSnapshot(props: ProfileSnapshotProps) {
         src="/assets/profile/eric-buettner.jpeg"
         alt={`Portrait of ${props.first_name} ${props.last_name}`}
       />
-      <ProfileInformation
-        first_name={props.first_name}
-        last_name={props.last_name}
-        latest_job_company={props.latest_job_company}
-        latest_job_position={props.latest_job_position}
-        location_city={props.location_city}
-        location_state={props.location_state}
-        location_country={props.location_country}
-      />
-      <SocialMediaLinks socialMediaLinks={socialLinks} />
+      <div className="text-center sm:grow">
+        <ProfileInformation
+          first_name={props.first_name}
+          last_name={props.last_name}
+          latest_job_company={props.latest_job_company}
+          latest_job_position={props.latest_job_position}
+          location_city={props.location_city}
+          location_state={props.location_state}
+          location_country={props.location_country}
+        />
+        <SocialMediaLinks socialMediaLinks={socialLinks} />
+      </div>
     </section>
   );
 }

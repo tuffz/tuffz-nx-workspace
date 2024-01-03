@@ -25,8 +25,8 @@ export function ProfileInformation(props: ProfileInformationProps) {
   const formattedLocation = formatLocationToString(structuredLocation);
 
   return (
-    <div className="profile-information text-center sm:grow lg:grow-0">
-      <h1 className="text-2xl py-2">
+    <>
+      <h1 className="profile-information text-2xl py-2">
         {props.first_name} {props.last_name}
       </h1>
       <p className="profile-information-job text-gray-700 py-2">
@@ -34,6 +34,6 @@ export function ProfileInformation(props: ProfileInformationProps) {
         {props.latest_job_company ? ' at ' + props.latest_job_company : ''}
       </p>
       <p className="text-sm text-gray-500 py-2">{formattedLocation}</p>
-    </div>
+    </>
   );
 }
