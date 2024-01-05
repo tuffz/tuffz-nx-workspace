@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.50](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.49...ui-anchor-3.0.50) (2024-01-05)
+
 ## [3.0.49](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.48...ui-anchor-3.0.49) (2024-01-03)
 
 ## [3.0.48](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.47...ui-anchor-3.0.48) (2024-01-02)
