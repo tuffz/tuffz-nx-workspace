@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.20](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.19...ui-footer-3.0.20) (2024-01-05)
+
 ## [3.0.19](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.18...ui-footer-3.0.19) (2024-01-03)
 
 ## [3.0.18](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.17...ui-footer-3.0.18) (2024-01-02)
