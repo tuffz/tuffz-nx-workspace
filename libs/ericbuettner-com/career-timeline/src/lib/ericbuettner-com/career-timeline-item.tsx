@@ -1,12 +1,15 @@
 export interface CareerTimelineItemProps {
   position: string;
   company: string;
-  date_start: string;
-  date_end: string;
+  date_start: Date;
+  date_end: Date;
   location: string;
 }
 
 export function CareerTimelineItem(props: CareerTimelineItemProps) {
+  const formattedStartDate = props.date_start.toLocaleDateString();
+  const formattedEndDate = props.date_end.toLocaleDateString();
+
   return (
     <div className="career-timeline-item my-3">
       <div className="career-company-position-item flex flex-col flex-grow">
@@ -16,7 +19,7 @@ export function CareerTimelineItem(props: CareerTimelineItemProps) {
           <h4 className="font-medium">{props.company}</h4>
         </div>
         <span className="block text-sm text-gray-500 py-0.5">
-          {props.date_start} - {props.date_end}
+          {formattedStartDate} - {formattedEndDate}
         </span>
         <span className="block text-sm text-gray-400 py-0.5">
           {props.location}
