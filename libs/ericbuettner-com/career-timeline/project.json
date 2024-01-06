@@ -3,7 +3,7 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/ericbuettner-com/career-timeline/src",
   "projectType": "library",
-  "tags": ["type:feature\"", "\"scope:ericbuettner-com"],
+  "tags": ["type:feature", "scope:ericbuettner-com"],
   "targets": {
     "lint": {
       "executor": "@nx/eslint:lint",
