@@ -18,8 +18,8 @@
   "devDependencies": {
     "@babel/core": "7.23.7",
     "@babel/preset-react": "7.23.3",
-    "@commitlint/cli": "18.4.3",
-    "@commitlint/config-conventional": "18.4.3",
+    "@commitlint/cli": "18.4.4",
+    "@commitlint/config-conventional": "18.4.4",
     "@jscutlery/semver": "4.2.0",
     "@nx/cypress": "17.2.8",
     "@nx/devkit": "17.2.8",
