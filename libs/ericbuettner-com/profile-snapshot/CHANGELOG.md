@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.0.31...ericbuettner-com/profile-snapshot-3.1.0) (2024-01-06)
+
+
+### Features
+
+* **eric-buettner/profile-snapshot:** adjust `font-size` and `font-weight` for name display ([23886dd](https://github.com/tuffz/tuffz-nx-workspace/commit/23886dd3c2724a074e797ce335150d0ad97839e2))
+
 ## [3.0.31](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.0.30...ericbuettner-com/profile-snapshot-3.0.31) (2024-01-06)
 
 ## [3.0.30](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.0.29...ericbuettner-com/profile-snapshot-3.0.30) (2024-01-06)
