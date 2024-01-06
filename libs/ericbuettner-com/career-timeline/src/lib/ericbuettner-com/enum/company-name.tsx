@@ -1,4 +1,4 @@
-export enum Company {
+export enum CompanyName {
   ALLMYHOMES = 'allmyhomes GmbH',
   EFACTDESIGN = 'efactdesign GmbH',
   FUHRMANN_AND_FRIENDS = 'FUHRMANN+FRIENDS',
