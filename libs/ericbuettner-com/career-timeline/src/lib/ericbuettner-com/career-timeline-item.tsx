@@ -1,12 +1,29 @@
+import {
+  Location,
+  formatLocationToString,
+  structureLocation,
+} from '@tuffz/utils-locations';
+
+import { CompanyLocation } from './enum/company-location';
+
 export interface CareerTimelineItemProps {
   position: string;
   company: string;
   date_start: Date;
   date_end: Date;
-  location: string;
+  location: keyof typeof CompanyLocation; // Use keyof to specify location as a valid key
 }
 
 export function CareerTimelineItem(props: CareerTimelineItemProps) {
+  const location: Location = {
+    city: CompanyLocation[props.location].city,
+    state: CompanyLocation[props.location].state,
+    country: CompanyLocation[props.location].country,
+  };
+
+  const structuredLocation = structureLocation(location);
+  const formattedLocation = formatLocationToString(structuredLocation);
+  
   const formattedStartDate = props.date_start.toLocaleDateString();
   const formattedEndDate = props.date_end.toLocaleDateString();
 
@@ -22,7 +39,7 @@ export function CareerTimelineItem(props: CareerTimelineItemProps) {
           {formattedStartDate} - {formattedEndDate}
         </span>
         <span className="block text-sm text-gray-400 py-0.5">
-          {props.location}
+          {formattedLocation}
         </span>
       </div>
     </div>
