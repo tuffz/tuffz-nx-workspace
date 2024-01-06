@@ -26,7 +26,7 @@ export function ProfileInformation(props: ProfileInformationProps) {
 
   return (
     <>
-      <h1 className="profile-information text-2xl py-2">
+      <h1 className="profile-information text-3xl font-bold py-2">
         {props.first_name} {props.last_name}
       </h1>
       <p className="profile-information-job text-gray-700 py-2">
