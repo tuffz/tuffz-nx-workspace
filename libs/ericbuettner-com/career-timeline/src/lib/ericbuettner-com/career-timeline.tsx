@@ -6,8 +6,8 @@ import { Month } from './enum/month';
 export interface CareerTimelineProps {
   position: string;
   company: Company;
-  date_start: string;
-  date_end: string;
+  date_start: Date;
+  date_end: Date;
   location: Location;
 }
 
@@ -16,66 +16,66 @@ export function CareerTimeline() {
     {
       position: 'Head of Software Engineering',
       company: Company.ALLMYHOMES,
-      date_start: Month.MAY + ', 2021',
-      date_end: Month.FEBRUAR + ', 2024',
+      date_start: new Date(`${Month.MAY}  2021`),
+      date_end: new Date(`${Month.FEBRUAR}  2024`),
       location: Location.BERLIN_GERMANY,
     },
     {
       position: 'Lead Software Engineer',
       company: Company.ALLMYHOMES,
-      date_start: Month.MARCH + ', 2018',
-      date_end: Month.APRIL + ', 2021',
+      date_start: new Date(`${Month.MARCH}  2018`),
+      date_end: new Date(`${Month.APRIL}  2021`),
       location: Location.BERLIN_GERMANY,
     },
 
     {
       position: 'Head of Software Engineering',
       company: Company.SMARTEXPOSE,
-      date_start: Month.AUGUST + ', 2016',
-      date_end: Month.FEBRUAR + ', 2018',
+      date_start: new Date(`${Month.AUGUST}  2016`),
+      date_end: new Date(`${Month.FEBRUAR}  2018`),
       location: Location.BERLIN_GERMANY,
     },
     {
       position: 'Senior Full Stack Engineer',
       company: Company.SMARTEXPOSE,
-      date_start: Month.JUNE + ', 2015',
-      date_end: Month.JULY + ', 2016',
+      date_start: new Date(`${Month.JUNE}  2015`),
+      date_end: new Date(`${Month.JULY}  2016`),
       location: Location.BERLIN_GERMANY,
     },
     {
       position: 'Full Stack Developer',
       company: Company.SMARTEXPOSE,
-      date_start: Month.SEPTEMBER + ', 2011',
-      date_end: Month.JUNE + ', 2015',
+      date_start: new Date(`${Month.SEPTEMBER}  2011`),
+      date_end: new Date(`${Month.JUNE}  2015`),
       location: Location.BERLIN_GERMANY,
     },
 
     {
       position: 'Software Developer Internship',
       company: Company.GAWLITTADIGITALE,
-      date_start: Month.JUNE + ', 2011',
-      date_end: Month.AUGUST + ', 2011',
+      date_start: new Date(`${Month.JUNE}  2011`),
+      date_end: new Date(`${Month.AUGUST}  2011`),
       location: Location.BERLIN_GERMANY,
     },
     {
       position: 'Software Developer',
       company: Company.EFACTDESIGN,
-      date_start: Month.DECEMBER + ', 2009',
-      date_end: Month.SEPTEMBER + ', 2010',
+      date_start: new Date(`${Month.DECEMBER}  2009`),
+      date_end: new Date(`${Month.SEPTEMBER}  2010`),
       location: Location.BERLIN_GERMANY,
     },
     {
       position: 'Software Developer',
       company: Company.FUHRMANN_AND_FRIENDS,
-      date_start: Month.DECEMBER + ', 2008',
-      date_end: Month.NOVEMBER + ', 2009',
+      date_start: new Date(`${Month.DECEMBER}  2008`),
+      date_end: new Date(`${Month.NOVEMBER}  2009`),
       location: Location.BERLIN_GERMANY,
     },
     {
       position: 'Software Developer Internship',
       company: Company.FUHRMANN_AND_FRIENDS,
-      date_start: Month.FEBRUAR + ', 2008',
-      date_end: Month.APRIL + ', 2008',
+      date_start: new Date(`${Month.FEBRUAR}  2008`),
+      date_end: new Date(`${Month.APRIL}  2008`),
       location: Location.BERLIN_GERMANY,
     },
   ];
