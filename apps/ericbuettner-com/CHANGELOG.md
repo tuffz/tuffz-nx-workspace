@@ -2,6 +2,17 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.0.24...ericbuettner-com-2.1.0) (2024-01-06)
+
+### Dependency Updates
+
+* `ericbuettner-com/career-timeline` updated to version `1.0.0`
+* `ericbuettner-com/profile-snapshot` updated to version `3.1.0`
+
+### Features
+
+* **ericbuettner-com:** add `career-timeline` component ([8011712](https://github.com/tuffz/tuffz-nx-workspace/commit/801171288683528e15abe557cd22aa605e34acd7))
+
 ## [2.0.24](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.0.23...ericbuettner-com-2.0.24) (2024-01-06)
 
 ## [2.0.23](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.0.22...ericbuettner-com-2.0.23) (2024-01-06)
