@@ -23,7 +23,7 @@ export function CareerTimelineItem(props: CareerTimelineItemProps) {
 
   const structuredLocation = structureLocation(location);
   const formattedLocation = formatLocationToString(structuredLocation);
-  
+
   const formattedStartDate = props.date_start.toLocaleDateString();
   const formattedEndDate = props.date_end.toLocaleDateString();
 

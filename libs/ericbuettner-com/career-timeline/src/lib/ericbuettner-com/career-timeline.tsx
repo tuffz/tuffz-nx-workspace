@@ -60,7 +60,7 @@ export function CareerTimeline() {
     {
       position: 'Software Developer',
       company: CompanyName.EFACTDESIGN,
-       date_start: new Date(`${Month.DECEMBER} 2009`),
+      date_start: new Date(`${Month.DECEMBER} 2009`),
       date_end: new Date(`${Month.SEPTEMBER} 2010`),
       location: 'BERLIN_GERMANY',
     },
