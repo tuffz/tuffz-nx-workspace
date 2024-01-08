@@ -15,6 +15,11 @@ export interface CareerTimelineItemProps {
 }
 
 export function CareerTimelineItem(props: CareerTimelineItemProps) {
+  const options: Intl.DateTimeFormatOptions = {
+    month: 'short',
+    year: 'numeric',
+  };
+
   const location: Location = {
     city: CompanyLocation[props.location].city,
     state: CompanyLocation[props.location].state,
@@ -24,8 +29,11 @@ export function CareerTimelineItem(props: CareerTimelineItemProps) {
   const structuredLocation = structureLocation(location);
   const formattedLocation = formatLocationToString(structuredLocation);
 
-  const formattedStartDate = props.date_start.toLocaleDateString();
-  const formattedEndDate = props.date_end.toLocaleDateString();
+  const formattedStartDate = props.date_start.toLocaleDateString(
+    'en-US',
+    options,
+  );
+  const formattedEndDate = props.date_end.toLocaleDateString('en-US', options);
 
   return (
     <div className="career-timeline-item my-3">
