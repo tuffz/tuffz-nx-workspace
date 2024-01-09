@@ -2,9 +2,20 @@
   "name": "tuffz-nx-workspace",
   "version": "0.0.0",
   "license": "MIT",
+  "engines": {
+    "node": "20",
+    "npm": "9 || 10"
+  },
   "scripts": {
+    "prepare": "husky install",
     "start": "nx serve",
     "build": "nx build",
+    "format": "nx format:write",
+    "format:check": "nx format:check",
+    "format:write": "nx format:write",
+    "affected:build": "npx nx affected -t build",
+    "affected:lint": "npx nx affected -t lint",
+    "affected:test": "npx nx affected -t test",
     "test": "nx test"
   },
   "private": true,
@@ -39,7 +50,7 @@
     "@testing-library/jest-dom": "6.2.0",
     "@testing-library/react": "14.1.2",
     "@types/jest": "29.5.11",
-    "@types/node": "20.10.6",
+    "@types/node": "20.10.7",
     "@types/react": "18.2.47",
     "@types/react-dom": "18.2.18",
     "@typescript-eslint/eslint-plugin": "6.18.0",
