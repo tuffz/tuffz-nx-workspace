@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.55](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.54...ui-anchor-3.0.55) (2024-01-10)
+
+
+### 🧹 Code Refactoring
+
+* update conventional-changelog generator configuration ([#305](https://github.com/tuffz/tuffz-nx-workspace/issues/305)) ([e365f29](https://github.com/tuffz/tuffz-nx-workspace/commit/e365f2904fec4eca894ce0d61d47aaf5cb1ce5da))
+
 ## [3.0.54](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.53...ui-anchor-3.0.54) (2024-01-08)
 
 ## [3.0.53](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.52...ui-anchor-3.0.53) (2024-01-06)
