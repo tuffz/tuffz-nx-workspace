@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.6](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.5...ericbuettner-com/career-timeline-1.0.6) (2024-01-10)
+
+
+### ✅ Tests
+
+* **career-timeline-item:** add test for CareerTimelineItem component ([#306](https://github.com/tuffz/tuffz-nx-workspace/issues/306)) ([87acd5c](https://github.com/tuffz/tuffz-nx-workspace/commit/87acd5cf263d3a353a26b47f3dc7caac97dd2aa1)), closes [#298](https://github.com/tuffz/tuffz-nx-workspace/issues/298)
+
 ## [1.0.5](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.4...ericbuettner-com/career-timeline-1.0.5) (2024-01-10)
 
 ## [1.0.4](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.3...ericbuettner-com/career-timeline-1.0.4) (2024-01-10)
