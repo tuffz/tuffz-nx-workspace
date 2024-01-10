@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.20](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com/under-construction-0.1.19...coding-booth-com/under-construction-0.1.20) (2024-01-10)
+
+### Dependency Updates
+
+* `ui-image-embed` updated to version `1.0.55`
+
+### 🧹 Code Refactoring
+
+* update conventional-changelog generator configuration ([#305](https://github.com/tuffz/tuffz-nx-workspace/issues/305)) ([e365f29](https://github.com/tuffz/tuffz-nx-workspace/commit/e365f2904fec4eca894ce0d61d47aaf5cb1ce5da))
+
 ## [0.1.19](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com/under-construction-0.1.18...coding-booth-com/under-construction-0.1.19) (2024-01-08)
 
 ## [0.1.18](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com/under-construction-0.1.17...coding-booth-com/under-construction-0.1.18) (2024-01-06)
