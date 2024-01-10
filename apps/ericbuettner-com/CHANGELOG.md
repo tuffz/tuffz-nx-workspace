@@ -2,6 +2,18 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.1.4](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.3...ericbuettner-com-2.1.4) (2024-01-10)
+
+### Dependency Updates
+
+* `ui-footer` updated to version `3.0.25`
+* `ericbuettner-com/career-timeline` updated to version `1.0.4`
+* `ericbuettner-com/profile-snapshot` updated to version `3.1.2`
+
+### 🧹 Code Refactoring
+
+* update conventional-changelog generator configuration ([#305](https://github.com/tuffz/tuffz-nx-workspace/issues/305)) ([e365f29](https://github.com/tuffz/tuffz-nx-workspace/commit/e365f2904fec4eca894ce0d61d47aaf5cb1ce5da))
+
 ## [2.1.3](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.2...ericbuettner-com-2.1.3) (2024-01-09)
 
 ### Dependency Updates
