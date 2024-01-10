@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.25](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-1.1.24...tuffz-com-1.1.25) (2024-01-10)
+
+### Dependency Updates
+
+* `ui-footer` updated to version `3.0.25`
+
+### 🧹 Code Refactoring
+
+* update conventional-changelog generator configuration ([#305](https://github.com/tuffz/tuffz-nx-workspace/issues/305)) ([e365f29](https://github.com/tuffz/tuffz-nx-workspace/commit/e365f2904fec4eca894ce0d61d47aaf5cb1ce5da))
+
 ## [1.1.24](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-1.1.23...tuffz-com-1.1.24) (2024-01-08)
 
 ## [1.1.23](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-1.1.22...tuffz-com-1.1.23) (2024-01-06)
