@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.22](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.1.21...coding-booth-com-1.1.22) (2024-01-11)
+
+
+### ♻️ Code Refactoring
+
+* refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
+
 ## [1.1.21](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.1.20...coding-booth-com-1.1.21) (2024-01-10)
 
 ## [1.1.20](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.1.19...coding-booth-com-1.1.20) (2024-01-10)
