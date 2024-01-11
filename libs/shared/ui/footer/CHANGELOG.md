@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.27](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.26...ui-footer-3.0.27) (2024-01-11)
+
+
+### ♻️ Code Refactoring
+
+* refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
+
 ## [3.0.26](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.25...ui-footer-3.0.26) (2024-01-10)
 
 ## [3.0.25](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.24...ui-footer-3.0.25) (2024-01-10)
