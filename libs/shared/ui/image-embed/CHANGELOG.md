@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.57](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-image-embed-1.0.56...ui-image-embed-1.0.57) (2024-01-11)
+
+
+### ♻️ Code Refactoring
+
+* refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
+
 ## [1.0.56](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-image-embed-1.0.55...ui-image-embed-1.0.56) (2024-01-10)
 
 ## [1.0.55](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-image-embed-1.0.54...ui-image-embed-1.0.55) (2024-01-10)
