@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.34](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.33...utils-locations-2.0.34) (2024-01-11)
+
+
+### ♻️ Code Refactoring
+
+* refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
+
 ## [2.0.33](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.32...utils-locations-2.0.33) (2024-01-10)
 
 ## [2.0.32](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.31...utils-locations-2.0.32) (2024-01-10)
