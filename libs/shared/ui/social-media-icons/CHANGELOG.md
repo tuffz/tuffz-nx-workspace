@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.1.50](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-3.1.49...ui-social-media-icons-3.1.50) (2024-01-11)
+
+
+### ♻️ Code Refactoring
+
+* refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
+
 ## [3.1.49](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-3.1.48...ui-social-media-icons-3.1.49) (2024-01-10)
 
 ## [3.1.48](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-3.1.47...ui-social-media-icons-3.1.48) (2024-01-10)
