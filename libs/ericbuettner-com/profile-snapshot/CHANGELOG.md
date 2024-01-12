@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.1.7](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.6...ericbuettner-com/profile-snapshot-3.1.7) (2024-01-12)
+
+### Dependency Updates
+
+* `ui-social-media-icons` updated to version `4.0.0`
+
+### ♻️ Code Refactoring
+
+* **ericbuettner-com:** use a size value of 24 for the `UiSocialMediaIcons` comp's `size` props ([2b07d9a](https://github.com/tuffz/tuffz-nx-workspace/commit/2b07d9a78045d2df0ea1f277a7620499ab8f7515))
+
 ## [3.1.6](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.5...ericbuettner-com/profile-snapshot-3.1.6) (2024-01-11)
 
 ## [3.1.5](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.4...ericbuettner-com/profile-snapshot-3.1.5) (2024-01-11)
