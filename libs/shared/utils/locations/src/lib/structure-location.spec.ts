@@ -27,6 +27,7 @@ describe('structureLocation', () => {
     };
     const expectedStructuredLocation: StructuredLocation = {
       city: 'Paris',
+      state: null,
       country: 'France',
     };
     const result = structureLocation(location);
@@ -41,7 +42,7 @@ describe('structureLocation', () => {
     };
     const expectedStructuredLocation: StructuredLocation = {
       city: 'London',
-      state: undefined,
+      state: null,
       country: 'United Kingdom',
     };
     const result = structureLocation(location);
@@ -56,7 +57,22 @@ describe('structureLocation', () => {
     };
     const expectedStructuredLocation: StructuredLocation = {
       city: 'Berlin',
-      state: undefined,
+      state: null,
+      country: 'Germany',
+    };
+    const result = structureLocation(location);
+    expect(result).toEqual(expectedStructuredLocation);
+  });
+
+  it('should handle empty state by setting it to undefined in structured location', () => {
+    const location: Location = {
+      city: 'Berlin',
+      state: 'Berlin',
+      country: 'Germany',
+    };
+    const expectedStructuredLocation: StructuredLocation = {
+      city: 'Berlin',
+      state: null,
       country: 'Germany',
     };
     const result = structureLocation(location);
