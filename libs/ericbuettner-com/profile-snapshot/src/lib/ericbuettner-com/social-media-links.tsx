@@ -14,7 +14,7 @@ export function SocialMediaLinks({ socialMediaLinks }: SocialMediaLinksProps) {
       <p className="flex flex-wrap justify-center">
         {socialMediaLinks.map((link, index) => (
           <span key={index} className="px-1 mx-1 text-sm">
-            <UiSocialMediaIcons size="1.5rem" url={link.url} />
+            <UiSocialMediaIcons size={24} url={link.url} />
           </span>
         ))}
       </p>
