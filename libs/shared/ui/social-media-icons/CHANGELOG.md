@@ -2,6 +2,20 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-3.1.52...ui-social-media-icons-4.0.0) (2024-01-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* **social-media-icons:** This commit modifies the `size` prop in the `UiSocialMediaIconsProps` and
+`UiSocialMediaIconProps` interfaces to accept numbers instead of strings, which constitutes a
+breaking change. The `size` prop now expects numeric values to improve type safety and maintain
+consistency across the component.
+
+### ♻️ Code Refactoring
+
+* **social-media-icons:** change `size` prop to accept numbers ([f27fcc8](https://github.com/tuffz/tuffz-nx-workspace/commit/f27fcc854bdad749e78e471e344a8faf3a279b85))
+
 ## [3.1.52](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-3.1.51...ui-social-media-icons-3.1.52) (2024-01-11)
 
 ## [3.1.51](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-3.1.50...ui-social-media-icons-3.1.51) (2024-01-11)
