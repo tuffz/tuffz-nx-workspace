@@ -17,6 +17,6 @@ describe('CareerTimelineItem', () => {
     expect(getByText(input.position)).toBeInTheDocument();
     expect(getByText(input.company)).toBeInTheDocument();
     expect(getByText('May 2021 - Oct 2023'));
-    expect(getByText('Berlin, Berlin, Germany')).toBeInTheDocument();
+    expect(getByText('Berlin, Germany')).toBeInTheDocument();
   });
 });
