@@ -8,12 +8,12 @@ import { UiSocialMediaIconTwitter } from './icons/twitter';
 import { UiSocialMediaIconX } from './icons/x';
 
 export interface UiSocialMediaIconsProps {
-  size: string;
+  size: number;
   url: string;
 }
 
 export interface UiSocialMediaIconProps {
-  size: string;
+  size: number;
 }
 
 interface PlatformMapping {
