@@ -16,11 +16,11 @@ export function structureLocation(location: Location): StructuredLocation {
   const structuredLocation: StructuredLocation = {
     city: city,
     country: country,
+    state:
+      state !== null && state !== undefined && state !== '' && state !== city
+        ? state
+        : null,
   };
-
-  if (state !== null && state !== undefined && state !== '') {
-    structuredLocation.state = state;
-  }
 
   return structuredLocation;
 }
