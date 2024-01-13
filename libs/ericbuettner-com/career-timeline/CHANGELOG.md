@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.10](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.9...ericbuettner-com/career-timeline-1.0.10) (2024-01-13)
+
+### Dependency Updates
+
+* `utils-locations` updated to version `3.0.0`
+
+### ✅ Tests
+
+* **career-timeline:** adjust location display in redering test ([d906ed8](https://github.com/tuffz/tuffz-nx-workspace/commit/d906ed8d47d1d8149c091cc1e4cb995fa2d1722d))
+
 ## [1.0.9](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.8...ericbuettner-com/career-timeline-1.0.9) (2024-01-11)
 
 ## [1.0.8](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.7...ericbuettner-com/career-timeline-1.0.8) (2024-01-11)
