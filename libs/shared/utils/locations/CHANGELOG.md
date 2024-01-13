@@ -2,6 +2,19 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.36...utils-locations-3.0.0) (2024-01-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* **utils-locations:** The behavior of the `structureLocation` function has changed, which may impact code
+relying on the previous behavior. This change is considered breaking because it alters the way the
+function handles the `state` property when it's the same as `city`.
+
+### ✨ Features
+
+* **utils-locations:** improve structureLocation function, set `state` to `null` if same as `city` ([08132d8](https://github.com/tuffz/tuffz-nx-workspace/commit/08132d8683e44c7f024400d8d1db991432a03e2b))
+
 ## [2.0.36](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.35...utils-locations-2.0.36) (2024-01-11)
 
 ## [2.0.35](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.34...utils-locations-2.0.35) (2024-01-11)
