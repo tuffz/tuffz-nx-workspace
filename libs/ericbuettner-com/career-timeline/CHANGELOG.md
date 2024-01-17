@@ -2,6 +2,23 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.10...ericbuettner-com/career-timeline-2.0.0) (2024-01-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **career-timeline:** This removal should not impact the functionality of the CareerTimeline component
+itself, and it is considered a refactor rather than a breaking change.
+
+### 🐛 Bug Fixes
+
+* **career-timeline:** resolve Safari "Invalid Date" issue ([baa40cd](https://github.com/tuffz/tuffz-nx-workspace/commit/baa40cd5aee82a584930eb49e8fbcab65ee940f8))
+
+
+### ♻️ Code Refactoring
+
+* **career-timeline:** remove obsolete Month enum ([818630c](https://github.com/tuffz/tuffz-nx-workspace/commit/818630c19724b814ce8fdaaeb837286c9adc7969))
+
 ## [1.0.10](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.9...ericbuettner-com/career-timeline-1.0.10) (2024-01-13)
 
 ### Dependency Updates
