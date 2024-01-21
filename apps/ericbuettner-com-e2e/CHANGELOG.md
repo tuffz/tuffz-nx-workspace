@@ -2,8 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
-## [1.0.80](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.79...ericbuettner-com-e2e-1.0.80) (2024-01-21)
+## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.79...ericbuettner-com-e2e-2.0.0) (2024-01-21)
 
+### ⚠ BREAKING CHANGES
+
+* **ericbuettner-com:** This major version bump reflects the significant change in the underlying framework from React to Next.js. Ensure to review the migration guide for any necessary updates.
 
 ### ♻️ Code Refactoring
 
@@ -26,7 +29,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [1.0.72](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.71...ericbuettner-com-e2e-1.0.72) (2024-01-11)
 
 ## [1.0.71](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.70...ericbuettner-com-e2e-1.0.71) (2024-01-11)
-
 
 ### ♻️ Code Refactoring
 
@@ -57,6 +59,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com` updated to version `2.1.0`
+
 ## [1.0.63](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.62...ericbuettner-com-e2e-1.0.63) (2024-01-06)
 
 ## [1.0.62](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.61...ericbuettner-com-e2e-1.0.62) (2024-01-06)
@@ -110,6 +113,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com` updated to version `2.0.0`
+
 ## [1.0.38](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.37...ericbuettner-com-e2e-1.0.38) (2023-12-14)
 
 ## [1.0.37](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.36...ericbuettner-com-e2e-1.0.37) (2023-12-13)
@@ -143,6 +147,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com` updated to version `1.3.4`
+
 ## [1.0.23](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.22...ericbuettner-com-e2e-1.0.23) (2023-12-08)
 
 ## [1.0.22](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.21...ericbuettner-com-e2e-1.0.22) (2023-12-08)
@@ -150,26 +155,31 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com` updated to version `1.3.2`
+
 ## [1.0.21](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.20...ericbuettner-com-e2e-1.0.21) (2023-12-07)
 
 ### Dependency Updates
 
 * `ericbuettner-com` updated to version `1.3.1`
+
 ## [1.0.20](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.19...ericbuettner-com-e2e-1.0.20) (2023-12-07)
 
 ### Dependency Updates
 
 * `ericbuettner-com` updated to version `1.3.0`
+
 ## [1.0.19](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.18...ericbuettner-com-e2e-1.0.19) (2023-12-07)
 
 ### Dependency Updates
 
 * `ericbuettner-com` updated to version `1.2.1`
+
 ## [1.0.18](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.17...ericbuettner-com-e2e-1.0.18) (2023-12-07)
 
 ### Dependency Updates
 
 * `ericbuettner-com` updated to version `1.2.0`
+
 ## [1.0.17](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.16...ericbuettner-com-e2e-1.0.17) (2023-12-07)
 
 ## [1.0.16](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.15...ericbuettner-com-e2e-1.0.16) (2023-12-06)
@@ -191,6 +201,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com` updated to version `1.1.0`
+
 ## [1.0.8](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.7...ericbuettner-com-e2e-1.0.8) (2023-12-03)
 
 ## [1.0.7](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.6...ericbuettner-com-e2e-1.0.7) (2023-12-03)
@@ -208,6 +219,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com` updated to version `1.0.2`
+
 ## [1.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-1.0.0...ericbuettner-com-e2e-1.0.1) (2023-12-02)
 
 ## [1.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-0.1.56...ericbuettner-com-e2e-1.0.0) (2023-12-01)
@@ -333,11 +345,13 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `tuffz-info` updated to version `0.2.0`
+
 ## [0.1.3](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-e2e-0.1.2...tuffz-info-e2e-0.1.3) (2023-11-13)
 
 ### Dependency Updates
 
 * `tuffz-info` updated to version `0.1.2`
+
 ## [0.1.2](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-e2e-0.1.1...tuffz-info-e2e-0.1.2) (2023-11-13)
 
 ## [0.1.1](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-e2e-0.1.0...tuffz-info-e2e-0.1.1) (2023-11-13)
