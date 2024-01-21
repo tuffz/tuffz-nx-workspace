@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.1.16](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.15...ericbuettner-com-2.1.16) (2024-01-21)
+
+
+### ♻️ Code Refactoring
+
+* **ericbuettner-com:** migrate to Next.js ([#330](https://github.com/tuffz/tuffz-nx-workspace/issues/330)) ([a9f69c5](https://github.com/tuffz/tuffz-nx-workspace/commit/a9f69c5e0dea50c080713b7205242ea42621aea9))
+
 ## [2.1.15](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.14...ericbuettner-com-2.1.15) (2024-01-21)
 
 ## [2.1.14](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.13...ericbuettner-com-2.1.14) (2024-01-21)
