@@ -38,8 +38,8 @@ jobs:
         if: steps.cache-cypress.outputs.cache-hit != 'true'
         run: npx cypress install
 
-  test:
-    name: ✅ Tests
+  lint:
+    name: 🚨 Lint
     needs: preinstall
     runs-on: ubuntu-latest
     permissions:
@@ -67,6 +67,33 @@ jobs:
       - name: 🚨 Lint
         if: github.event_name == 'pull_request'
         run: npx nx affected --target=lint
+
+      - name: ✅ Tests
+        if: github.event_name == 'push'
+        run: npx nx run-many --target=test --ci --runInBand
+
+      - name: ✅ Tests
+        if: github.event_name == 'pull_request'
+        run: npx nx affected --target=test --ci --runInBand
+
+  test:
+    name: ✅ Tests
+    needs: preinstall
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      actions: 'read'
+
+    steps:
+      - name: 🔍️ Checkout
+        uses: actions/checkout@v4
+
+      - name: 👷 Prepare CI
+        uses: ./.github/actions/prepare
+        with:
+          cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
+
+      - uses: nrwl/nx-set-shas@v4
 
       - name: ✅ Tests
         if: github.event_name == 'push'
