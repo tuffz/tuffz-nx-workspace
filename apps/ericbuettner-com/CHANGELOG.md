@@ -2,8 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
-## [2.1.16](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.15...ericbuettner-com-2.1.16) (2024-01-21)
+## [3.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.15...ericbuettner-com-3.0.0) (2024-01-21)
 
+### ⚠ BREAKING CHANGES
+
+* **ericbuettner-com:** This major version bump reflects the significant change in the underlying framework from React to Next.js. Ensure to review the migration guide for any necessary updates.
 
 ### ♻️ Code Refactoring
 
@@ -20,6 +23,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com/career-timeline` updated to version `2.0.0`
+
 ## [2.1.11](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.10...ericbuettner-com-2.1.11) (2024-01-13)
 
 ## [2.1.10](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.9...ericbuettner-com-2.1.10) (2024-01-12)
@@ -30,7 +34,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [2.1.7](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.6...ericbuettner-com-2.1.7) (2024-01-11)
 
-
 ### ♻️ Code Refactoring
 
 * refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
@@ -40,6 +43,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com/career-timeline` updated to version `1.0.6`
+
 ## [2.1.5](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.4...ericbuettner-com-2.1.5) (2024-01-10)
 
 ## [2.1.4](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.3...ericbuettner-com-2.1.4) (2024-01-10)
@@ -59,6 +63,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com/career-timeline` updated to version `1.0.3`
+
 ## [2.1.2](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.1...ericbuettner-com-2.1.2) (2024-01-08)
 
 ## [2.1.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.0...ericbuettner-com-2.1.1) (2024-01-06)
@@ -66,6 +71,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com/career-timeline` updated to version `1.0.1`
+
 ## [2.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.0.24...ericbuettner-com-2.1.0) (2024-01-06)
 
 ### Dependency Updates
@@ -92,6 +98,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com/profile-snapshot` updated to version `3.0.26`
+
 ## [2.0.18](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.0.17...ericbuettner-com-2.0.18) (2024-01-02)
 
 ## [2.0.17](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.0.16...ericbuettner-com-2.0.17) (2024-01-02)
@@ -142,7 +149,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 * **ui-footer:** introduce dynamic utm_source query in the footer link ([68ce45c](https://github.com/tuffz/tuffz-nx-workspace/commit/68ce45c447a3ffb446aa7e36e3bb53d8dfa22265))
 
-
 ### Bug Fixes
 
 * **ericbuettner-com:** move Favicons to root folder ([62b7220](https://github.com/tuffz/tuffz-nx-workspace/commit/62b72204e864226b7c0c738c3ee42b0309b206f5))
@@ -164,6 +170,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com/profile-snapshot` updated to version `3.0.0`
+
 ## [1.3.11](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.3.10...ericbuettner-com-1.3.11) (2023-12-10)
 
 ## [1.3.10](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.3.9...ericbuettner-com-1.3.10) (2023-12-10)
@@ -183,6 +190,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com/profile-snapshot` updated to version `2.1.10`
+
 ## [1.3.3](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.3.2...ericbuettner-com-1.3.3) (2023-12-08)
 
 ## [1.3.2](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.3.1...ericbuettner-com-1.3.2) (2023-12-08)
@@ -190,8 +198,8 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com/profile-snapshot` updated to version `2.1.8`
-## [1.3.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.3.0...ericbuettner-com-1.3.1) (2023-12-07)
 
+## [1.3.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.3.0...ericbuettner-com-1.3.1) (2023-12-07)
 
 ### Bug Fixes
 
@@ -199,20 +207,17 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [1.3.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.2.1...ericbuettner-com-1.3.0) (2023-12-07)
 
-
 ### Features
 
 * **ericbuettner-com:** add canonical URL for SEO improvement ([#219](https://github.com/tuffz/tuffz-nx-workspace/issues/219)) ([19ecaa2](https://github.com/tuffz/tuffz-nx-workspace/commit/19ecaa21a2c056b59ee9798902c79ee0f9626694))
 
 ## [1.2.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.2.0...ericbuettner-com-1.2.1) (2023-12-07)
 
-
 ### Bug Fixes
 
 * **ericbuettner-com:** add missing link elements to fulfill favicon requirements for Android and iOS ([#218](https://github.com/tuffz/tuffz-nx-workspace/issues/218)) ([34fa8c7](https://github.com/tuffz/tuffz-nx-workspace/commit/34fa8c78d3f3881b21dc73ff30f71fcd94a2d778)), closes [#200](https://github.com/tuffz/tuffz-nx-workspace/issues/200)
 
 ## [1.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.1.8...ericbuettner-com-1.2.0) (2023-12-07)
-
 
 ### Features
 
@@ -229,6 +234,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ui-footer` updated to version `2.1.0`
+
 ## [1.1.4](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.1.3...ericbuettner-com-1.1.4) (2023-12-05)
 
 ## [1.1.3](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.1.2...ericbuettner-com-1.1.3) (2023-12-05)
@@ -239,7 +245,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [1.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.0.8...ericbuettner-com-1.1.0) (2023-12-03)
 
-
 ### Features
 
 * **ericbuettner-com:** add Plausible analytics script ([#199](https://github.com/tuffz/tuffz-nx-workspace/issues/199)) ([6a807d9](https://github.com/tuffz/tuffz-nx-workspace/commit/6a807d97197e1fa4ab84c1f58edd82411a09b89c))
@@ -249,6 +254,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `ericbuettner-com/profile-snapshot` updated to version `2.1.0`
+
 ## [1.0.7](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.0.6...ericbuettner-com-1.0.7) (2023-12-03)
 
 ## [1.0.6](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-1.0.5...ericbuettner-com-1.0.6) (2023-12-03)
@@ -275,6 +281,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 * `ui-footer` updated to version `2.0.1`
 * `ericbuettner-com/profile-snapshot` updated to version `2.0.0`
+
 ## [1.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-0.2.52...ericbuettner-com-1.0.0) (2023-12-01)
 
 ### Dependency Updates
@@ -297,11 +304,13 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `shared-ui-footer` updated to version `1.0.0`
+
 ## [0.2.51](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.50...tuffz-info-0.2.51) (2023-11-29)
 
 ### Dependency Updates
 
 * `tuffz-info-professional-biography-short` updated to version `0.2.0`
+
 ## [0.2.50](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.49...tuffz-info-0.2.50) (2023-11-27)
 
 ## [0.2.49](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.48...tuffz-info-0.2.49) (2023-11-27)
@@ -309,6 +318,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `tuffz-info-professional-biography-short` updated to version `0.1.41`
+
 ## [0.2.48](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.47...tuffz-info-0.2.48) (2023-11-27)
 
 ## [0.2.47](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.46...tuffz-info-0.2.47) (2023-11-27)
@@ -390,11 +400,13 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `shared-ui-footer` updated to version `0.2.8`
+
 ## [0.2.9](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.8...tuffz-info-0.2.9) (2023-11-13)
 
 ### Dependency Updates
 
 * `shared-ui-footer` updated to version `0.2.7`
+
 ## [0.2.8](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.7...tuffz-info-0.2.8) (2023-11-13)
 
 ## [0.2.7](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.6...tuffz-info-0.2.7) (2023-11-13)
@@ -412,6 +424,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `shared-ui-footer` updated to version `0.2.0`
+
 ## [0.2.1](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.2.0...tuffz-info-0.2.1) (2023-11-13)
 
 ## [0.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.1.2...tuffz-info-0.2.0) (2023-11-13)
@@ -425,7 +438,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 * **tuffz-info-biography-short:** add new library ([2258ce0](https://github.com/tuffz/tuffz-nx-workspace/commit/2258ce0e610b4b519633006ab7a61c1784fcb4b9))
 
 ## [0.1.2](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-0.1.1...tuffz-info-0.1.2) (2023-11-13)
-
 
 ### Bug Fixes
 
