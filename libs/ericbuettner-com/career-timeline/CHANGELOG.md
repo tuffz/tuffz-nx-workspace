@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.3](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.2...ericbuettner-com/career-timeline-2.0.3) (2024-01-21)
+
+
+### 🚨 Styles
+
+* introduce eslint rule for tailwindcss ([#327](https://github.com/tuffz/tuffz-nx-workspace/issues/327)) ([7ba6a88](https://github.com/tuffz/tuffz-nx-workspace/commit/7ba6a880f7cb58073201f8f6947456abc2fcbc05))
+
 ## [2.0.2](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.1...ericbuettner-com/career-timeline-2.0.2) (2024-01-21)
 
 ## [2.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.0...ericbuettner-com/career-timeline-2.0.1) (2024-01-17)
