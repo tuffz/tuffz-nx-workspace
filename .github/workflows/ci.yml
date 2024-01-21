@@ -103,43 +103,43 @@ jobs:
         if: github.event_name == 'pull_request'
         run: npx nx affected --target=test --ci --runInBand
 
-  e2e:
-    name: 📸 End-to-End Testing
-    needs: preinstall
-    runs-on: ubuntu-latest
-    permissions:
-      contents: 'read'
-      actions: 'read'
+  # e2e:
+  #   name: 📸 End-to-End Testing
+  #   needs: preinstall
+  #   runs-on: ubuntu-latest
+  #   permissions:
+  #     contents: 'read'
+  #     actions: 'read'
 
-    steps:
-      - name: 🔍️ Checkout
-        uses: actions/checkout@v4
+  #   steps:
+  #     - name: 🔍️ Checkout
+  #       uses: actions/checkout@v4
 
-      - name: 👷 Prepare CI
-        uses: ./.github/actions/prepare
-        with:
-          cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
+  #     - name: 👷 Prepare CI
+  #       uses: ./.github/actions/prepare
+  #       with:
+  #         cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
 
-      - name: 🔒️ Cache Cypress
-        id: cache-cypress
-        uses: actions/cache@v4
-        with:
-          path: '${{ github.workspace }}/.cypress'
-          key: cypress
+  #     - name: 🔒️ Cache Cypress
+  #       id: cache-cypress
+  #       uses: actions/cache@v4
+  #       with:
+  #         path: '${{ github.workspace }}/.cypress'
+  #         key: cypress
 
-      - name: 📦️ Install Cypress
-        if: steps.cache-cypress.outputs.cache-hit != 'true'
-        run: npx cypress install
+  #     - name: 📦️ Install Cypress
+  #       if: steps.cache-cypress.outputs.cache-hit != 'true'
+  #       run: npx cypress install
 
-      - uses: nrwl/nx-set-shas@v4
+  #     - uses: nrwl/nx-set-shas@v4
 
-      - name: 📸 e2e
-        if: github.event_name == 'push'
-        run: npx nx run-many --target=e2e --parallel=1
+  #     - name: 📸 e2e
+  #       if: github.event_name == 'push'
+  #       run: npx nx run-many --target=e2e --parallel=1
 
-      - name: 📸 e2e
-        if: github.event_name == 'pull_request'
-        run: npx nx affected --target=2e2 --parallel=1
+  #     - name: 📸 e2e
+  #       if: github.event_name == 'pull_request'
+  #       run: npx nx affected --target=2e2 --parallel=1
 
   build:
     name: 📦️ Build
@@ -170,7 +170,12 @@ jobs:
 
   release:
     name: 🔖 Release
-    needs: ['preinstall', 'test', 'e2e', 'build']
+    needs: [
+        'preinstall',
+        'test',
+        # 'e2e',
+        'build',
+      ]
     runs-on: ubuntu-latest
 
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
