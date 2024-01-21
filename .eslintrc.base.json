@@ -6,14 +6,16 @@
     "@stylistic/eslint-plugin",
     "@typescript-eslint",
     "prettier",
-    "import"
+    "import",
+    "tailwindcss"
   ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "plugin:import/recommended",
-    "plugin:import/typescript"
+    "plugin:import/typescript",
+    "plugin:tailwindcss/recommended"
   ],
   "settings": {
     "import/resolver": {
@@ -114,7 +116,8 @@
               "caseInsensitive": false
             }
           }
-        ]
+        ],
+        "tailwindcss/no-custom-classname": "off"
       }
     },
     {

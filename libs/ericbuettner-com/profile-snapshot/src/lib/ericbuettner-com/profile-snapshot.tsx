@@ -21,7 +21,7 @@ export function ProfileSnapshot(props: ProfileSnapshotProps) {
   ];
 
   return (
-    <section className="profile-snapshot flex flex-col sm:max-lg:flex-row md:justify-evenly items-center bg-white p-1 rounded-xl shadow-xl sm:m-4">
+    <section className="profile-snapshot flex flex-col items-center rounded-xl bg-white p-1 shadow-xl sm:m-4 sm:max-lg:flex-row md:justify-evenly">
       <ProfileImage
         src="/assets/profile/eric-buettner.jpeg"
         alt={`Portrait of ${props.first_name} ${props.last_name}`}

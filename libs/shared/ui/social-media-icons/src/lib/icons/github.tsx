@@ -5,7 +5,7 @@ import { UiSocialMediaIconProps } from '../ui-social-media-icons';
 export function UiSocialMediaIconGitHub(props: UiSocialMediaIconProps) {
   return (
     <svg
-      className="inline social-media-icon-github"
+      className="social-media-icon-github inline"
       fill="fillColor"
       width={props.size}
       height={props.size}

@@ -80,8 +80,8 @@ export function CareerTimeline() {
   ];
 
   return (
-    <section className="career-timeline bg-white p-4 my-3 rounded-xl shadow-xl sm:m-4">
-      <h2 className="text-2xl py-2 font-semibold">Professional experience</h2>
+    <section className="career-timeline my-3 rounded-xl bg-white p-4 shadow-xl sm:m-4">
+      <h2 className="py-2 text-2xl font-semibold">Professional experience</h2>
 
       {career.map((careerItem, index) => (
         <CareerTimelineItem

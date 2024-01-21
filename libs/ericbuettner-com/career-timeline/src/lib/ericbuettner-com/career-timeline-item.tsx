@@ -37,16 +37,16 @@ export function CareerTimelineItem(props: CareerTimelineItemProps) {
 
   return (
     <div className="career-timeline-item my-3">
-      <div className="career-company-position-item flex flex-col flex-grow">
+      <div className="career-company-position-item flex grow flex-col">
         <div className="flex flex-col sm:flex-auto sm:flex-row sm:flex-wrap">
           <h3 className="font-semibold">{props.position}</h3>
-          <span className="hidden sm:block px-1"> at </span>
+          <span className="hidden px-1 sm:block"> at </span>
           <h4 className="font-medium">{props.company}</h4>
         </div>
-        <span className="block text-sm text-gray-500 py-0.5">
+        <span className="block py-0.5 text-sm text-gray-500">
           {formattedStartDate} - {formattedEndDate}
         </span>
-        <span className="block text-sm text-gray-400 py-0.5">
+        <span className="block py-0.5 text-sm text-gray-400">
           {formattedLocation}
         </span>
       </div>

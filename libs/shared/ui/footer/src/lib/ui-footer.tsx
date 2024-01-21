@@ -17,7 +17,7 @@ export function UiFooter(props: UiFooterProps) {
     '&utm_medium=link&utm_campaign=crafted-with-heart';
 
   return (
-    <div className="sticky top-[100vh] py-5 text-sm text-center">
+    <div className="sticky top-[100vh] py-5 text-center text-sm">
       <p>
         Crafted with{' '}
         <span role="img" aria-label="Heart">
