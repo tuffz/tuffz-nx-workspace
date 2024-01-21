@@ -172,6 +172,7 @@ jobs:
     name: 🔖 Release
     needs: [
         'preinstall',
+        'lint',
         'test',
         # 'e2e',
         'build',
