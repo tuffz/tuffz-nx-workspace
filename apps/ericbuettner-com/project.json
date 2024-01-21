@@ -1,73 +1,39 @@
 {
   "name": "ericbuettner-com",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/ericbuettner-com/src",
+  "sourceRoot": "apps/ericbuettner-com",
   "projectType": "application",
   "tags": ["type:app", "scope:ericbuettner-com"],
   "targets": {
     "build": {
-      "executor": "@nx/webpack:webpack",
+      "executor": "@nx/next:build",
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "compiler": "babel",
-        "outputPath": "dist/apps/ericbuettner-com",
-        "index": "apps/ericbuettner-com/src/index.html",
-        "baseHref": "/",
-        "main": "apps/ericbuettner-com/src/main.tsx",
-        "tsConfig": "apps/ericbuettner-com/tsconfig.app.json",
-        "assets": [
-          "apps/ericbuettner-com/src/assets",
-          "apps/ericbuettner-com/src/android-chrome-192x192.png",
-          "apps/ericbuettner-com/src/android-chrome-512x512.png",
-          "apps/ericbuettner-com/src/apple-touch-icon.png",
-          "apps/ericbuettner-com/src/favicon.ico",
-          "apps/ericbuettner-com/src/favicon-16x16.png",
-          "apps/ericbuettner-com/src/favicon-32x32.png",
-          "apps/ericbuettner-com/src/site.webmanifest"
-        ],
-        "styles": ["apps/ericbuettner-com/src/styles.scss"],
-        "scripts": [],
-        "postcssConfig": "apps/ericbuettner-com/postcss.config.js",
-        "webpackConfig": "apps/ericbuettner-com/webpack.config.js"
+        "outputPath": "dist/apps/ericbuettner-com"
       },
       "configurations": {
         "development": {
-          "extractLicenses": false,
-          "optimization": false,
-          "sourceMap": true,
-          "vendorChunk": true
+          "outputPath": "apps/ericbuettner-com"
         },
-        "production": {
-          "fileReplacements": [
-            {
-              "replace": "apps/ericbuettner-com/src/environments/environment.ts",
-              "with": "apps/ericbuettner-com/src/environments/environment.prod.ts"
-            }
-          ],
-          "optimization": true,
-          "outputHashing": "all",
-          "sourceMap": false,
-          "namedChunks": false,
-          "extractLicenses": true,
-          "vendorChunk": false
-        }
+        "production": {}
       }
     },
     "serve": {
-      "executor": "@nx/webpack:dev-server",
+      "executor": "@nx/next:server",
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "ericbuettner-com:build",
-        "hmr": true
+        "dev": true
       },
       "configurations": {
         "development": {
-          "buildTarget": "ericbuettner-com:build:development"
+          "buildTarget": "ericbuettner-com:build:development",
+          "dev": true
         },
         "production": {
           "buildTarget": "ericbuettner-com:build:production",
-          "hmr": false
+          "dev": false
         }
       }
     },
@@ -75,10 +41,10 @@
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"]
     },
-    "serve-static": {
-      "executor": "@nx/web:file-server",
+    "export": {
+      "executor": "@nx/next:export",
       "options": {
-        "buildTarget": "ericbuettner-com:build"
+        "buildTarget": "ericbuettner-com:build:production"
       }
     },
     "test": {
@@ -95,16 +61,46 @@
         "commitMessageFormat": "chore({projectName}): 🚀 release version ${version}",
         "preset": {
           "types": [
-            { "type": "feat", "section": "✨ Features" },
-            { "type": "fix", "section": "🐛 Bug Fixes" },
-            { "type": "chore", "section": "⚙️ Chores" },
-            { "type": "build", "section": "🛠️ Build System" },
-            { "type": "ci", "section": "🤖 Continuous Integration" },
-            { "type": "docs", "section": "📝 Documentation" },
-            { "type": "style", "section": "🚨 Styles" },
-            { "type": "refactor", "section": "♻️ Code Refactoring" },
-            { "type": "perf", "section": "⚡️ Performance Improvements" },
-            { "type": "test", "section": "✅ Tests" }
+            {
+              "type": "feat",
+              "section": "✨ Features"
+            },
+            {
+              "type": "fix",
+              "section": "🐛 Bug Fixes"
+            },
+            {
+              "type": "chore",
+              "section": "⚙️ Chores"
+            },
+            {
+              "type": "build",
+              "section": "🛠️ Build System"
+            },
+            {
+              "type": "ci",
+              "section": "🤖 Continuous Integration"
+            },
+            {
+              "type": "docs",
+              "section": "📝 Documentation"
+            },
+            {
+              "type": "style",
+              "section": "🚨 Styles"
+            },
+            {
+              "type": "refactor",
+              "section": "♻️ Code Refactoring"
+            },
+            {
+              "type": "perf",
+              "section": "⚡️ Performance Improvements"
+            },
+            {
+              "type": "test",
+              "section": "✅ Tests"
+            }
           ]
         },
         "skipCommitTypes": [
