@@ -26,14 +26,14 @@ export function ProfileInformation(props: ProfileInformationProps) {
 
   return (
     <>
-      <h1 className="profile-information text-3xl font-bold py-2">
+      <h1 className="profile-information py-2 text-3xl font-bold">
         {props.first_name} {props.last_name}
       </h1>
-      <p className="profile-information-job text-gray-700 py-2">
+      <p className="profile-information-job py-2 text-gray-700">
         {props.latest_job_position}
         {props.latest_job_company ? ' at ' + props.latest_job_company : ''}
       </p>
-      <p className="text-sm text-gray-500 py-2">{formattedLocation}</p>
+      <p className="py-2 text-sm text-gray-500">{formattedLocation}</p>
     </>
   );
 }

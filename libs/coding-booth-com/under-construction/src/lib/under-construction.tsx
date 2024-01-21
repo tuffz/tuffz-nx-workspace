@@ -2,7 +2,7 @@ import { UiImageEmbed } from '@tuffz/shared/ui/image-embed';
 
 export function UnderConstruction() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col items-center justify-center">
       <h1 className="max-w-3xl">
         <UiImageEmbed src="assets/welcome.png" alt="Welcome at Coding Booth" />
       </h1>

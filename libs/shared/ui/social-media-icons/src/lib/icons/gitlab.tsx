@@ -5,7 +5,7 @@ import { UiSocialMediaIconProps } from '../ui-social-media-icons';
 export function UiSocialMediaIconGitLab(props: UiSocialMediaIconProps) {
   return (
     <svg
-      className="inline social-media-icon-gitlab"
+      className="social-media-icon-gitlab inline"
       fill="fillColor"
       width={props.size}
       height={props.size}
