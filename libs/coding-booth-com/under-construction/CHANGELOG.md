@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.29](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com/under-construction-0.1.28...coding-booth-com/under-construction-0.1.29) (2024-01-21)
+
+
+### 🚨 Styles
+
+* introduce eslint rule for tailwindcss ([#327](https://github.com/tuffz/tuffz-nx-workspace/issues/327)) ([7ba6a88](https://github.com/tuffz/tuffz-nx-workspace/commit/7ba6a880f7cb58073201f8f6947456abc2fcbc05))
+
 ## [0.1.28](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com/under-construction-0.1.27...coding-booth-com/under-construction-0.1.28) (2024-01-21)
 
 ## [0.1.27](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com/under-construction-0.1.26...coding-booth-com/under-construction-0.1.27) (2024-01-17)
