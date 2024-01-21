@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.1.12](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.11...ericbuettner-com/profile-snapshot-3.1.12) (2024-01-21)
+
+
+### 🚨 Styles
+
+* introduce eslint rule for tailwindcss ([#327](https://github.com/tuffz/tuffz-nx-workspace/issues/327)) ([7ba6a88](https://github.com/tuffz/tuffz-nx-workspace/commit/7ba6a880f7cb58073201f8f6947456abc2fcbc05))
+
 ## [3.1.11](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.10...ericbuettner-com/profile-snapshot-3.1.11) (2024-01-21)
 
 ## [3.1.10](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.9...ericbuettner-com/profile-snapshot-3.1.10) (2024-01-17)
