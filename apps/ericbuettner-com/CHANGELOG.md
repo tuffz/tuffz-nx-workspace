@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.0...ericbuettner-com-3.0.1) (2024-01-21)
+
+
+### 📝 Documentation
+
+* **ericbuettner-com:** bump major version and add breaking changes description to changelog ([#334](https://github.com/tuffz/tuffz-nx-workspace/issues/334)) ([d78f89d](https://github.com/tuffz/tuffz-nx-workspace/commit/d78f89d1dba5100494b79a361008cff8be27abef))
+
 ## [3.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-2.1.15...ericbuettner-com-3.0.0) (2024-01-21)
 
 ### ⚠ BREAKING CHANGES
