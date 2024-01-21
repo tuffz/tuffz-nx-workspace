@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.34](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.33...ui-footer-3.0.34) (2024-01-21)
+
+
+### 🚨 Styles
+
+* introduce eslint rule for tailwindcss ([#327](https://github.com/tuffz/tuffz-nx-workspace/issues/327)) ([7ba6a88](https://github.com/tuffz/tuffz-nx-workspace/commit/7ba6a880f7cb58073201f8f6947456abc2fcbc05))
+
 ## [3.0.33](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.32...ui-footer-3.0.33) (2024-01-21)
 
 ## [3.0.32](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.31...ui-footer-3.0.32) (2024-01-17)
