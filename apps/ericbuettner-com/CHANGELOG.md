@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.6](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.5...ericbuettner-com-3.0.6) (2024-02-01)
+
+
+### ⚙️ Chores
+
+* **ericbuettner-com:** update ignore patterns in .eslintrc.json ([#357](https://github.com/tuffz/tuffz-nx-workspace/issues/357)) ([75d3236](https://github.com/tuffz/tuffz-nx-workspace/commit/75d323606c665688cd17f720dc2457db695e9777))
+
 ## [3.0.5](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.4...ericbuettner-com-3.0.5) (2024-02-01)
 
 ## [3.0.4](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.3...ericbuettner-com-3.0.4) (2024-01-25)
