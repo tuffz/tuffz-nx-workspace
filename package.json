@@ -7,7 +7,7 @@
     "npm": "9 || 10"
   },
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "start": "nx serve",
     "build": "nx build",
     "format": "nx format:write",
