@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.9](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.8...ericbuettner-com/career-timeline-2.0.9) (2024-02-01)
+
+
+### ⚙️ Chores
+
+* **deps:** update nrwl monorepo to v17.3.1 (minor) ([#355](https://github.com/tuffz/tuffz-nx-workspace/issues/355)) ([f65b4ac](https://github.com/tuffz/tuffz-nx-workspace/commit/f65b4ac6b01a216227d181dc9a290df4de6995ad))
+
 ## [2.0.8](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.7...ericbuettner-com/career-timeline-2.0.8) (2024-01-25)
 
 ## [2.0.7](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.6...ericbuettner-com/career-timeline-2.0.7) (2024-01-21)
