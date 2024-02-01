@@ -7,11 +7,8 @@
   "targets": {
     "lint": {
       "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": [
-          "libs/ericbuettner-com/career-timeline/**/*.{ts,tsx,js,jsx}"
-        ]
+        "lintFilePatterns": ["{projectRoot}/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
@@ -28,16 +25,46 @@
         "commitMessageFormat": "chore({projectName}): 🚀 release version ${version} [skip ci]",
         "preset": {
           "types": [
-            { "type": "feat", "section": "✨ Features" },
-            { "type": "fix", "section": "🐛 Bug Fixes" },
-            { "type": "chore", "section": "⚙️ Chores" },
-            { "type": "build", "section": "🛠️ Build System" },
-            { "type": "ci", "section": "🤖 Continuous Integration" },
-            { "type": "docs", "section": "📝 Documentation" },
-            { "type": "style", "section": "🚨 Styles" },
-            { "type": "refactor", "section": "♻️ Code Refactoring" },
-            { "type": "perf", "section": "⚡️ Performance Improvements" },
-            { "type": "test", "section": "✅ Tests" }
+            {
+              "type": "feat",
+              "section": "✨ Features"
+            },
+            {
+              "type": "fix",
+              "section": "🐛 Bug Fixes"
+            },
+            {
+              "type": "chore",
+              "section": "⚙️ Chores"
+            },
+            {
+              "type": "build",
+              "section": "🛠️ Build System"
+            },
+            {
+              "type": "ci",
+              "section": "🤖 Continuous Integration"
+            },
+            {
+              "type": "docs",
+              "section": "📝 Documentation"
+            },
+            {
+              "type": "style",
+              "section": "🚨 Styles"
+            },
+            {
+              "type": "refactor",
+              "section": "♻️ Code Refactoring"
+            },
+            {
+              "type": "perf",
+              "section": "⚡️ Performance Improvements"
+            },
+            {
+              "type": "test",
+              "section": "✅ Tests"
+            }
           ]
         },
         "skipCommitTypes": [
