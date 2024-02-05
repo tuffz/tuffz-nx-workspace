@@ -40,7 +40,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [3.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.36...utils-locations-3.0.0) (2024-01-13)
 
-
 ### ⚠ BREAKING CHANGES
 
 * **utils-locations:** The behavior of the `structureLocation` function has changed, which may impact code
@@ -57,7 +56,6 @@ function handles the `state` property when it's the same as `city`.
 
 ## [2.0.34](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.33...utils-locations-2.0.34) (2024-01-11)
 
-
 ### ♻️ Code Refactoring
 
 * refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
@@ -65,7 +63,6 @@ function handles the `state` property when it's the same as `city`.
 ## [2.0.33](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.32...utils-locations-2.0.33) (2024-01-10)
 
 ## [2.0.32](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-2.0.31...utils-locations-2.0.32) (2024-01-10)
-
 
 ### 🧹 Code Refactoring
 
@@ -135,15 +132,14 @@ function handles the `state` property when it's the same as `city`.
 
 ## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-1.0.6...utils-locations-2.0.0) (2023-12-10)
 
-
 ### ⚠ BREAKING CHANGES
 
 * **utils-locations:** Rename library from `utils-format-locations` to `utils-locations`
 
 Split the location functionality into distinct files
-- `structure-location.ts` contains the interfaces and the `structureLocation` function
+* `structure-location.ts` contains the interfaces and the `structureLocation` function
   for converting `Location` to `StructuredLocation`
-- `format-location.ts` holds the `formatLocationToString` function for formatting
+* `format-location.ts` holds the `formatLocationToString` function for formatting
   `StructuredLocation`into a string
 
 ### Features
@@ -163,7 +159,6 @@ Split the location functionality into distinct files
 ## [1.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-format-location-1.0.0...utils-format-location-1.0.1) (2023-12-10)
 
 ## 1.0.0 (2023-12-10)
-
 
 ### ⚠ BREAKING CHANGES
 

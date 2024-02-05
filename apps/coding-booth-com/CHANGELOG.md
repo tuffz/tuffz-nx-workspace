@@ -46,7 +46,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [1.1.22](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.1.21...coding-booth-com-1.1.22) (2024-01-11)
 
-
 ### ♻️ Code Refactoring
 
 * refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
@@ -114,7 +113,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [1.0.6](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.0.5...coding-booth-com-1.0.6) (2023-12-17)
 
-
 ### Bug Fixes
 
 * **coding-booth-com:** refine layout and styling ([#252](https://github.com/tuffz/tuffz-nx-workspace/issues/252)) ([7152b5e](https://github.com/tuffz/tuffz-nx-workspace/commit/7152b5e6a14d0982e744b9098bc9bf3d20b3d91b))
@@ -148,7 +146,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 * **coding-booth-com:** introduce Plausible.io analytics ([dab408e](https://github.com/tuffz/tuffz-nx-workspace/commit/dab408e19ef6bbc1930147260bba6cb6c7f427fb))
 * **coding-booth-com:** redesign main application layout and content ([ef03a67](https://github.com/tuffz/tuffz-nx-workspace/commit/ef03a67e512f81aa80b280c7e2e1e2d5f1855ed2))
 * **ui-footer:** introduce dynamic utm_source query in the footer link ([68ce45c](https://github.com/tuffz/tuffz-nx-workspace/commit/68ce45c447a3ffb446aa7e36e3bb53d8dfa22265))
-
 
 ### Bug Fixes
 

@@ -32,7 +32,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [3.0.34](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.33...ui-footer-3.0.34) (2024-01-21)
 
-
 ### 🚨 Styles
 
 * introduce eslint rule for tailwindcss ([#327](https://github.com/tuffz/tuffz-nx-workspace/issues/327)) ([7ba6a88](https://github.com/tuffz/tuffz-nx-workspace/commit/7ba6a880f7cb58073201f8f6947456abc2fcbc05))
@@ -50,7 +49,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [3.0.28](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.27...ui-footer-3.0.28) (2024-01-11)
 
 ## [3.0.27](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.26...ui-footer-3.0.27) (2024-01-11)
-
 
 ### ♻️ Code Refactoring
 
@@ -118,7 +116,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [3.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-2.1.18...ui-footer-3.0.0) (2023-12-15)
 
-
 ### ⚠ BREAKING CHANGES
 
 * **ui-footer:** `UiFooterProps` interface now requires a `website` property.
@@ -165,7 +162,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [2.1.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-2.1.0...ui-footer-2.1.1) (2023-12-05)
 
 ## [2.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-2.0.11...ui-footer-2.1.0) (2023-12-05)
-
 
 ### Features
 
@@ -307,13 +303,11 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [0.2.8](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.2.7...shared-ui-footer-0.2.8) (2023-11-13)
 
-
 ### Bug Fixes
 
 * **shared-ui-footer:** correct mispelled content ([6ed5d0e](https://github.com/tuffz/tuffz-nx-workspace/commit/6ed5d0ebcfa523be03fa595eefe4136b8ee86fa2))
 
 ## [0.2.7](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.2.6...shared-ui-footer-0.2.7) (2023-11-13)
-
 
 ### Bug Fixes
 
@@ -324,16 +318,19 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `shared-ui-anchor` updated to version `1.2.0`
+
 ## [0.2.5](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.2.4...shared-ui-footer-0.2.5) (2023-11-13)
 
 ### Dependency Updates
 
 * `shared-ui-anchor` updated to version `1.1.0`
+
 ## [0.2.4](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.2.3...shared-ui-footer-0.2.4) (2023-11-13)
 
 ### Dependency Updates
 
 * `shared-ui-anchor` updated to version `1.0.0`
+
 ## [0.2.3](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.2.2...shared-ui-footer-0.2.3) (2023-11-13)
 
 ## [0.2.2](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.2.1...shared-ui-footer-0.2.2) (2023-11-13)
@@ -343,8 +340,8 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `shared-ui-anchor` updated to version `0.1.0`
-## [0.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.1.16...shared-ui-footer-0.2.0) (2023-11-13)
 
+## [0.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.1.16...shared-ui-footer-0.2.0) (2023-11-13)
 
 ### Features
 
@@ -383,7 +380,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [0.1.1](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-0.1.0...shared-ui-footer-0.1.1) (2023-11-13)
 
 ## 0.1.0 (2023-11-13)
-
 
 ### Features
 

@@ -46,7 +46,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [1.0.57](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-image-embed-1.0.56...ui-image-embed-1.0.57) (2024-01-11)
 
-
 ### ♻️ Code Refactoring
 
 * refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
@@ -54,7 +53,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [1.0.56](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-image-embed-1.0.55...ui-image-embed-1.0.56) (2024-01-10)
 
 ## [1.0.55](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-image-embed-1.0.54...ui-image-embed-1.0.55) (2024-01-10)
-
 
 ### 🧹 Code Refactoring
 
@@ -170,7 +168,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## 1.0.0 (2023-12-01)
 
-
 ### ⚠ BREAKING CHANGES
 
 * remove the obsolete `shared` prefix in `shared-ui-anchor`, `shared-ui-footer` and `shared-ui-image-embed` library and class names
@@ -179,7 +176,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 * **shared-ui-image-embed:** add new library ([9d8c445](https://github.com/tuffz/tuffz-nx-workspace/commit/9d8c445f29aa5ec0f97537ba4df57e3eb411a4e3))
 * **shared-ui-image-embed:** implement fallback to utilize 'alt' when 'title' is not provided ([158b222](https://github.com/tuffz/tuffz-nx-workspace/commit/158b222948f72e573d4fd5592d1d6f44a79ba543))
-
 
 ### Code Refactoring
 
@@ -196,7 +192,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [0.1.1](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-0.1.0...shared-ui-image-embed-0.1.1) (2023-11-22)
 
 ## 0.1.0 (2023-11-22)
-
 
 ### Features
 

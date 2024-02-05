@@ -32,7 +32,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [4.0.5](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-4.0.4...ui-social-media-icons-4.0.5) (2024-01-21)
 
-
 ### 🚨 Styles
 
 * introduce eslint rule for tailwindcss ([#327](https://github.com/tuffz/tuffz-nx-workspace/issues/327)) ([7ba6a88](https://github.com/tuffz/tuffz-nx-workspace/commit/7ba6a880f7cb58073201f8f6947456abc2fcbc05))
@@ -46,7 +45,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [4.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-4.0.0...ui-social-media-icons-4.0.1) (2024-01-13)
 
 ## [4.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-3.1.52...ui-social-media-icons-4.0.0) (2024-01-12)
-
 
 ### ⚠ BREAKING CHANGES
 
@@ -64,7 +62,6 @@ consistency across the component.
 ## [3.1.51](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-3.1.50...ui-social-media-icons-3.1.51) (2024-01-11)
 
 ## [3.1.50](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-3.1.49...ui-social-media-icons-3.1.50) (2024-01-11)
-
 
 ### ♻️ Code Refactoring
 
@@ -178,7 +175,6 @@ consistency across the component.
 
 ## [3.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-3.0.6...ui-social-media-icons-3.1.0) (2023-12-03)
 
-
 ### Features
 
 * **ui-social-media-icons:** introduce LinkedIn icon ([b74bb35](https://github.com/tuffz/tuffz-nx-workspace/commit/b74bb358aeba0ddd7b2eb87d998e4fa3e3a3220b))
@@ -211,7 +207,6 @@ consistency across the component.
 
 * **ui-social-media-icons:** add twitter and x.com ([35b4894](https://github.com/tuffz/tuffz-nx-workspace/commit/35b4894130afa2e70c5db8bc09ddb994165f1818))
 
-
 ### Code Refactoring
 
 * **ui-social-media-icons:** introduce `size` property for flexible icon sizing ([2f042c4](https://github.com/tuffz/tuffz-nx-workspace/commit/2f042c4a04cf37a6fddfd8ee2642dde4f4590704))
@@ -243,7 +238,6 @@ consistency across the component.
 
 ## [1.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-1.0.1...ui-social-media-icons-1.1.0) (2023-11-29)
 
-
 ### Features
 
 * **shared-social-media-icons:** add GitLab icon ([bede60f](https://github.com/tuffz/tuffz-nx-workspace/commit/bede60f879127822f53e41ffc7104dea39551f32))
@@ -252,7 +246,6 @@ consistency across the component.
 
 ## 1.0.0 (2023-11-27)
 
-
 ### ⚠ BREAKING CHANGES
 
 * **shared-ui-social-media-icons:** pump version to 1.0.0
@@ -260,7 +253,6 @@ consistency across the component.
 ### Features
 
 * **shared-ui-social-media-icons:** add new library ([#145](https://github.com/tuffz/tuffz-nx-workspace/issues/145)) ([2173442](https://github.com/tuffz/tuffz-nx-workspace/commit/2173442e25fbdf20729cf646a19f6499462f9052))
-
 
 ### Bug Fixes
 

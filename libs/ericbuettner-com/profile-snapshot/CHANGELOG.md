@@ -32,7 +32,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [3.1.12](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.11...ericbuettner-com/profile-snapshot-3.1.12) (2024-01-21)
 
-
 ### 🚨 Styles
 
 * introduce eslint rule for tailwindcss ([#327](https://github.com/tuffz/tuffz-nx-workspace/issues/327)) ([7ba6a88](https://github.com/tuffz/tuffz-nx-workspace/commit/7ba6a880f7cb58073201f8f6947456abc2fcbc05))
@@ -48,6 +47,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `utils-locations` updated to version `3.0.0`
+
 ## [3.1.7](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.6...ericbuettner-com/profile-snapshot-3.1.7) (2024-01-12)
 
 ### Dependency Updates
@@ -63,7 +63,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [3.1.5](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.4...ericbuettner-com/profile-snapshot-3.1.5) (2024-01-11)
 
 ## [3.1.4](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.3...ericbuettner-com/profile-snapshot-3.1.4) (2024-01-11)
-
 
 ### ♻️ Code Refactoring
 
@@ -87,7 +86,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [3.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.0.31...ericbuettner-com/profile-snapshot-3.1.0) (2024-01-06)
 
-
 ### Features
 
 * **eric-buettner/profile-snapshot:** adjust `font-size` and `font-weight` for name display ([23886dd](https://github.com/tuffz/tuffz-nx-workspace/commit/23886dd3c2724a074e797ce335150d0ad97839e2))
@@ -103,7 +101,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [3.0.27](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.0.26...ericbuettner-com/profile-snapshot-3.0.27) (2024-01-03)
 
 ## [3.0.26](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.0.25...ericbuettner-com/profile-snapshot-3.0.26) (2024-01-03)
-
 
 ### Bug Fixes
 
@@ -170,9 +167,9 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 * **utils-locations:** Rename library from `utils-format-locations` to `utils-locations`
 
 Split the location functionality into distinct files
-- `structure-location.ts` contains the interfaces and the `structureLocation` function
+* `structure-location.ts` contains the interfaces and the `structureLocation` function
   for converting `Location` to `StructuredLocation`
-- `format-location.ts` holds the `formatLocationToString` function for formatting
+* `format-location.ts` holds the `formatLocationToString` function for formatting
   `StructuredLocation`into a string
 
 ### Features
@@ -196,6 +193,7 @@ Split the location functionality into distinct files
 ### Dependency Updates
 
 * `utils-format-location` updated to version `1.0.0`
+
 ## [2.1.9](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.1.8...ericbuettner-com/profile-snapshot-2.1.9) (2023-12-08)
 
 ## [2.1.8](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.1.7...ericbuettner-com/profile-snapshot-2.1.8) (2023-12-08)
@@ -236,7 +234,6 @@ Split the location functionality into distinct files
 ## [2.0.2](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.0.1...ericbuettner-com/profile-snapshot-2.0.2) (2023-12-02)
 
 ## [2.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-2.0.0...ericbuettner-com/profile-snapshot-2.0.1) (2023-12-02)
-
 
 ### Bug Fixes
 
@@ -281,6 +278,7 @@ Split the location functionality into distinct files
 ### Dependency Updates
 
 * `ui-social-media-icons` updated to version `1.2.0`
+
 ## [0.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.42...tuffz-info-professional-biography-short-0.2.0) (2023-11-29)
 
 ### Dependency Updates
@@ -316,6 +314,7 @@ Split the location functionality into distinct files
 ### Dependency Updates
 
 * `shared-ui-image-embed` updated to version `0.1.0`
+
 ## [0.1.35](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.34...tuffz-info-professional-biography-short-0.1.35) (2023-11-22)
 
 ## [0.1.34](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.33...tuffz-info-professional-biography-short-0.1.34) (2023-11-21)
@@ -387,7 +386,6 @@ Split the location functionality into distinct files
 ## [0.1.1](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-info-professional-biography-short-0.1.0...tuffz-info-professional-biography-short-0.1.1) (2023-11-13)
 
 ## 0.1.0 (2023-11-13)
-
 
 ### Features
 
