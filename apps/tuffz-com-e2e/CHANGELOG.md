@@ -46,7 +46,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [0.0.165](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-e2e-0.0.164...tuffz-com-e2e-0.0.165) (2024-01-11)
 
-
 ### ♻️ Code Refactoring
 
 * refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
@@ -116,6 +115,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `tuffz-com` updated to version `1.1.0`
+
 ## [0.0.137](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-e2e-0.0.136...tuffz-com-e2e-0.0.137) (2023-12-14)
 
 ## [0.0.136](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-e2e-0.0.135...tuffz-com-e2e-0.0.136) (2023-12-13)
@@ -183,6 +183,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `tuffz-com` updated to version `1.0.0`
+
 ## [0.0.105](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-e2e-0.0.104...tuffz-com-e2e-0.0.105) (2023-11-30)
 
 ## [0.0.104](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-e2e-0.0.103...tuffz-com-e2e-0.0.104) (2023-11-27)
@@ -320,6 +321,7 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `tuffz-com` updated to version `0.1.0`
+
 ## [0.0.38](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-e2e-0.0.37...tuffz-com-e2e-0.0.38) (2023-11-13)
 
 ## [0.0.37](https://github.com/tuffz/tuffz-nx-workspace/compare/tuffz-com-e2e-0.0.36...tuffz-com-e2e-0.0.37) (2023-11-13)
@@ -397,4 +399,5 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Dependency Updates
 
 * `tuffz-com` updated to version `0.0.2`
+
 ## 0.0.1 (2023-11-13)

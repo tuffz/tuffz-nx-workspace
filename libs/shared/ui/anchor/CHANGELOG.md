@@ -46,7 +46,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [3.0.57](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.56...ui-anchor-3.0.57) (2024-01-11)
 
-
 ### ♻️ Code Refactoring
 
 * refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
@@ -54,7 +53,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [3.0.56](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.55...ui-anchor-3.0.56) (2024-01-10)
 
 ## [3.0.55](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.54...ui-anchor-3.0.55) (2024-01-10)
-
 
 ### 🧹 Code Refactoring
 
@@ -170,7 +168,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [3.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-2.0.0...ui-anchor-3.0.0) (2023-12-01)
 
-
 ### ⚠ BREAKING CHANGES
 
 * remove the obsolete `shared` prefix in `shared-ui-anchor`, `shared-ui-footer` and `shared-ui-image-embed` library and class names
@@ -181,7 +178,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-1.2.38...shared-ui-anchor-2.0.0) (2023-11-30)
 
-
 ### ⚠ BREAKING CHANGES
 
 * **shared-ui-anchor:** SharedUiAnchorProps interface's `title` property is mandatory instead of optional.
@@ -189,7 +185,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ### Features
 
 * **shared-ui-anchor:** allow ReactNode as content property value ([e4bca18](https://github.com/tuffz/tuffz-nx-workspace/commit/e4bca186347d2989fa558d0e6123528fc0862ec6))
-
 
 ### Code Refactoring
 
@@ -273,13 +268,11 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [1.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-1.1.0...shared-ui-anchor-1.2.0) (2023-11-13)
 
-
 ### Features
 
 * **shared-ui-anchor:** add `rel` attribute logic for use case target="_blank" ([3737a2a](https://github.com/tuffz/tuffz-nx-workspace/commit/3737a2a8fb71a05c23016a9b441b9b9b837c79e3))
 
 ## [1.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-1.0.0...shared-ui-anchor-1.1.0) (2023-11-13)
-
 
 ### Features
 
@@ -287,11 +280,9 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [1.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-0.1.1...shared-ui-anchor-1.0.0) (2023-11-13)
 
-
 ### ⚠ BREAKING CHANGES
 
 * **shared-ui-anchor:** rename property of the link content/text from `body` to `content`
-
 
 ### Code Refactoring
 
@@ -300,7 +291,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [0.1.1](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-0.1.0...shared-ui-anchor-0.1.1) (2023-11-13)
 
 ## 0.1.0 (2023-11-13)
-
 
 ### Features
 

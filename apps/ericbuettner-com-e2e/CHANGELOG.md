@@ -28,7 +28,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [2.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-e2e-2.0.0...ericbuettner-com-e2e-2.0.1) (2024-01-21)
 
-
 ### 📝 Documentation
 
 * **ericbuettner-com:** bump major version and add breaking changes description to changelog ([#334](https://github.com/tuffz/tuffz-nx-workspace/issues/334)) ([d78f89d](https://github.com/tuffz/tuffz-nx-workspace/commit/d78f89d1dba5100494b79a361008cff8be27abef))

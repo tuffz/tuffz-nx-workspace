@@ -20,11 +20,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [2.0.9](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.8...ericbuettner-com/career-timeline-2.0.9) (2024-02-01)
 
-
-### ⚙️ Chores
-
-* **deps:** update nrwl monorepo to v17.3.1 (minor) ([#355](https://github.com/tuffz/tuffz-nx-workspace/issues/355)) ([f65b4ac](https://github.com/tuffz/tuffz-nx-workspace/commit/f65b4ac6b01a216227d181dc9a290df4de6995ad))
-
 ## [2.0.8](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.7...ericbuettner-com/career-timeline-2.0.8) (2024-01-25)
 
 ## [2.0.7](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.6...ericbuettner-com/career-timeline-2.0.7) (2024-01-21)
@@ -37,7 +32,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [2.0.3](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.2...ericbuettner-com/career-timeline-2.0.3) (2024-01-21)
 
-
 ### 🚨 Styles
 
 * introduce eslint rule for tailwindcss ([#327](https://github.com/tuffz/tuffz-nx-workspace/issues/327)) ([7ba6a88](https://github.com/tuffz/tuffz-nx-workspace/commit/7ba6a880f7cb58073201f8f6947456abc2fcbc05))
@@ -48,7 +42,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.10...ericbuettner-com/career-timeline-2.0.0) (2024-01-17)
 
-
 ### ⚠ BREAKING CHANGES
 
 * **career-timeline:** This removal should not impact the functionality of the CareerTimeline component
@@ -57,7 +50,6 @@ itself, and it is considered a refactor rather than a breaking change.
 ### 🐛 Bug Fixes
 
 * **career-timeline:** resolve Safari "Invalid Date" issue ([baa40cd](https://github.com/tuffz/tuffz-nx-workspace/commit/baa40cd5aee82a584930eb49e8fbcab65ee940f8))
-
 
 ### ♻️ Code Refactoring
 
@@ -79,13 +71,11 @@ itself, and it is considered a refactor rather than a breaking change.
 
 ## [1.0.7](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.6...ericbuettner-com/career-timeline-1.0.7) (2024-01-11)
 
-
 ### ♻️ Code Refactoring
 
 * refactor: update conventional-changelog generator configuration ([#307](https://github.com/tuffz/tuffz-nx-workspace/issues/307)) ([fb18b84](https://github.com/tuffz/tuffz-nx-workspace/commit/fb18b84855e1b2fa06a2579b0eae23f88fa186a9))
 
 ## [1.0.6](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.5...ericbuettner-com/career-timeline-1.0.6) (2024-01-10)
-
 
 ### ✅ Tests
 
@@ -110,7 +100,6 @@ itself, and it is considered a refactor rather than a breaking change.
 ## [1.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-1.0.0...ericbuettner-com/career-timeline-1.0.1) (2024-01-06)
 
 ## 1.0.0 (2024-01-06)
-
 
 ### ⚠ BREAKING CHANGES
 
