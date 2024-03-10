@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.103](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-image-embed-1.0.102...ui-image-embed-1.0.103) (2024-03-10)
+
 ## [1.0.102](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-image-embed-1.0.101...ui-image-embed-1.0.102) (2024-03-10)
 
 ## [1.0.101](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-image-embed-1.0.100...ui-image-embed-1.0.101) (2024-03-08)
