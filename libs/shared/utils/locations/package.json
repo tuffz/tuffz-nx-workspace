@@ -1,6 +1,6 @@
 {
   "name": "@tuffz/utils-locations",
-  "version": "3.0.52",
+  "version": "3.0.53",
   "dependencies": {
     "tslib": "^2.3.0"
   },
