@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.52](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.51...ericbuettner-com/career-timeline-2.0.52) (2024-03-15)
+
 ## [2.0.51](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.50...ericbuettner-com/career-timeline-2.0.51) (2024-03-15)
 
 ## [2.0.50](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.49...ericbuettner-com/career-timeline-2.0.50) (2024-03-15)
