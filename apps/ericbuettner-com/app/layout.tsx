@@ -36,8 +36,8 @@ export default function RootLayout({
           href="apple-touch-icon.png"
         />
         <link rel="manifest" href="site.webmanifest" />
+        <link rel="canonical" href="https://www.ericbuettner.com/" />
       </head>
-      <link rel="canonical" href="https://www.ericbuettner.com/" />
 
       <body>
         <div id="app" className="min-h-screen bg-gray-300">
