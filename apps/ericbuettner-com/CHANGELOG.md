@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.59](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.58...ericbuettner-com-3.0.59) (2024-03-17)
+
+
+### 🐛 Bug Fixes
+
+* **ericbuettner-com:** change the output directory from `out` to `dist` ([b5ede3e](https://github.com/tuffz/tuffz-nx-workspace/commit/b5ede3eae4ef736a84f872b8e09d584e3f2447dd))
+
 ## [3.0.58](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.57...ericbuettner-com-3.0.58) (2024-03-17)
 
 ## [3.0.57](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.56...ericbuettner-com-3.0.57) (2024-03-17)
