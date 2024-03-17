@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.60](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.59...ericbuettner-com-3.0.60) (2024-03-17)
+
+
+### ♻️ Code Refactoring
+
+* **ericbuettner-com:** remove unnecessary api hello endpoint ([43fab2a](https://github.com/tuffz/tuffz-nx-workspace/commit/43fab2a4ab3bccce80e11681c4277472162b8a16))
+
 ## [3.0.59](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.58...ericbuettner-com-3.0.59) (2024-03-17)
 
 
