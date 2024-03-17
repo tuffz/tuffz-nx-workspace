@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.54](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.53...ericbuettner-com-3.0.54) (2024-03-17)
+
+
+### 🐛 Bug Fixes
+
+* **ericbuettner-com:** move canonical link tag from html to head section ([#424](https://github.com/tuffz/tuffz-nx-workspace/issues/424)) ([aecfc92](https://github.com/tuffz/tuffz-nx-workspace/commit/aecfc923bb9c3a92fd779a92252c433fecc939f1))
+
 ## [3.0.53](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.52...ericbuettner-com-3.0.53) (2024-03-16)
 
 ## [3.0.52](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.51...ericbuettner-com-3.0.52) (2024-03-16)
