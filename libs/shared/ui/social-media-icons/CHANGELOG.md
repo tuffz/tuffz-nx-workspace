@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.78](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-4.0.77...ui-social-media-icons-4.0.78) (2024-03-30)
+
 ## [4.0.77](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-4.0.76...ui-social-media-icons-4.0.77) (2024-03-29)
 
 ## [4.0.76](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-4.0.75...ui-social-media-icons-4.0.76) (2024-03-28)
