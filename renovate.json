@@ -8,7 +8,7 @@
     ":automergeStableNonMajor",
     ":automergeRequireAllStatusChecks",
     ":disableRateLimiting",
-    "labels(renovate, dependencies)",
+    ":labels(renovate, dependencies)",
     ":pinDependencies",
     ":pinDevDependencies",
     ":rebaseStalePrs",
