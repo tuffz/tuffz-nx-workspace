@@ -2,6 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.81](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.80...ericbuettner-com/career-timeline-2.0.81) (2024-03-31)
+
+### Dependency Updates
+
+* `utils-locations` updated to version `3.0.82`
 ## [2.0.80](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.79...ericbuettner-com/career-timeline-2.0.80) (2024-03-31)
 
 ### Dependency Updates
