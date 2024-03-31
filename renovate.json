@@ -8,6 +8,7 @@
     ":automergeStableNonMajor",
     ":automergeRequireAllStatusChecks",
     ":disableRateLimiting",
+    ":doNotPinPackage(@tuffz/utils-locations)",
     ":labels(renovate, dependencies)",
     ":pinDependencies",
     ":pinDevDependencies",
@@ -19,7 +20,15 @@
   ],
   "baseBranches": ["main"],
   "packageRules": [
-    { "matchDatasources": ["npm"], "minimumReleaseAge": "3 days" },
+    {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "3 days",
+      "automerge": false
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "automerge": false
+    },
     {
       "description": "Run migrations on Nx updates",
       "extends": ["monorepo:nrwl"],
