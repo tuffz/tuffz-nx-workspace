@@ -1,17 +1,43 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": [
+    "config:recommended",
+    ":assignAndReview(tuffz)",
+    ":automergePatch",
+    ":automergePr",
+    ":automergeStableNonMajor",
+    ":automergeRequireAllStatusChecks",
+    ":disableRateLimiting",
+    "labels(renovate, dependencies)",
+    ":pinDependencies",
+    ":pinDevDependencies",
+    ":rebaseStalePrs",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":separateMultipleMajorReleases",
+    ":separateMultipleMinorReleases",
+    ":separatePatchReleases"
+  ],
   "baseBranches": ["main"],
-  "assignees": ["tuffz"],
-  "labels": ["renovate", "dependencies"],
-  "rebaseWhen": "behind-base-branch",
-  "separateMajorMinor": true,
-  "separateMultipleMajor": true,
-  "separateMinorPatch": true,
   "packageRules": [
+    { "matchDatasources": ["npm"], "minimumReleaseAge": "3 days" },
     {
-      "matchDatasources": ["npm"],
-      "minimumReleaseAge": "3 days"
+      "description": "Run migrations on Nx updates",
+      "extends": ["monorepo:nrwl"],
+      "groupName": "Nx monorepo",
+      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
+      "postUpgradeTasks": {
+        "commands": [
+          "npm cache clean --force",
+          "npm ci",
+          "echo '{\"migrations\": []}' > migrations.json",
+          "npx nx migrate @nx/workspace --from='@nx/workspace@{{{currentVersion}}}'",
+          "npx nx migrate --run-migrations=migrations.json",
+          "npm install",
+          "npm run format:write"
+        ],
+        "fileFilters": ["**/**", "**/.*", ".*/**", ".*/**/.*", ".*"]
+      },
+      "automerge": false
     }
   ]
 }
