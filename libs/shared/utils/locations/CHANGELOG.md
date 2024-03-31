@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.81](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-3.0.80...utils-locations-3.0.81) (2024-03-31)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** pin dependency tslib to 2.6.2 ([6823962](https://github.com/tuffz/tuffz-nx-workspace/commit/68239627eaa9b3fc14b7dfcbf795bf239b487f4e))
+
 ## [3.0.80](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-3.0.79...utils-locations-3.0.80) (2024-03-30)
 
 ## [3.0.79](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-3.0.78...utils-locations-3.0.79) (2024-03-30)
