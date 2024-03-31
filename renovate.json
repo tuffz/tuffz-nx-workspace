@@ -20,7 +20,15 @@
   ],
   "baseBranches": ["main"],
   "packageRules": [
-    { "matchDatasources": ["npm"], "minimumReleaseAge": "3 days" },
+    {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "3 days",
+      "automerge": false
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "automerge": false
+    },
     {
       "description": "Run migrations on Nx updates",
       "extends": ["monorepo:nrwl"],
