@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.112](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com/under-construction-0.1.111...coding-booth-com/under-construction-0.1.112) (2024-04-01)
+
+### Dependency Updates
+
+* `shared-ui-image-embed` updated to version `1.0.0`
+
+### ♻️ Code Refactoring
+
+* update import paths for SharedUiImageEmbed component ([57feb0c](https://github.com/tuffz/tuffz-nx-workspace/commit/57feb0c72244c229caaebd2d6068af0cb9c24bac))
+
 ## [0.1.111](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com/under-construction-0.1.110...coding-booth-com/under-construction-0.1.111) (2024-04-01)
 
 ## [0.1.110](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com/under-construction-0.1.109...coding-booth-com/under-construction-0.1.110) (2024-04-01)
