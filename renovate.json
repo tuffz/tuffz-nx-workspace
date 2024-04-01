@@ -29,22 +29,10 @@
       "automerge": false
     },
     {
-      "description": "Run migrations on Nx updates",
+      "description": "Prevent automerge on Nx updates",
       "extends": ["monorepo:nrwl"],
       "groupName": "Nx monorepo",
       "matchUpdateTypes": ["digest", "patch", "minor", "major"],
-      "postUpgradeTasks": {
-        "commands": [
-          "npm cache clean --force",
-          "npm ci",
-          "echo '{\"migrations\": []}' > migrations.json",
-          "npx nx migrate @nx/workspace --from='@nx/workspace@{{{currentVersion}}}'",
-          "npx nx migrate --run-migrations=migrations.json",
-          "npm install",
-          "npm run format:write"
-        ],
-        "fileFilters": ["**/**", "**/.*", ".*/**", ".*/**/.*", ".*"]
-      },
       "automerge": false
     }
   ]
