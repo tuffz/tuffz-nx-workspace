@@ -56,15 +56,7 @@
             }
           ]
         },
-        "skipCommitTypes": [
-          "build",
-          "chore",
-          "ci",
-          "docs",
-          "refactor",
-          "style",
-          "test"
-        ]
+        "skipCommitTypes": ["build", "chore", "ci", "docs", "style", "test"]
       }
     }
   }
