@@ -2,6 +2,17 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-3.0.144...shared-ui-anchor-4.0.0) (2024-04-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **shared-ui-anchor:** rename and update paths for shared UI anchor library
+
+### ♻️ Code Refactoring
+
+* **shared-ui-anchor:** rename and update paths for shared UI anchor library ([b3f9661](https://github.com/tuffz/tuffz-nx-workspace/commit/b3f96618e55dd0ccebcca5751c6de878bc280544))
+
 ## [3.0.144](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.143...ui-anchor-3.0.144) (2024-04-01)
 
 ## [3.0.143](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.142...ui-anchor-3.0.143) (2024-04-01)
