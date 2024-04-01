@@ -1,11 +1,11 @@
-export interface UiImageEmbedProps {
+export interface SharedUiImageEmbedProps {
   src: string;
   alt: string;
   title?: string;
   className?: string;
 }
 
-export function UiImageEmbed(props: UiImageEmbedProps) {
+export function SharedUiImageEmbed(props: SharedUiImageEmbedProps) {
   const title = props.title || props.alt;
 
   return (
@@ -18,4 +18,4 @@ export function UiImageEmbed(props: UiImageEmbedProps) {
   );
 }
 
-export default UiImageEmbed;
+export default SharedUiImageEmbed;
