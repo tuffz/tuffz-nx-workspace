@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.84](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.83...ericbuettner-com-3.0.84) (2024-04-01)
+
+### Dependency Updates
+
+* `shared-ui-footer` updated to version `4.0.0`
+
+### ♻️ Code Refactoring
+
+* update import paths for SharedUiFooter component ([78d8325](https://github.com/tuffz/tuffz-nx-workspace/commit/78d8325f74d1e92dc5521070e9211d14642d18a6))
+
 ## [3.0.83](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.82...ericbuettner-com-3.0.83) (2024-04-01)
 
 ## [3.0.82](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.81...ericbuettner-com-3.0.82) (2024-04-01)
