@@ -6,11 +6,11 @@ export enum Website {
   TUFFZCOM = 'tuffz.com',
 }
 
-export interface UiFooterProps {
+export interface SharedUiFooterProps {
   website: Website;
 }
 
-export function UiFooter(props: UiFooterProps) {
+export function SharedUiFooter(props: SharedUiFooterProps) {
   const footerUrl =
     'https://www.ericbuettner.com/?utm_source=' +
     props.website +
@@ -35,4 +35,4 @@ export function UiFooter(props: UiFooterProps) {
   );
 }
 
-export default UiFooter;
+export default SharedUiFooter;

@@ -1,24 +1,26 @@
 import { cleanup, render } from '@testing-library/react';
 
-import { UiFooter } from './ui-footer';
+import { SharedUiFooter } from './shared-ui-footer';
 
-describe('UiFooter', () => {
+describe('SharedUiFooter', () => {
   it('should render correctly', () => {
-    const { baseElement } = render(<UiFooter website="ericbuettner.com" />);
+    const { baseElement } = render(
+      <SharedUiFooter website="ericbuettner.com" />,
+    );
 
     // Check that the component renders without errors
     expect(baseElement).toBeInTheDocument();
   });
 });
 
-describe('UiFooter', () => {
+describe('SharedUiFooter', () => {
   afterEach(() => {
     // Clean up after each test
     cleanup();
   });
 
   test('contains the ericbuettner.com link and ericbuettner.com utm_source query', () => {
-    const { getByText } = render(<UiFooter website="ericbuettner.com" />);
+    const { getByText } = render(<SharedUiFooter website="ericbuettner.com" />);
 
     // Check that the "ericbuettner.com" link is present
     const link = getByText('Eric Büttner');
@@ -35,7 +37,7 @@ describe('UiFooter', () => {
   });
 
   test('contains the ericbuettner.com link and coding-booth.com utm_source query', () => {
-    const { getByText } = render(<UiFooter website="coding-booth.com" />);
+    const { getByText } = render(<SharedUiFooter website="coding-booth.com" />);
 
     // Check that the "ericbuettner.com" link is present
     const link = getByText('Eric Büttner');
