@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.115](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.114...ui-footer-3.0.115) (2024-04-01)
+
+### Dependency Updates
+
+* `shared-ui-anchor` updated to version `4.0.0`
+
+### ♻️ Code Refactoring
+
+* update anchor component import in UI footer and social media icons ([0b5c674](https://github.com/tuffz/tuffz-nx-workspace/commit/0b5c674a5aea1bcd46500efe3543de160356b451))
+
 ## [3.0.114](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.113...ui-footer-3.0.114) (2024-04-01)
 
 ## [3.0.113](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.112...ui-footer-3.0.113) (2024-04-01)
