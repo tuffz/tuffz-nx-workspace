@@ -26,8 +26,8 @@
       ],
       "@tuffz/shared-ui-anchor": ["libs/shared/ui-anchor/src/index.ts"],
       "@tuffz/shared-ui-footer": ["libs/shared/ui-footer/src/index.ts"],
-      "@tuffz/shared/ui/image-embed": [
-        "libs/shared/ui/image-embed/src/index.ts"
+      "@tuffz/shared-ui-image-embed": [
+        "libs/shared/ui-image-embed/src/index.ts"
       ],
       "@tuffz/shared/ui/social-media-icons": [
         "libs/shared/ui/social-media-icons/src/index.ts"

@@ -1,15 +1,18 @@
 import { render } from '@testing-library/react';
 
-import { UiImageEmbed, UiImageEmbedProps } from './ui-image-embed';
+import {
+  SharedUiImageEmbed,
+  SharedUiImageEmbedProps,
+} from './shared-ui-image-embed';
 
-describe('UiImageEmbed', () => {
-  const defaultProps: UiImageEmbedProps = {
+describe('SharedUiImageEmbed', () => {
+  const defaultProps: SharedUiImageEmbedProps = {
     src: 'image.jpg',
     alt: 'Alternative Text',
   };
 
   it('renders with required props', () => {
-    const { getByAltText } = render(<UiImageEmbed {...defaultProps} />);
+    const { getByAltText } = render(<SharedUiImageEmbed {...defaultProps} />);
     const imageElement = getByAltText(defaultProps.alt);
     expect(imageElement).toBeInTheDocument();
     expect(imageElement).toHaveAttribute('src', defaultProps.src);
@@ -18,7 +21,7 @@ describe('UiImageEmbed', () => {
   it('renders with optional title', () => {
     const customTitle = 'Custom Title';
     const { getByAltText } = render(
-      <UiImageEmbed {...defaultProps} title={customTitle} />,
+      <SharedUiImageEmbed {...defaultProps} title={customTitle} />,
     );
     const imageElement = getByAltText(defaultProps.alt);
     expect(imageElement).toBeInTheDocument();
@@ -28,7 +31,7 @@ describe('UiImageEmbed', () => {
   it('renders with additional className', () => {
     const customClassName = 'custom-class';
     const { container } = render(
-      <UiImageEmbed {...defaultProps} className={customClassName} />,
+      <SharedUiImageEmbed {...defaultProps} className={customClassName} />,
     );
     const imageElement = container.querySelector('img');
     expect(imageElement).toHaveClass(customClassName);
@@ -36,7 +39,7 @@ describe('UiImageEmbed', () => {
 
   it('uses alt as title when title is not provided', () => {
     const { getByAltText } = render(
-      <UiImageEmbed {...defaultProps} title={undefined} />,
+      <SharedUiImageEmbed {...defaultProps} title={undefined} />,
     );
     const imageElement = getByAltText(defaultProps.alt);
     expect(imageElement).toHaveAttribute('title', defaultProps.alt);
