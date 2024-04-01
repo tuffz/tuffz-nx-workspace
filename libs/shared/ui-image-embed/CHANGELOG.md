@@ -2,6 +2,17 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-0.1.5...shared-ui-image-embed-1.0.0) (2024-04-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **shared-ui-image-embed:** rename and update paths for shared UI image embed library
+
+### ♻️ Code Refactoring
+
+* **shared-ui-image-embed:** rename and update paths for shared UI image embed library ([96aca16](https://github.com/tuffz/tuffz-nx-workspace/commit/96aca1625185608537d36011fe50e98040e46fdf))
+
 ## [1.0.146](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-image-embed-1.0.145...ui-image-embed-1.0.146) (2024-04-01)
 
 ## [1.0.145](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-image-embed-1.0.144...ui-image-embed-1.0.145) (2024-04-01)
