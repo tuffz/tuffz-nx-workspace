@@ -2,6 +2,17 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-3.0.115...shared-ui-footer-4.0.0) (2024-04-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **shared-ui-footer:** rename and update paths for shared UI footer library
+
+### ♻️ Code Refactoring
+
+* **shared-ui-footer:** rename and update paths for shared UI footer library ([883d80e](https://github.com/tuffz/tuffz-nx-workspace/commit/883d80ec679a3fc39db23c4eef205871eb6b8f3f))
+
 ## [3.0.115](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-footer-3.0.114...ui-footer-3.0.115) (2024-04-01)
 
 ### Dependency Updates
