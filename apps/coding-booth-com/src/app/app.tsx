@@ -1,7 +1,7 @@
 import { Component } from 'react';
 
 import { UnderConstruction } from '@tuffz/coding-booth/under-construction';
-import { UiFooter, Website } from '@tuffz/shared/ui/footer';
+import { SharedUiFooter, Website } from '@tuffz/shared-ui-footer';
 
 export class App extends Component {
   render() {
@@ -10,7 +10,7 @@ export class App extends Component {
         <main className="container mx-auto p-2">
           <UnderConstruction />
         </main>
-        <UiFooter website={Website.CODINGBOOTHCOM} />
+        <SharedUiFooter website={Website.CODINGBOOTHCOM} />
       </div>
     );
   }

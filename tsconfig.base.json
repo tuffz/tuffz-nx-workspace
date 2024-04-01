@@ -25,7 +25,7 @@
         "libs/ericbuettner-com/profile-snapshot/src/index.ts"
       ],
       "@tuffz/shared-ui-anchor": ["libs/shared/ui-anchor/src/index.ts"],
-      "@tuffz/shared/ui/footer": ["libs/shared/ui/footer/src/index.ts"],
+      "@tuffz/shared-ui-footer": ["libs/shared/ui-footer/src/index.ts"],
       "@tuffz/shared/ui/image-embed": [
         "libs/shared/ui/image-embed/src/index.ts"
       ],

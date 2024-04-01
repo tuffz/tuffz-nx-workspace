@@ -1,7 +1,7 @@
 import './global.css';
 import PlausibleProvider from 'next-plausible';
 
-import { UiFooter, Website } from '@tuffz/shared/ui/footer';
+import { SharedUiFooter, Website } from '@tuffz/shared-ui-footer';
 
 export const metadata = {
   title: 'Eric Büttner | Head of Software Engineering at allmyhomes GmbH',
@@ -42,7 +42,7 @@ export default function RootLayout({
       <body>
         <div id="app" className="min-h-screen bg-gray-300">
           <main className="container mx-auto p-2">{children}</main>
-          <UiFooter website={Website.ERICBUETTNERCOM} />
+          <SharedUiFooter website={Website.ERICBUETTNERCOM} />
         </div>
       </body>
     </html>
