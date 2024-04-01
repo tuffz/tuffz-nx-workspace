@@ -8,7 +8,6 @@
     ":automergeStableNonMajor",
     ":automergeRequireAllStatusChecks",
     ":disableRateLimiting",
-    ":doNotPinPackage(@tuffz/utils-locations)",
     ":labels(renovate, dependencies)",
     ":pinDependencies",
     ":pinDevDependencies",
