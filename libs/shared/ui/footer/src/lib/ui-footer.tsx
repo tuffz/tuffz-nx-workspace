@@ -1,4 +1,4 @@
-import { UiAnchor } from '@tuffz/shared/ui/anchor';
+import { SharedUiAnchor } from '@tuffz/shared-ui-anchor';
 
 export enum Website {
   CODINGBOOTHCOM = 'coding-booth.com',
@@ -24,7 +24,7 @@ export function UiFooter(props: UiFooterProps) {
           ❤️
         </span>{' '}
         by{' '}
-        <UiAnchor
+        <SharedUiAnchor
           href={footerUrl}
           content="Eric Büttner"
           title="Eric Büttner"
