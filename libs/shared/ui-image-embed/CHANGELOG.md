@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.0...shared-ui-image-embed-2.0.1) (2024-04-01)
+
+
+### 📝 Documentation
+
+* **shared-ui-image-embed:** fix incorrect version numbers in CHANGELOG.md ([591e97b](https://github.com/tuffz/tuffz-nx-workspace/commit/591e97b3d0204e811f4b1c25fd6dbcc34a2a146d))
+
 ## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-0.1.146...shared-ui-image-embed-2.0.0) (2024-04-01)
 
 ### ⚠ BREAKING CHANGES
