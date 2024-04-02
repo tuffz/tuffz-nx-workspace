@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.1.101](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.100...ericbuettner-com/profile-snapshot-3.1.101) (2024-04-02)
+
+### Dependency Updates
+
+* `shared-util-location-formatting` updated to version `4.0.0`
+
+### ♻️ Code Refactoring
+
+* **ericbuettner-com-profile-snapshot:** update import paths for location utilities ([717e222](https://github.com/tuffz/tuffz-nx-workspace/commit/717e222f698f70cb36ec3923a09de4263b93913d))
+
 ## [3.1.100](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.99...ericbuettner-com/profile-snapshot-3.1.100) (2024-04-02)
 
 ### Dependency Updates
