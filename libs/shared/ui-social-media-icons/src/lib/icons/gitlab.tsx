@@ -1,6 +1,6 @@
 import './gitlab.scss';
 
-import { UiSocialMediaIconProps } from '../ui-social-media-icons';
+import { UiSocialMediaIconProps } from '../shared-ui-social-media-icons';
 
 export function UiSocialMediaIconGitLab(props: UiSocialMediaIconProps) {
   return (
