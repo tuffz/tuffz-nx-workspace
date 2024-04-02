@@ -1,19 +1,12 @@
-export interface Location {
-  city: string;
-  state?: string | null;
-  country: string;
-}
+import { LocationInterface } from './location.interface';
+import { StructuredLocationInterface } from './structured-location.interface';
 
-export interface StructuredLocation {
-  city: string;
-  state?: string | null;
-  country: string;
-}
-
-export function structureLocation(location: Location): StructuredLocation {
+export function structureLocation(
+  location: LocationInterface,
+): StructuredLocationInterface {
   const { city, state, country } = location;
 
-  const structuredLocation: StructuredLocation = {
+  const structuredLocation: StructuredLocationInterface = {
     city: city,
     country: country,
     state:

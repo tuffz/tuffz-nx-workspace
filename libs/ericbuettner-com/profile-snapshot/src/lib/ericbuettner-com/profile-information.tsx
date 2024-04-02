@@ -1,5 +1,5 @@
 import {
-  Location,
+  LocationInterface,
   formatLocationToString,
   structureLocation,
 } from '@tuffz/shared-util-location-formatting';
@@ -15,7 +15,7 @@ interface ProfileInformationProps {
 }
 
 export function ProfileInformation(props: ProfileInformationProps) {
-  const location: Location = {
+  const location: LocationInterface = {
     city: props.location_city,
     state: props.location_state,
     country: props.location_country,

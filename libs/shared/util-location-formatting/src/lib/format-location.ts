@@ -1,8 +1,10 @@
-import { StructuredLocation } from './structure-location';
+import { StructuredLocationInterface } from './structured-location.interface';
 
-export function formatLocationToString(structuredLocation: StructuredLocation) {
+export function formatLocationToString(
+  structuredLocation: StructuredLocationInterface,
+) {
   // Define the order in which properties should appear
-  const locationSequence: (keyof StructuredLocation)[] = [
+  const locationSequence: (keyof StructuredLocationInterface)[] = [
     'city',
     'state',
     'country',

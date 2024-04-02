@@ -1,6 +1,6 @@
-import { Location } from '@tuffz/shared-util-location-formatting';
+import { LocationInterface } from '@tuffz/shared-util-location-formatting';
 
-export const CompanyLocation: Record<string, Location> = {
+export const CompanyLocation: Record<string, LocationInterface> = {
   BERLIN_GERMANY: {
     city: 'Berlin',
     state: 'Berlin',
