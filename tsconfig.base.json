@@ -32,7 +32,9 @@
       "@tuffz/shared-ui-social-media-icons": [
         "libs/shared/ui-social-media-icons/src/index.ts"
       ],
-      "@tuffz/utils-locations": ["libs/shared/utils/locations/src/index.ts"]
+      "@tuffz/shared-util-location-formatting": [
+        "libs/shared/util-location-formatting/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -2,7 +2,7 @@ import {
   Location,
   formatLocationToString,
   structureLocation,
-} from '@tuffz/utils-locations';
+} from '@tuffz/shared-util-location-formatting';
 
 import { CompanyLocation } from './enum/company-location';
 

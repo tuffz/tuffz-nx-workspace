@@ -1,6 +1,6 @@
 export default {
-  displayName: 'utils-locations',
-  preset: '../../../../jest.preset.js',
+  displayName: 'shared-util-location-formatting',
+  preset: '../../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
     '^.+\\.ts$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
@@ -8,5 +8,5 @@ export default {
     '^.+\\.js$': 'babel-jest',
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../../../coverage/libs/shared/utils/locations',
+  coverageDirectory: '../../../coverage/libs/shared/util-location-formatting',
 };
