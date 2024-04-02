@@ -1,5 +1,5 @@
 import {
-  Location,
+  LocationInterface,
   formatLocationToString,
   structureLocation,
 } from '@tuffz/shared-util-location-formatting';
@@ -20,7 +20,7 @@ export function CareerTimelineItem(props: CareerTimelineItemProps) {
     year: 'numeric',
   };
 
-  const location: Location = {
+  const location: LocationInterface = {
     city: CompanyLocation[props.location].city,
     state: CompanyLocation[props.location].state,
     country: CompanyLocation[props.location].country,
