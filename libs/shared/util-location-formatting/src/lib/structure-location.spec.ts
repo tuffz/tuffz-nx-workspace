@@ -1,8 +1,5 @@
-import {
-  Location,
-  StructuredLocation,
-  structureLocation,
-} from './structure-location';
+import { Location, structureLocation } from './structure-location';
+import { StructuredLocationInterface } from './structured-location.interface';
 
 describe('structureLocation', () => {
   it('should create a structured location with all properties', () => {
@@ -11,7 +8,7 @@ describe('structureLocation', () => {
       state: 'Brandenburg',
       country: 'Germany',
     };
-    const expectedStructuredLocation: StructuredLocation = {
+    const expectedStructuredLocation: StructuredLocationInterface = {
       city: 'Eberswalde',
       state: 'Brandenburg',
       country: 'Germany',
@@ -25,7 +22,7 @@ describe('structureLocation', () => {
       city: 'Paris',
       country: 'France',
     };
-    const expectedStructuredLocation: StructuredLocation = {
+    const expectedStructuredLocation: StructuredLocationInterface = {
       city: 'Paris',
       state: null,
       country: 'France',
@@ -40,7 +37,7 @@ describe('structureLocation', () => {
       state: null,
       country: 'United Kingdom',
     };
-    const expectedStructuredLocation: StructuredLocation = {
+    const expectedStructuredLocation: StructuredLocationInterface = {
       city: 'London',
       state: null,
       country: 'United Kingdom',
@@ -55,7 +52,7 @@ describe('structureLocation', () => {
       state: '',
       country: 'Germany',
     };
-    const expectedStructuredLocation: StructuredLocation = {
+    const expectedStructuredLocation: StructuredLocationInterface = {
       city: 'Berlin',
       state: null,
       country: 'Germany',
@@ -70,7 +67,7 @@ describe('structureLocation', () => {
       state: 'Berlin',
       country: 'Germany',
     };
-    const expectedStructuredLocation: StructuredLocation = {
+    const expectedStructuredLocation: StructuredLocationInterface = {
       city: 'Berlin',
       state: null,
       country: 'Germany',

@@ -1,5 +1,5 @@
 import { formatLocationToString } from './format-location';
-import { StructuredLocation } from './structure-location';
+import { StructuredLocationInterface } from './structured-location.interface';
 
 describe('formatLocationToString', () => {
   it('should format location with all properties', () => {
@@ -7,7 +7,7 @@ describe('formatLocationToString', () => {
       city: 'Eberswalde',
       state: 'Brandenburg',
       country: 'Germany',
-    } as StructuredLocation;
+    } as StructuredLocationInterface;
     const formattedString = formatLocationToString(location);
     expect(formattedString).toBe('Eberswalde, Brandenburg, Germany');
   });
@@ -16,7 +16,7 @@ describe('formatLocationToString', () => {
     const location = {
       city: 'Paris',
       country: 'France',
-    } as StructuredLocation;
+    } as StructuredLocationInterface;
     const formattedString = formatLocationToString(location);
     expect(formattedString).toBe('Paris, France');
   });
@@ -24,13 +24,13 @@ describe('formatLocationToString', () => {
   it('should format location without city and state', () => {
     const location = {
       country: 'Germany',
-    } as StructuredLocation;
+    } as StructuredLocationInterface;
     const formattedString = formatLocationToString(location);
     expect(formattedString).toBe('Germany');
   });
 
   it('should return empty string for empty location', () => {
-    const location = {} as StructuredLocation;
+    const location = {} as StructuredLocationInterface;
     const formattedString = formatLocationToString(location);
     expect(formattedString).toBe('');
   });
@@ -40,7 +40,7 @@ describe('formatLocationToString', () => {
       city: 'London',
       state: null,
       country: 'United Kingdom',
-    } as StructuredLocation;
+    } as StructuredLocationInterface;
     const formattedString = formatLocationToString(location);
     expect(formattedString).toBe('London, United Kingdom');
   });
@@ -50,7 +50,7 @@ describe('formatLocationToString', () => {
       city: 'London',
       state: undefined,
       country: 'United Kingdom',
-    } as StructuredLocation;
+    } as StructuredLocationInterface;
     const formattedString = formatLocationToString(location);
     expect(formattedString).toBe('London, United Kingdom');
   });
@@ -60,7 +60,7 @@ describe('formatLocationToString', () => {
       city: 'Los Angeles',
       state: '',
       country: 'USA',
-    } as StructuredLocation;
+    } as StructuredLocationInterface;
     const formattedString = formatLocationToString(location);
     expect(formattedString).toBe('Los Angeles, USA');
   });
