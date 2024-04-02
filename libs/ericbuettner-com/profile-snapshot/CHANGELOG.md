@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.1.100](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.99...ericbuettner-com/profile-snapshot-3.1.100) (2024-04-02)
+
+### Dependency Updates
+
+* `shared-ui-social-media-icons` updated to version `5.0.0`
+
+### ♻️ Code Refactoring
+
+* **ericbuettner-com:** update import paths for social media icons ([070edbf](https://github.com/tuffz/tuffz-nx-workspace/commit/070edbf6f46a0b48ea0428d20c15daf030960ef1))
+
 ## [3.1.99](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.98...ericbuettner-com/profile-snapshot-3.1.99) (2024-04-02)
 
 ## [3.1.98](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.97...ericbuettner-com/profile-snapshot-3.1.98) (2024-04-01)
