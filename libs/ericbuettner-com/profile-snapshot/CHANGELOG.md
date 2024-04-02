@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.1.102](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.101...ericbuettner-com/profile-snapshot-3.1.102) (2024-04-02)
+
+### Dependency Updates
+
+* `shared-util-location-formatting` updated to version `5.0.0`
+
+### 🐛 Bug Fixes
+
+* **ericbuettner-com/profile-snapshot:** update components for `LocationInterface` renaming ([3623c1d](https://github.com/tuffz/tuffz-nx-workspace/commit/3623c1d4d5190d9f8f73baefe934d2c01b11fb0f))
+
 ## [3.1.101](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.100...ericbuettner-com/profile-snapshot-3.1.101) (2024-04-02)
 
 ### Dependency Updates
