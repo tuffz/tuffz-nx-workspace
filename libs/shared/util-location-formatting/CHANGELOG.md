@@ -2,6 +2,17 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-3.0.92...shared-util-location-formatting-4.0.0) (2024-04-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **shared-util-location-formatting:** rename and update paths
+
+### ♻️ Code Refactoring
+
+* **shared-util-location-formatting:** rename and update paths ([6f580d2](https://github.com/tuffz/tuffz-nx-workspace/commit/6f580d260ba1b7b420dec2f6d036bf1b098a2519))
+
 ## [3.0.92](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-3.0.91...utils-locations-3.0.92) (2024-04-02)
 
 ## [3.0.91](https://github.com/tuffz/tuffz-nx-workspace/compare/utils-locations-3.0.90...utils-locations-3.0.91) (2024-04-02)
