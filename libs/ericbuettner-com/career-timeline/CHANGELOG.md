@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.93](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.92...ericbuettner-com/career-timeline-2.0.93) (2024-04-02)
+
+### Dependency Updates
+
+* `shared-util-location-formatting` updated to version `5.0.0`
+
+### 🐛 Bug Fixes
+
+* **ericbuettner-com/career-timeline:** update components for `LocationInterface` renaming ([4eeb81b](https://github.com/tuffz/tuffz-nx-workspace/commit/4eeb81be21e90f641b9c939e33615d9ea9b1f0e3))
+
 ## [2.0.92](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.91...ericbuettner-com/career-timeline-2.0.92) (2024-04-02)
 
 ### Dependency Updates
