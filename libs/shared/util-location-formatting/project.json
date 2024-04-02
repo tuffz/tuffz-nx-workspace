@@ -1,0 +1,66 @@
+{
+  "name": "shared-util-location-formatting",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/util-location-formatting/src",
+  "projectType": "library",
+  "tags": ["scope:shared", "type:util"],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/shared/util-location-formatting",
+        "main": "libs/shared/util-location-formatting/src/index.ts",
+        "tsConfig": "libs/shared/util-location-formatting/tsconfig.lib.json",
+        "assets": ["libs/shared/util-location-formatting/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/shared/util-location-formatting/jest.config.ts"
+      }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "baseBranch": "main",
+        "commitMessageFormat": "chore({projectName}): 🚀 release version ${version} [skip ci]",
+        "preset": {
+          "types": [
+            {
+              "type": "feat",
+              "section": "✨ Features"
+            },
+            {
+              "type": "fix",
+              "section": "🐛 Bug Fixes"
+            },
+            {
+              "type": "docs",
+              "section": "📝 Documentation"
+            },
+            {
+              "type": "refactor",
+              "section": "♻️ Code Refactoring"
+            },
+            {
+              "type": "perf",
+              "section": "⚡️ Performance Improvements"
+            },
+            {
+              "type": "test",
+              "section": "✅ Tests"
+            }
+          ]
+        },
+        "skipCommitTypes": ["build", "chore", "ci", "docs", "style", "test"]
+      }
+    }
+  }
+}
