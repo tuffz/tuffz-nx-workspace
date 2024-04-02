@@ -1,4 +1,4 @@
-import { UiSocialMediaIcons } from '@tuffz/shared/ui/social-media-icons';
+import { SharedUiSocialMediaIcons } from '@tuffz/shared-ui-social-media-icons';
 
 export interface SocialMediaLink {
   url: string;
@@ -14,7 +14,7 @@ export function SocialMediaLinks({ socialMediaLinks }: SocialMediaLinksProps) {
       <p className="flex flex-wrap justify-center">
         {socialMediaLinks.map((link, index) => (
           <span key={index} className="mx-1 px-1 text-sm">
-            <UiSocialMediaIcons size={24} url={link.url} />
+            <SharedUiSocialMediaIcons size={24} url={link.url} />
           </span>
         ))}
       </p>
