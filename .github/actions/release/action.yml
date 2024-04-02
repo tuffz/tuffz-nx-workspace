@@ -10,6 +10,7 @@ inputs:
 runs:
   using: composite
   steps:
+    # Get the latest tag for versioning
     - run: git describe --tags $(git rev-list --tags --max-count=1)
       shell: bash
 
