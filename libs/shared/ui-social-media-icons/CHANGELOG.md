@@ -2,6 +2,17 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [5.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-social-media-icons-4.0.92...shared-ui-social-media-icons-5.0.0) (2024-04-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **shared-ui-social-media-icons:** rename and update paths
+
+### ♻️ Code Refactoring
+
+* **shared-ui-social-media-icons:** rename and update paths ([75b7b0e](https://github.com/tuffz/tuffz-nx-workspace/commit/75b7b0e5dd1a095232ee273c2a7a7ceda9e7e8af))
+
 ## [4.0.92](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-4.0.91...ui-social-media-icons-4.0.92) (2024-04-02)
 
 ## [4.0.91](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-social-media-icons-4.0.90...ui-social-media-icons-4.0.91) (2024-04-01)
