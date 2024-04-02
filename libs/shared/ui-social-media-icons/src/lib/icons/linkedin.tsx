@@ -1,6 +1,6 @@
 import './linkedin.scss';
 
-import { UiSocialMediaIconProps } from '../ui-social-media-icons';
+import { UiSocialMediaIconProps } from '../shared-ui-social-media-icons';
 
 export function UiSocialMediaIconLinkedIn(props: UiSocialMediaIconProps) {
   return (

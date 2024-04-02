@@ -1,6 +1,6 @@
 import './twitter.scss';
 
-import { UiSocialMediaIconProps } from '../ui-social-media-icons';
+import { UiSocialMediaIconProps } from '../shared-ui-social-media-icons';
 
 export function UiSocialMediaIconTwitter(props: UiSocialMediaIconProps) {
   return (

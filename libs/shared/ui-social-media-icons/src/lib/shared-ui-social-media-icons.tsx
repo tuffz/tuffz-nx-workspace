@@ -1,3 +1,5 @@
+import { JSX } from 'react/jsx-runtime';
+
 import { SharedUiAnchor } from '@tuffz/shared-ui-anchor';
 
 // Import SVG components for each platform
@@ -7,7 +9,7 @@ import { UiSocialMediaIconLinkedIn } from './icons/linkedin';
 import { UiSocialMediaIconTwitter } from './icons/twitter';
 import { UiSocialMediaIconX } from './icons/x';
 
-export interface UiSocialMediaIconsProps {
+export interface SharedUiSocialMediaIconsProps {
   size: number;
   url: string;
 }
@@ -59,7 +61,7 @@ const extractPlatformFromUrl = (url: string): string => {
   return platform ? platform[0] : 'unknown';
 };
 
-export function UiSocialMediaIcons(props: UiSocialMediaIconsProps) {
+export function SharedUiSocialMediaIcons(props: SharedUiSocialMediaIconsProps) {
   const platform = extractPlatformFromUrl(props.url);
 
   if (platform in platformMappings) {
@@ -82,4 +84,4 @@ export function UiSocialMediaIcons(props: UiSocialMediaIconsProps) {
   }
 }
 
-export default UiSocialMediaIcons;
+export default SharedUiSocialMediaIcons;
