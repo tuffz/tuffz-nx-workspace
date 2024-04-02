@@ -1,9 +1,10 @@
-import { Location, structureLocation } from './structure-location';
+import { LocationInterface } from './location.interface';
+import { structureLocation } from './structure-location';
 import { StructuredLocationInterface } from './structured-location.interface';
 
 describe('structureLocation', () => {
   it('should create a structured location with all properties', () => {
-    const location: Location = {
+    const location: LocationInterface = {
       city: 'Eberswalde',
       state: 'Brandenburg',
       country: 'Germany',
@@ -18,7 +19,7 @@ describe('structureLocation', () => {
   });
 
   it('should create a structured location without state', () => {
-    const location: Location = {
+    const location: LocationInterface = {
       city: 'Paris',
       country: 'France',
     };
@@ -32,7 +33,7 @@ describe('structureLocation', () => {
   });
 
   it('should handle null state by setting it to undefined in structured location', () => {
-    const location: Location = {
+    const location: LocationInterface = {
       city: 'London',
       state: null,
       country: 'United Kingdom',
@@ -47,7 +48,7 @@ describe('structureLocation', () => {
   });
 
   it('should handle empty state by setting it to undefined in structured location', () => {
-    const location: Location = {
+    const location: LocationInterface = {
       city: 'Berlin',
       state: '',
       country: 'Germany',
@@ -62,7 +63,7 @@ describe('structureLocation', () => {
   });
 
   it('should handle empty state by setting it to undefined in structured location', () => {
-    const location: Location = {
+    const location: LocationInterface = {
       city: 'Berlin',
       state: 'Berlin',
       country: 'Germany',
