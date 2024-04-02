@@ -2,6 +2,19 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [5.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-4.0.0...shared-util-location-formatting-5.0.0) (2024-04-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **shared-util-location-formatting:** extract LocationInterface interface
+* **shared-util-location-formatting:** extract StructuredLocationInterface interface
+
+### ♻️ Code Refactoring
+
+* **shared-util-location-formatting:** extract LocationInterface interface ([4a0c83f](https://github.com/tuffz/tuffz-nx-workspace/commit/4a0c83f947de4fd3803e287d815a38205cf1a1ab))
+* **shared-util-location-formatting:** extract StructuredLocationInterface interface ([3264d81](https://github.com/tuffz/tuffz-nx-workspace/commit/3264d81a19606f376e7f7f46ddfde68ab6032bdc))
+
 ## [4.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-3.0.92...shared-util-location-formatting-4.0.0) (2024-04-02)
 
 
