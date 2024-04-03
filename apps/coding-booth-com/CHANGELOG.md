@@ -2,6 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.119](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.1.118...coding-booth-com-1.1.119) (2024-04-03)
+
+### Dependency Updates
+
+* `shared-ui-footer` updated to version `4.0.8`
 ## [1.1.118](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.1.117...coding-booth-com-1.1.118) (2024-04-02)
 
 ## [1.1.117](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.1.116...coding-booth-com-1.1.117) (2024-04-02)
