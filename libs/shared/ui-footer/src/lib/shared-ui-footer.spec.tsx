@@ -1,11 +1,12 @@
 import { cleanup, render } from '@testing-library/react';
 
 import { SharedUiFooter } from './shared-ui-footer';
+import { Website } from './website.enum';
 
 describe('SharedUiFooter', () => {
   it('should render correctly', () => {
     const { baseElement } = render(
-      <SharedUiFooter website="ericbuettner.com" />,
+      <SharedUiFooter website={Website.ERICBUETTNERCOM} />,
     );
 
     // Check that the component renders without errors
@@ -20,7 +21,9 @@ describe('SharedUiFooter', () => {
   });
 
   test('contains the ericbuettner.com link and ericbuettner.com utm_source query', () => {
-    const { getByText } = render(<SharedUiFooter website="ericbuettner.com" />);
+    const { getByText } = render(
+      <SharedUiFooter website={Website.ERICBUETTNERCOM} />,
+    );
 
     // Check that the "ericbuettner.com" link is present
     const link = getByText('Eric Büttner');
@@ -37,7 +40,9 @@ describe('SharedUiFooter', () => {
   });
 
   test('contains the ericbuettner.com link and coding-booth.com utm_source query', () => {
-    const { getByText } = render(<SharedUiFooter website="coding-booth.com" />);
+    const { getByText } = render(
+      <SharedUiFooter website={Website.CODINGBOOTHCOM} />,
+    );
 
     // Check that the "ericbuettner.com" link is present
     const link = getByText('Eric Büttner');
