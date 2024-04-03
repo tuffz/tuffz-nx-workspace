@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [5.0.2](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-social-media-icons-5.0.1...shared-ui-social-media-icons-5.0.2) (2024-04-03)
+
+
+### ✅ Tests
+
+* **shared-ui-social-media-icons:** mock `SharedUiAnchor` component in unit tests ([5c993bb](https://github.com/tuffz/tuffz-nx-workspace/commit/5c993bb4d3314f612890c563624da29504b03c72))
+
 ## [5.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-social-media-icons-5.0.0...shared-ui-social-media-icons-5.0.1) (2024-04-02)
 
 ## [5.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-social-media-icons-4.0.92...shared-ui-social-media-icons-5.0.0) (2024-04-02)
