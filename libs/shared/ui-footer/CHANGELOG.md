@@ -4,16 +4,14 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ## [4.0.8](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-4.0.7...shared-ui-footer-4.0.8) (2024-04-03)
 
-
 ### ♻️ Code Refactoring
 
 * **shared-ui-footer:** move `Website` enum to separate file ([6346109](https://github.com/tuffz/tuffz-nx-workspace/commit/6346109d7383a87902be3eca3ce686dd5a0fcaa7))
 
-
 ### ✅ Tests
 
 * **shared-ui-footer:** mock `SharedUiAnchor` component ([292a33d](https://github.com/tuffz/tuffz-nx-workspace/commit/292a33dd0d612f5b40b5bf2fa7b0ab010edbb005))
-* **shared-ui-footer:** use Website enum for website parapter in SharedUiFooter tests ([aab3eb8](https://github.com/tuffz/tuffz-nx-workspace/commit/aab3eb8982f07a9ba5056983fdbff108380fd28c))
+* **shared-ui-footer:** use Website enum for website parameter in SharedUiFooter tests ([aab3eb8](https://github.com/tuffz/tuffz-nx-workspace/commit/aab3eb8982f07a9ba5056983fdbff108380fd28c))
 
 ## [4.0.7](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-4.0.6...shared-ui-footer-4.0.7) (2024-04-02)
 
@@ -30,7 +28,6 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 ## [4.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-4.0.0...shared-ui-footer-4.0.1) (2024-04-01)
 
 ## [4.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-3.0.115...shared-ui-footer-4.0.0) (2024-04-01)
-
 
 ### ⚠ BREAKING CHANGES
 
