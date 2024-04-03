@@ -6,6 +6,7 @@ export function UiSocialMediaIconLinkedIn(props: UiSocialMediaIconProps) {
   return (
     <svg
       className="social-media-icon-linkedin inline"
+      data-testid="social-media-icon"
       fill="fillColor"
       width={props.size}
       height={props.size}
