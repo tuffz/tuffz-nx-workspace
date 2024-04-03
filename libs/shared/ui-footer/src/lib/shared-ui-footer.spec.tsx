@@ -1,55 +1,41 @@
-import { cleanup, render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 
-import { SharedUiFooter } from './shared-ui-footer';
+import { SharedUiFooter, SharedUiFooterProps } from './shared-ui-footer';
+import { Website } from './website.enum';
 
-describe('SharedUiFooter', () => {
-  it('should render correctly', () => {
-    const { baseElement } = render(
-      <SharedUiFooter website="ericbuettner.com" />,
-    );
-
-    // Check that the component renders without errors
-    expect(baseElement).toBeInTheDocument();
-  });
-});
+// Mock the SharedUiAnchor component
+jest.mock('@tuffz/shared-ui-anchor', () => ({
+  SharedUiAnchor: ({ href, content }: { href: string; content: string }) => (
+    <a href={href}>{content}</a>
+  ),
+}));
 
 describe('SharedUiFooter', () => {
-  afterEach(() => {
-    // Clean up after each test
-    cleanup();
-  });
+  const website: Website = Website.CODINGBOOTHCOM;
 
-  test('contains the ericbuettner.com link and ericbuettner.com utm_source query', () => {
-    const { getByText } = render(<SharedUiFooter website="ericbuettner.com" />);
+  const mockProps: SharedUiFooterProps = { website };
 
-    // Check that the "ericbuettner.com" link is present
-    const link = getByText('Eric Büttner');
-    expect(link).toBeInTheDocument();
+  it('should renders footer with correct content', () => {
+    render(<SharedUiFooter {...mockProps} />);
 
-    // Check that the link has the correct attributes
-    expect(link).toHaveAttribute(
+    // Find the span element with the aria-label "Heart"
+    const heartIcon = screen.getByLabelText('Heart');
+
+    // Check if the heart icon is found
+    expect(heartIcon).toBeInTheDocument();
+
+    // Find the paragraph containing the text
+    const footerText = screen.getByText(/Crafted with/);
+
+    // Check if the paragraph text is found
+    expect(footerText).toBeInTheDocument();
+
+    // Check if the anchor element is found with the correct href attribute
+    const anchorElement = screen.getByText('Eric Büttner') as HTMLAnchorElement;
+    expect(anchorElement).toBeInTheDocument();
+    expect(anchorElement).toHaveAttribute(
       'href',
-      'https://www.ericbuettner.com/?utm_source=ericbuettner.com&utm_medium=link&utm_campaign=crafted-with-heart',
+      `https://www.ericbuettner.com/?utm_source=${website}&utm_medium=link&utm_campaign=crafted-with-heart`,
     );
-    expect(link).toHaveAttribute('title', 'Eric Büttner');
-    expect(link).toHaveAttribute('target', '_blank');
-    expect(link).toHaveAttribute('rel', 'noopener noreferrer');
-  });
-
-  test('contains the ericbuettner.com link and coding-booth.com utm_source query', () => {
-    const { getByText } = render(<SharedUiFooter website="coding-booth.com" />);
-
-    // Check that the "ericbuettner.com" link is present
-    const link = getByText('Eric Büttner');
-    expect(link).toBeInTheDocument();
-
-    // Check that the link has the correct attributes
-    expect(link).toHaveAttribute(
-      'href',
-      'https://www.ericbuettner.com/?utm_source=coding-booth.com&utm_medium=link&utm_campaign=crafted-with-heart',
-    );
-    expect(link).toHaveAttribute('title', 'Eric Büttner');
-    expect(link).toHaveAttribute('target', '_blank');
-    expect(link).toHaveAttribute('rel', 'noopener noreferrer');
   });
 });

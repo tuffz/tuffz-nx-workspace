@@ -1,10 +1,6 @@
 import { SharedUiAnchor } from '@tuffz/shared-ui-anchor';
 
-export enum Website {
-  CODINGBOOTHCOM = 'coding-booth.com',
-  ERICBUETTNERCOM = 'ericbuettner.com',
-  TUFFZCOM = 'tuffz.com',
-}
+import { Website } from './website.enum';
 
 export interface SharedUiFooterProps {
   website: Website;
