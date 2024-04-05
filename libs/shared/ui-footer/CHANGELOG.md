@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.9](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-4.0.8...shared-ui-footer-4.0.9) (2024-04-05)
+
+
+### 📝 Documentation
+
+* **shared-ui-footer:** fix typo in CHANGELOG.md ([18135ae](https://github.com/tuffz/tuffz-nx-workspace/commit/18135aee33032ad4c4b7d21638c38d3aabb80d56))
+
 ## [4.0.8](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-4.0.7...shared-ui-footer-4.0.8) (2024-04-03)
 
 ### ♻️ Code Refactoring
