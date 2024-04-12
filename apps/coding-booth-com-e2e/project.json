@@ -25,24 +25,6 @@
     "lint": {
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"]
-    },
-    "version": {
-      "executor": "@jscutlery/semver:version",
-      "options": {
-        "baseBranch": "main",
-        "commitMessageFormat": "chore({projectName}): 🚀 release version ${version} [skip ci]",
-        "preset": {
-          "types": [
-            { "type": "feat", "section": "✨ Features" },
-            { "type": "fix", "section": "🐛 Bug Fixes" },
-            { "type": "docs", "section": "📝 Documentation" },
-            { "type": "refactor", "section": "♻️ Code Refactoring" },
-            { "type": "perf", "section": "⚡️ Performance Improvements" },
-            { "type": "test", "section": "✅ Tests" }
-          ]
-        },
-        "skipCommitTypes": ["build", "chore", "ci", "docs", "style", "test"]
-      }
     }
   }
 }
