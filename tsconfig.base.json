@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@tuffz/coding-booth-com/character-counter": [
-        "libs/coding-booth-com/character-counter/src/index.ts"
+      "@tuffz/coding-booth-com-feature-character-counter": [
+        "libs/coding-booth-com/feature-character-counter/src/index.ts"
       ],
       "@tuffz/coding-booth/under-construction": [
         "libs/coding-booth-com/under-construction/src/index.ts"

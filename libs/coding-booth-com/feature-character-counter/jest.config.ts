@@ -8,5 +8,5 @@ export default {
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   coverageDirectory:
-    '../../../coverage/libs/coding-booth-com/character-counter',
+    '../../../coverage/libs/coding-booth-com/feature-character-counter',
 };
