@@ -95,6 +95,12 @@ jobs:
         if: github.event_name == 'pull_request'
         run: npx nx affected --target=test --ci --runInBand
 
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4.0.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: tuffz/tuffz-nx-workspace
+
   # e2e:
   #   name: 📸 End-to-End Testing
   #   needs: preinstall
