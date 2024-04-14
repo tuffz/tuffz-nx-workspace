@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [5.0.21](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.20...shared-util-location-formatting-5.0.21) (2024-04-14)
+
 ## [5.0.20](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.19...shared-util-location-formatting-5.0.20) (2024-04-14)
 
 ## [5.0.19](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.18...shared-util-location-formatting-5.0.19) (2024-04-14)
