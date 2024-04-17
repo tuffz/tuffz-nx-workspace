@@ -30,7 +30,7 @@
   "devDependencies": {
     "@babel/core": "7.24.4",
     "@babel/preset-react": "7.24.1",
-    "@commitlint/cli": "19.2.1",
+    "@commitlint/cli": "19.2.2",
     "@commitlint/config-conventional": "19.1.0",
     "@jscutlery/semver": "5.2.2",
     "@nx/cypress": "18.2.4",
