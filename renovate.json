@@ -39,6 +39,11 @@
       "description": "Adjust semantic commit type to 'fix' in the 'monorepo:nextjs' preset.",
       "extends": ["monorepo:nextjs"],
       "semanticCommitType": "fix"
+    },
+    {
+      "description": "Adjust semantic commit type to 'fix' in the 'monorepo:react' preset.",
+      "extends": ["monorepo:react"],
+      "semanticCommitType": "fix"
     }
   ]
 }
