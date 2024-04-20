@@ -36,8 +36,10 @@
       "automerge": false
     },
     {
-      "description": "Adjust semantic commit type to 'fix' in the 'monorepo:nextjs' preset.",
+      "description": "Adjust semantic commit type to 'fix' when updating dependencies in the 'monorepo:nextjs' preset.",
       "extends": ["monorepo:nextjs"],
+      "groupName": "",
+      "matchDepTypes": ["dependencies", "require"],
       "semanticCommitType": "fix"
     }
   ]

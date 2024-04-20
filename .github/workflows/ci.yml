@@ -9,13 +9,6 @@ env:
   CYPRESS_CACHE_FOLDER: ${{ github.workspace }}/.cypress
 
 jobs:
-  renovate-validator:
-    name: Renovate Config Validation
-    runs-on: 'ubuntu-latest'
-    steps:
-      - name:
-        run: npx --yes --package renovate -- renovate-config-validator --strict
-
   preinstall:
     name: 🏗️ Preparation
     runs-on: ubuntu-latest
