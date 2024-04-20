@@ -9,8 +9,6 @@
     ":automergeRequireAllStatusChecks",
     ":disableRateLimiting",
     ":labels(renovate, dependencies)",
-    ":pinDependencies",
-    ":pinDevDependencies",
     ":rebaseStalePrs",
     ":semanticPrefixFixDepsChoreOthers",
     ":separateMultipleMajorReleases",
@@ -39,6 +37,22 @@
       "description": "Adjust semantic commit type to 'fix' in the 'monorepo:nextjs' preset.",
       "extends": ["monorepo:nextjs"],
       "semanticCommitType": "fix"
+    },
+    {
+      "description": "Adjust semantic commit type to 'fix' in the 'monorepo:react' preset.",
+      "extends": ["monorepo:react"],
+      "semanticCommitType": "fix"
+    },
+    {
+      "description": "Pin dependency versions for 'dependencies' in package.json on root level",
+      "matchFileNames": ["package.json"],
+      "extends": [":pinDependencies"],
+      "semanticCommitType": "fix"
+    },
+    {
+      "description": "Pin dependency versions for 'devDependencies' in package.json on root level",
+      "matchFileNames": ["package.json"],
+      "extends": [":pinDevDependencies"]
     }
   ]
 }
