@@ -2,6 +2,17 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.1.149...coding-booth-com-1.2.0) (2024-04-20)
+
+### Dependency Updates
+
+* `coding-booth-com-feature-character-counter` updated to version `1.0.0`
+
+### ✨ Features
+
+* **character-counter:** style character-counter component (wip) ([6d13ebd](https://github.com/tuffz/tuffz-nx-workspace/commit/6d13ebd8f907cd135b582a3722ca5b5df43bfea7))
+* **coding-booth-com:** integrate CharacterCounter into main app ([b8a4589](https://github.com/tuffz/tuffz-nx-workspace/commit/b8a45898d0145bb52ce1713d6d73f2da0cb603ff))
+
 ## [1.1.149](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.1.148...coding-booth-com-1.1.149) (2024-04-20)
 
 ## [1.1.148](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.1.147...coding-booth-com-1.1.148) (2024-04-19)
