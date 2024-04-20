@@ -2,7 +2,7 @@
   "name": "@tuffz/shared-util-location-formatting",
   "version": "5.0.30",
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "2.6.2"
   },
   "type": "commonjs",
   "main": "./src/index.js",
