@@ -2,6 +2,23 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.2.3...coding-booth-com-2.0.0) (2024-04-21)
+
+### Dependency Updates
+
+* `coding-booth-com-page-home` updated to version `1.0.0`
+
+### ⚠ BREAKING CHANGES
+
+* **coding-booth-com:** migrate React application to Next.js
+
+### ♻️ Code Refactoring
+
+* **coding-booth-com:** migrate React application to Next.js ([6565e53](https://github.com/tuffz/tuffz-nx-workspace/commit/6565e536d893e3acaf0a3e23b4d6ff17a1b72b52))
+* **coding-booth-com:** rename coding-booth-com and related e2e apps to coding-booth-com-react ([5718cee](https://github.com/tuffz/tuffz-nx-workspace/commit/5718cee41af4c186f915c65c2bfae37d93fca59d))
+* **coding-booth-com:** rename IndexPage component to HomePage component ([5c48faf](https://github.com/tuffz/tuffz-nx-workspace/commit/5c48faf87e12e0a892fe80043afa7f9f6f613177))
+* **coding-booth-com:** utilize CodingBoothComPageHome wrapper in HomePage component ([d0ed09e](https://github.com/tuffz/tuffz-nx-workspace/commit/d0ed09e3c3878f2f065fa4f3473399cf7d5b22c4))
+
 ## [1.2.3](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.2.2...coding-booth-com-1.2.3) (2024-04-21)
 
 ## [1.2.2](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-1.2.1...coding-booth-com-1.2.2) (2024-04-21)
