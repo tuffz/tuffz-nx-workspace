@@ -26,7 +26,7 @@ exports[`CodingBoothComPageHome matches the snapshot 1`] = `
         Introducing
          
         <strong
-          class="text-xl font-bold tracking-tight md:-mb-4 md:text-2xl lg:text-3xl"
+          class="text-xl font-bold tracking-tight md:-mb-4"
         >
           CharacterCounter
         </strong>

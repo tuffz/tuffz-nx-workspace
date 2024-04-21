@@ -10,7 +10,7 @@ export function IntroSection() {
       </h1>
       <p className="text-lg leading-relaxed opacity-80 dark:text-white">
         Introducing{' '}
-        <strong className="text-xl font-bold tracking-tight md:-mb-4 md:text-2xl lg:text-3xl">
+        <strong className="text-xl font-bold tracking-tight md:-mb-4">
           CharacterCounter
         </strong>{' '}
         - your{' '}
