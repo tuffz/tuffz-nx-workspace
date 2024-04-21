@@ -1,24 +1,24 @@
 {
-  "name": "coding-booth-com-e2e",
+  "name": "coding-booth-com-react-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "sourceRoot": "apps/coding-booth-com-e2e/src",
+  "sourceRoot": "apps/coding-booth-com-react-e2e/src",
   "tags": ["type:app", "scope:coding-booth-com"],
-  "implicitDependencies": ["coding-booth-com"],
+  "implicitDependencies": ["coding-booth-com-react"],
   "targets": {
     "e2e": {
       "executor": "@nx/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/coding-booth-com-e2e/cypress.config.ts",
+        "cypressConfig": "apps/coding-booth-com-react-e2e/cypress.config.ts",
         "testingType": "e2e",
-        "devServerTarget": "coding-booth-com:serve"
+        "devServerTarget": "coding-booth-com-react:serve"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "coding-booth-com:serve:production"
+          "devServerTarget": "coding-booth-com-react:serve:production"
         },
         "ci": {
-          "devServerTarget": "coding-booth-com:serve-static"
+          "devServerTarget": "coding-booth-com-react:serve-static"
         }
       }
     },

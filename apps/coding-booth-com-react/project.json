@@ -1,0 +1,128 @@
+{
+  "name": "coding-booth-com-react",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/coding-booth-com-react/src",
+  "projectType": "application",
+  "tags": ["type:app", "scope:coding-booth-com"],
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/coding-booth-com-react",
+        "index": "apps/coding-booth-com-react/src/index.html",
+        "baseHref": "/",
+        "main": "apps/coding-booth-com-react/src/main.tsx",
+        "tsConfig": "apps/coding-booth-com-react/tsconfig.app.json",
+        "assets": [
+          "apps/coding-booth-com-react/src/assets",
+          "apps/coding-booth-com-react/src/android-chrome-192x192.png",
+          "apps/coding-booth-com-react/src/android-chrome-512x512.png",
+          "apps/coding-booth-com-react/src/apple-touch-icon.png",
+          "apps/coding-booth-com-react/src/favicon.ico",
+          "apps/coding-booth-com-react/src/favicon-16x16.png",
+          "apps/coding-booth-com-react/src/favicon-32x32.png",
+          "apps/coding-booth-com-react/src/site.webmanifest"
+        ],
+        "styles": ["apps/coding-booth-com-react/src/styles.scss"],
+        "scripts": [],
+        "webpackConfig": "apps/coding-booth-com-react/webpack.config.js",
+        "postcssConfig": "apps/coding-booth-com-react/postcss.config.js"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/coding-booth-com-react/src/environments/environment.ts",
+              "with": "apps/coding-booth-com-react/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/webpack:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "coding-booth-com-react:build",
+        "hmr": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "coding-booth-com-react:build:development"
+        },
+        "production": {
+          "buildTarget": "coding-booth-com-react:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "coding-booth-com-react:build"
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/coding-booth-com-react/jest.config.ts"
+      }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "baseBranch": "main",
+        "commitMessageFormat": "chore({projectName}): 🚀 release version ${version}",
+        "preset": {
+          "types": [
+            {
+              "type": "feat",
+              "section": "✨ Features"
+            },
+            {
+              "type": "fix",
+              "section": "🐛 Bug Fixes"
+            },
+            {
+              "type": "docs",
+              "section": "📝 Documentation"
+            },
+            {
+              "type": "refactor",
+              "section": "♻️ Code Refactoring"
+            },
+            {
+              "type": "perf",
+              "section": "⚡️ Performance Improvements"
+            },
+            {
+              "type": "test",
+              "section": "✅ Tests"
+            }
+          ]
+        },
+        "skipCommitTypes": ["build", "chore", "ci", "docs", "style", "test"]
+      }
+    }
+  }
+}
