@@ -2,7 +2,11 @@ export function IntroSection() {
   return (
     <div className="flex flex-col items-center justify-center gap-10 text-center lg:items-start lg:justify-normal lg:gap-14 lg:text-left">
       <h1 className="text-4xl font-extrabold tracking-tight md:-mb-4 lg:text-6xl dark:text-white">
-        No more guesswork, count characters in a blink!
+        No more guesswork, count characters in{' '}
+        <strong className="underline decoration-lime-500 decoration-8">
+          real-time
+        </strong>
+        !
       </h1>
       <p className="text-lg leading-relaxed opacity-80 dark:text-white">
         Introducing{' '}

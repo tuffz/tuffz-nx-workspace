@@ -8,7 +8,14 @@ exports[`IntroSection matches the snapshot 1`] = `
     <h1
       class="text-4xl font-extrabold tracking-tight md:-mb-4 lg:text-6xl dark:text-white"
     >
-      No more guesswork, count characters in a blink!
+      No more guesswork, count characters in
+       
+      <strong
+        class="underline decoration-lime-500 decoration-8"
+      >
+        real-time
+      </strong>
+      !
     </h1>
     <p
       class="text-lg leading-relaxed opacity-80 dark:text-white"
