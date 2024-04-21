@@ -1,5 +1,5 @@
-import { CharacterCounter } from '@tuffz/coding-booth-com-feature-character-counter';
+import { CodingBoothComPageHome } from '@tuffz/coding-booth-com-page-home';
 
 export default function HomePage() {
-  return <CharacterCounter />;
+  return <CodingBoothComPageHome />;
 }
