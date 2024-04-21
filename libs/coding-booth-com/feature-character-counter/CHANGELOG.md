@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-character-counter-1.0.5...coding-booth-com-feature-character-counter-1.1.0) (2024-04-21)
+
+
+### ✨ Features
+
+* **character-counter:** remove unnecessary classes in IntroSection component ([aa459d1](https://github.com/tuffz/tuffz-nx-workspace/commit/aa459d17f23ad423e49f4365db2393a574a158d0))
+
 ## [1.0.5](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-character-counter-1.0.4...coding-booth-com-feature-character-counter-1.0.5) (2024-04-21)
 
 ## [1.0.4](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-character-counter-1.0.3...coding-booth-com-feature-character-counter-1.0.4) (2024-04-21)
