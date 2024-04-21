@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.2](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-character-counter-1.0.1...coding-booth-com-feature-character-counter-1.0.2) (2024-04-21)
+
+
+### ♻️ Code Refactoring
+
+* **character-counter:** adjust intro message to include real-time character counting ([dc2fae0](https://github.com/tuffz/tuffz-nx-workspace/commit/dc2fae007e934c21e7598346e54458047ddb8b73))
+
 ## [1.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-character-counter-1.0.0...coding-booth-com-feature-character-counter-1.0.1) (2024-04-21)
 
 ## 1.0.0 (2024-04-20)
