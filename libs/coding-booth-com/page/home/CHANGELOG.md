@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.1](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-page-home-1.1.0...coding-booth-com-page-home-1.1.1) (2024-04-22)
+
 ## [1.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-page-home-1.0.1...coding-booth-com-page-home-1.1.0) (2024-04-21)
 
 ### Dependency Updates
