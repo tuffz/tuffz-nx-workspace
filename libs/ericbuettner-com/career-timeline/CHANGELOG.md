@@ -2,6 +2,22 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.129](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.128...ericbuettner-com/career-timeline-2.0.129) (2024-04-24)
+
+## [2.0.128](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.127...ericbuettner-com/career-timeline-2.0.128) (2024-04-22)
+
+## [2.0.127](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.126...ericbuettner-com/career-timeline-2.0.127) (2024-04-21)
+
+## [2.0.126](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.125...ericbuettner-com/career-timeline-2.0.126) (2024-04-21)
+
+## [2.0.125](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.124...ericbuettner-com/career-timeline-2.0.125) (2024-04-21)
+
+## [2.0.124](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.123...ericbuettner-com/career-timeline-2.0.124) (2024-04-21)
+
+## [2.0.123](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.122...ericbuettner-com/career-timeline-2.0.123) (2024-04-20)
+
+## [2.0.122](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.121...ericbuettner-com/career-timeline-2.0.122) (2024-04-19)
+
 ## [2.0.121](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.120...ericbuettner-com/career-timeline-2.0.121) (2024-04-18)
 
 ## [2.0.120](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.119...ericbuettner-com/career-timeline-2.0.120) (2024-04-18)

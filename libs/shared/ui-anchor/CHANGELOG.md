@@ -2,6 +2,22 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.44](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.43...shared-ui-anchor-4.0.44) (2024-04-24)
+
+## [4.0.43](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.42...shared-ui-anchor-4.0.43) (2024-04-22)
+
+## [4.0.42](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.41...shared-ui-anchor-4.0.42) (2024-04-21)
+
+## [4.0.41](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.40...shared-ui-anchor-4.0.41) (2024-04-21)
+
+## [4.0.40](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.39...shared-ui-anchor-4.0.40) (2024-04-21)
+
+## [4.0.39](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.38...shared-ui-anchor-4.0.39) (2024-04-21)
+
+## [4.0.38](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.37...shared-ui-anchor-4.0.38) (2024-04-20)
+
+## [4.0.37](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.36...shared-ui-anchor-4.0.37) (2024-04-19)
+
 ## [4.0.36](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.35...shared-ui-anchor-4.0.36) (2024-04-18)
 
 ## [4.0.35](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.34...shared-ui-anchor-4.0.35) (2024-04-18)

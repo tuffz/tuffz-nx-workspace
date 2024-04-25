@@ -2,6 +2,22 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.42](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.41...shared-ui-image-embed-2.0.42) (2024-04-24)
+
+## [2.0.41](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.40...shared-ui-image-embed-2.0.41) (2024-04-22)
+
+## [2.0.40](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.39...shared-ui-image-embed-2.0.40) (2024-04-21)
+
+## [2.0.39](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.38...shared-ui-image-embed-2.0.39) (2024-04-21)
+
+## [2.0.38](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.37...shared-ui-image-embed-2.0.38) (2024-04-21)
+
+## [2.0.37](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.36...shared-ui-image-embed-2.0.37) (2024-04-21)
+
+## [2.0.36](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.35...shared-ui-image-embed-2.0.36) (2024-04-20)
+
+## [2.0.35](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.34...shared-ui-image-embed-2.0.35) (2024-04-19)
+
 ## [2.0.34](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.33...shared-ui-image-embed-2.0.34) (2024-04-18)
 
 ## [2.0.33](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.32...shared-ui-image-embed-2.0.33) (2024-04-18)

@@ -1,84 +1,54 @@
 {
   "name": "coding-booth-com",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/coding-booth-com/src",
+  "sourceRoot": "apps/coding-booth-com",
   "projectType": "application",
   "tags": ["type:app", "scope:coding-booth-com"],
   "targets": {
     "build": {
-      "executor": "@nx/webpack:webpack",
+      "executor": "@nx/next:build",
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "compiler": "babel",
-        "outputPath": "dist/apps/coding-booth-com",
-        "index": "apps/coding-booth-com/src/index.html",
-        "baseHref": "/",
-        "main": "apps/coding-booth-com/src/main.tsx",
-        "tsConfig": "apps/coding-booth-com/tsconfig.app.json",
-        "assets": [
-          "apps/coding-booth-com/src/assets",
-          "apps/coding-booth-com/src/android-chrome-192x192.png",
-          "apps/coding-booth-com/src/android-chrome-512x512.png",
-          "apps/coding-booth-com/src/apple-touch-icon.png",
-          "apps/coding-booth-com/src/favicon.ico",
-          "apps/coding-booth-com/src/favicon-16x16.png",
-          "apps/coding-booth-com/src/favicon-32x32.png",
-          "apps/coding-booth-com/src/site.webmanifest"
-        ],
-        "styles": ["apps/coding-booth-com/src/styles.scss"],
-        "scripts": [],
-        "webpackConfig": "apps/coding-booth-com/webpack.config.js",
-        "postcssConfig": "apps/coding-booth-com/postcss.config.js"
+        "outputPath": "dist/apps/coding-booth-com"
       },
       "configurations": {
         "development": {
-          "extractLicenses": false,
-          "optimization": false,
-          "sourceMap": true,
-          "vendorChunk": true
+          "outputPath": "apps/coding-booth-com"
         },
-        "production": {
-          "fileReplacements": [
-            {
-              "replace": "apps/coding-booth-com/src/environments/environment.ts",
-              "with": "apps/coding-booth-com/src/environments/environment.prod.ts"
-            }
-          ],
-          "optimization": true,
-          "outputHashing": "all",
-          "sourceMap": false,
-          "namedChunks": false,
-          "extractLicenses": true,
-          "vendorChunk": false
-        }
+        "production": {}
       }
     },
     "serve": {
-      "executor": "@nx/webpack:dev-server",
+      "executor": "@nx/next:server",
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "coding-booth-com:build",
-        "hmr": true
+        "dev": true
       },
       "configurations": {
         "development": {
-          "buildTarget": "coding-booth-com:build:development"
+          "buildTarget": "coding-booth-com:build:development",
+          "dev": true
         },
         "production": {
           "buildTarget": "coding-booth-com:build:production",
-          "hmr": false
+          "dev": false
         }
       }
     },
-    "lint": {
-      "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"]
+    "export": {
+      "executor": "@nx/next:export",
+      "options": {
+        "buildTarget": "coding-booth-com:build:production"
+      }
     },
     "serve-static": {
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "coding-booth-com:build"
+        "buildTarget": "coding-booth-com:build",
+        "staticFilePath": "dist/apps/coding-booth-com/out",
+        "spa": true
       }
     },
     "test": {
@@ -88,6 +58,9 @@
         "jestConfig": "apps/coding-booth-com/jest.config.ts"
       }
     },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
@@ -95,12 +68,30 @@
         "commitMessageFormat": "chore({projectName}): 🚀 release version ${version}",
         "preset": {
           "types": [
-            { "type": "feat", "section": "✨ Features" },
-            { "type": "fix", "section": "🐛 Bug Fixes" },
-            { "type": "docs", "section": "📝 Documentation" },
-            { "type": "refactor", "section": "♻️ Code Refactoring" },
-            { "type": "perf", "section": "⚡️ Performance Improvements" },
-            { "type": "test", "section": "✅ Tests" }
+            {
+              "type": "feat",
+              "section": "✨ Features"
+            },
+            {
+              "type": "fix",
+              "section": "🐛 Bug Fixes"
+            },
+            {
+              "type": "docs",
+              "section": "📝 Documentation"
+            },
+            {
+              "type": "refactor",
+              "section": "♻️ Code Refactoring"
+            },
+            {
+              "type": "perf",
+              "section": "⚡️ Performance Improvements"
+            },
+            {
+              "type": "test",
+              "section": "✅ Tests"
+            }
           ]
         },
         "skipCommitTypes": ["build", "chore", "ci", "docs", "style", "test"]

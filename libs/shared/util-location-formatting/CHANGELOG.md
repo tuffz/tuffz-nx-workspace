@@ -2,6 +2,22 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [5.0.36](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.35...shared-util-location-formatting-5.0.36) (2024-04-24)
+
+## [5.0.35](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.34...shared-util-location-formatting-5.0.35) (2024-04-22)
+
+## [5.0.34](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.33...shared-util-location-formatting-5.0.34) (2024-04-21)
+
+## [5.0.33](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.32...shared-util-location-formatting-5.0.33) (2024-04-21)
+
+## [5.0.32](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.31...shared-util-location-formatting-5.0.32) (2024-04-21)
+
+## [5.0.31](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.30...shared-util-location-formatting-5.0.31) (2024-04-21)
+
+## [5.0.30](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.29...shared-util-location-formatting-5.0.30) (2024-04-20)
+
+## [5.0.29](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.28...shared-util-location-formatting-5.0.29) (2024-04-19)
+
 ## [5.0.28](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.27...shared-util-location-formatting-5.0.28) (2024-04-18)
 
 ## [5.0.27](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.26...shared-util-location-formatting-5.0.27) (2024-04-18)
