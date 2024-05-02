@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@tuffz/coding-booth-com-feature-character-counter": [
-        "libs/coding-booth-com/feature-character-counter/src/index.ts"
+        "libs/coding-booth-com/feature/character-counter/src/index.ts"
       ],
       "@tuffz/coding-booth-com-page-home": [
         "libs/coding-booth-com/page/home/src/index.ts"
