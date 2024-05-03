@@ -1,6 +1,6 @@
 {
   "name": "@tuffz/shared-util-location-formatting",
-  "version": "5.0.42",
+  "version": "5.0.43",
   "dependencies": {
     "tslib": "^2.3.0"
   },
