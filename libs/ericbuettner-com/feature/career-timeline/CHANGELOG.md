@@ -2,6 +2,18 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-career-timeline-2.0.136...ericbuettner-com-feature-career-timeline-3.0.0) (2024-05-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ericbuettner-com-feature-career-timeline:** The import paths changed from "@tuffz/ericbuettner-com/career-timeline" to
+"@tuffz/ericbuettner-com-feature-career-timeline"
+
+### ♻️ Code Refactoring
+
+* **ericbuettner-com-feature-career-timeline:** move and rename library ([b322063](https://github.com/tuffz/tuffz-nx-workspace/commit/b3220633130438524a58a0a363190ada57b85762))
+
 ## [2.0.136](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.135...ericbuettner-com/career-timeline-2.0.136) (2024-05-03)
 
 ## [2.0.135](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/career-timeline-2.0.134...ericbuettner-com/career-timeline-2.0.135) (2024-05-02)
