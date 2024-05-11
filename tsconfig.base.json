@@ -16,19 +16,19 @@
     "baseUrl": ".",
     "paths": {
       "@tuffz/coding-booth-com-feature-character-counter": [
-        "libs/coding-booth-com/feature-character-counter/src/index.ts"
+        "libs/coding-booth-com/feature/character-counter/src/index.ts"
+      ],
+      "@tuffz/coding-booth-com-feature-under-construction": [
+        "libs/coding-booth-com/feature/under-construction/src/index.ts"
       ],
       "@tuffz/coding-booth-com-page-home": [
         "libs/coding-booth-com/page/home/src/index.ts"
       ],
-      "@tuffz/coding-booth/under-construction": [
-        "libs/coding-booth-com/under-construction/src/index.ts"
+      "@tuffz/ericbuettner-com-feature-career-timeline": [
+        "libs/ericbuettner-com/feature/career-timeline/src/index.ts"
       ],
-      "@tuffz/ericbuettner-com/career-timeline": [
-        "libs/ericbuettner-com/career-timeline/src/index.ts"
-      ],
-      "@tuffz/ericbuettner-com/profile-snapshot": [
-        "libs/ericbuettner-com/profile-snapshot/src/index.ts"
+      "@tuffz/ericbuettner-com-feature-profile-snapshot": [
+        "libs/ericbuettner-com/feature/profile-snapshot/src/index.ts"
       ],
       "@tuffz/shared-ui-anchor": ["libs/shared/ui-anchor/src/index.ts"],
       "@tuffz/shared-ui-footer": ["libs/shared/ui-footer/src/index.ts"],
