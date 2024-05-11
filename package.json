@@ -62,7 +62,7 @@
     "autoprefixer": "10.4.19",
     "babel-jest": "29.7.0",
     "commitizen": "4.3.0",
-    "cypress": "13.8.1",
+    "cypress": "13.9.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.3",
