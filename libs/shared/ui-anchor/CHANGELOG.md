@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.52](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.51...shared-ui-anchor-4.0.52) (2024-05-11)
+
 ## [4.0.51](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.50...shared-ui-anchor-4.0.51) (2024-05-03)
 
 ## [4.0.50](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.49...shared-ui-anchor-4.0.50) (2024-05-02)
