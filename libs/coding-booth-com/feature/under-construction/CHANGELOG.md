@@ -2,6 +2,18 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-under-construction-0.1.161...coding-booth-com-feature-under-construction-1.0.0) (2024-05-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **coding-booth-com-feature-under-construction:** The import paths changed from "@tuffz/coding-booth/under-construction" to
+"@tuffz/coding-booth-com-feature-under-construction"
+
+### ♻️ Code Refactoring
+
+* **coding-booth-com-feature-under-construction:** move and rename library ([66395ab](https://github.com/tuffz/tuffz-nx-workspace/commit/66395abc8328677d006a3a79f21eebfbdf31b42c))
+
 ## [0.1.161](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com/under-construction-0.1.160...coding-booth-com/under-construction-0.1.161) (2024-05-03)
 
 ## [0.1.160](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com/under-construction-0.1.159...coding-booth-com/under-construction-0.1.160) (2024-05-02)
