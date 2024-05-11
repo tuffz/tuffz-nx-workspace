@@ -2,6 +2,18 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-profile-snapshot-3.1.146...ericbuettner-com-feature-profile-snapshot-4.0.0) (2024-05-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ericbuettner-com-feature-profile-snapshot:** The import paths changed from "@tuffz/ericbuettner-com/profile-snapshot" to
+"@tuffz/ericbuettner-com-feature-profile-snapshot"
+
+### ♻️ Code Refactoring
+
+* **ericbuettner-com-feature-profile-snapshot:** move and rename library ([f7fe1ca](https://github.com/tuffz/tuffz-nx-workspace/commit/f7fe1ca4fd99356bb51971ccb08bdea66ea26aa4))
+
 ## [3.1.146](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.145...ericbuettner-com/profile-snapshot-3.1.146) (2024-05-03)
 
 ## [3.1.145](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com/profile-snapshot-3.1.144...ericbuettner-com/profile-snapshot-3.1.145) (2024-05-02)
