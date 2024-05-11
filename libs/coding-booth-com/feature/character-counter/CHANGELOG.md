@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.10](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-character-counter-1.1.9...coding-booth-com-feature-character-counter-1.1.10) (2024-05-11)
+
+
+### ♻️ Code Refactoring
+
+* **coding-booth-com-feature-character-counter:** move library ([33f02aa](https://github.com/tuffz/tuffz-nx-workspace/commit/33f02aa439f9ca57c1c4b758a31a0ce582a5276a))
+
 ## [1.1.9](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-character-counter-1.1.8...coding-booth-com-feature-character-counter-1.1.9) (2024-05-03)
 
 ## [1.1.8](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-character-counter-1.1.7...coding-booth-com-feature-character-counter-1.1.8) (2024-05-02)
