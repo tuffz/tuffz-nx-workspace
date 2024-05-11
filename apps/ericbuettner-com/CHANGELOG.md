@@ -2,6 +2,25 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.137...ericbuettner-com-4.0.0) (2024-05-11)
+
+### Dependency Updates
+
+* `ericbuettner-com-feature-career-timeline` updated to version `3.0.0`
+* `ericbuettner-com-feature-profile-snapshot` updated to version `4.0.0`
+
+### ⚠ BREAKING CHANGES
+
+* **ericbuettner-com-feature-profile-snapshot:** The import paths changed from "@tuffz/ericbuettner-com/profile-snapshot" to
+"@tuffz/ericbuettner-com-feature-profile-snapshot"
+* **ericbuettner-com-feature-career-timeline:** The import paths changed from "@tuffz/ericbuettner-com/career-timeline" to
+"@tuffz/ericbuettner-com-feature-career-timeline"
+
+### ♻️ Code Refactoring
+
+* **ericbuettner-com-feature-career-timeline:** move and rename library ([b322063](https://github.com/tuffz/tuffz-nx-workspace/commit/b3220633130438524a58a0a363190ada57b85762))
+* **ericbuettner-com-feature-profile-snapshot:** move and rename library ([f7fe1ca](https://github.com/tuffz/tuffz-nx-workspace/commit/f7fe1ca4fd99356bb51971ccb08bdea66ea26aa4))
+
 ## [3.0.137](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.136...ericbuettner-com-3.0.137) (2024-05-03)
 
 ## [3.0.136](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-3.0.135...ericbuettner-com-3.0.136) (2024-05-02)
