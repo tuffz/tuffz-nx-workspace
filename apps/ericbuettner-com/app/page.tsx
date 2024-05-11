@@ -1,5 +1,5 @@
-import { CareerTimeline } from '@tuffz/ericbuettner-com/career-timeline';
 import { ProfileSnapshot } from '@tuffz/ericbuettner-com/profile-snapshot';
+import { CareerTimeline } from '@tuffz/ericbuettner-com-feature-career-timeline';
 
 export default async function Index() {
   return (

@@ -24,8 +24,8 @@
       "@tuffz/coding-booth-com-page-home": [
         "libs/coding-booth-com/page/home/src/index.ts"
       ],
-      "@tuffz/ericbuettner-com/career-timeline": [
-        "libs/ericbuettner-com/career-timeline/src/index.ts"
+      "@tuffz/ericbuettner-com-feature-career-timeline": [
+        "libs/ericbuettner-com/feature/career-timeline/src/index.ts"
       ],
       "@tuffz/ericbuettner-com/profile-snapshot": [
         "libs/ericbuettner-com/profile-snapshot/src/index.ts"
