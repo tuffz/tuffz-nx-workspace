@@ -3,7 +3,7 @@
 exports[`PageHome matches the snapshot 1`] = `
 <div>
   <section
-    class="bg-base-100 mx-auto flex max-w-7xl flex-col items-center justify-center gap-16 p-8 lg:flex-row lg:items-stretch lg:gap-20 lg:py-20"
+    class="mx-auto flex max-w-7xl flex-col items-center justify-center gap-16 p-8 lg:flex-row lg:items-stretch lg:gap-20 lg:py-20"
   >
     <div
       class="flex flex-col items-center justify-center gap-10 text-center lg:items-start lg:justify-normal lg:gap-14 lg:text-left"
