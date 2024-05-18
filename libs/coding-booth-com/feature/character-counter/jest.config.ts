@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'character-counter',
+  displayName: 'coding-booth-com-feature-character-counter',
   preset: '../../../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nx/react/plugins/jest',
