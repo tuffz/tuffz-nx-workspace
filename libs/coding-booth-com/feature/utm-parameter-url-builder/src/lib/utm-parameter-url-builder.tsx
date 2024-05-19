@@ -1,9 +1,10 @@
 'use client';
 
 import { UtmParameterUrlBuilderInput as InputField } from './utm-parameter-url-builder-input';
+import { UtmParameterUrlBuilderInputInterface } from './utm-parameter-url-builder-input.interface';
 
 export function UtmParameterUrlBuilder() {
-  const inputFields = [
+  const inputFields: UtmParameterUrlBuilderInputInterface[] = [
     {
       id: 'website-url',
       label: 'The full website URL (e.g. https://www.tuffz.com)',

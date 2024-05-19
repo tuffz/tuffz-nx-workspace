@@ -1,18 +1,13 @@
 'use client';
 
-interface UtmParameterUrlBuilderInputProps {
-  id: string;
-  label: string;
-  placeholder: string;
-  required: boolean;
-}
+import { UtmParameterUrlBuilderInputInterface } from './utm-parameter-url-builder-input.interface';
 
 export function UtmParameterUrlBuilderInput({
   id,
   label,
   placeholder,
   required,
-}: UtmParameterUrlBuilderInputProps) {
+}: UtmParameterUrlBuilderInputInterface) {
   return (
     <div className="pb-4">
       <input
