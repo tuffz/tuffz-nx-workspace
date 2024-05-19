@@ -7,7 +7,7 @@ export function UtmParameterUrlBuilder() {
     {
       id: 'website-url',
       label: 'The full website URL (e.g. https://www.tuffz.com)',
-      placeholder: 'website URL *',
+      placeholder: 'website URL',
       required: true,
     },
     {
@@ -19,19 +19,19 @@ export function UtmParameterUrlBuilder() {
     {
       id: 'campaign-source',
       label: 'The referrer (e.g. google, newsletter)',
-      placeholder: 'campaign source *',
+      placeholder: 'campaign source',
       required: true,
     },
     {
       id: 'campaign-medium',
       label: 'The marketing medium (e.g. cpc, banner, email)',
-      placeholder: 'campaign medium *',
+      placeholder: 'campaign medium',
       required: true,
     },
     {
       id: 'campaign-name',
       label: 'Product, promo code, or slogan (e.g. summer_sale)',
-      placeholder: 'campaign name *',
+      placeholder: 'campaign name',
       required: true,
     },
     {
