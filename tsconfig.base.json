@@ -46,7 +46,8 @@
       ],
       "@tuffz/shared-util-location-formatting": [
         "libs/shared/util-location-formatting/src/index.ts"
-      ]
+      ],
+      "@tuffz/shared-util-urls": ["libs/shared/util-urls/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
