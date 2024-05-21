@@ -1,4 +1,6 @@
 export interface QueryParameter {
-  key?: string | null | undefined;
-  value?: string | null | undefined;
+  key?: string | null;
+  value?: string | null;
 }
+
+export type ValidQueryParameter = { key: string; value: string };
