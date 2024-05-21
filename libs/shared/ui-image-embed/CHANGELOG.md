@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.57](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.56...shared-ui-image-embed-2.0.57) (2024-05-21)
+
 ## [2.0.56](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.55...shared-ui-image-embed-2.0.56) (2024-05-19)
 
 ## [2.0.55](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-image-embed-2.0.54...shared-ui-image-embed-2.0.55) (2024-05-15)
