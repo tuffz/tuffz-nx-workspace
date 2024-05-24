@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.19](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-character-counter-1.1.18...coding-booth-com-feature-character-counter-1.1.19) (2024-05-24)
+
 ## [1.1.18](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-character-counter-1.1.17...coding-booth-com-feature-character-counter-1.1.18) (2024-05-23)
 
 ## [1.1.17](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-feature-character-counter-1.1.16...coding-booth-com-feature-character-counter-1.1.17) (2024-05-21)
