@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.74](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-4.0.73...shared-ui-footer-4.0.74) (2024-06-08)
+
 ## [4.0.73](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-4.0.72...shared-ui-footer-4.0.73) (2024-06-07)
 
 ## [4.0.72](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-4.0.71...shared-ui-footer-4.0.72) (2024-06-04)
