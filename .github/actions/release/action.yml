@@ -24,7 +24,6 @@ runs:
           --target=version \
           --trackDeps \
           --with-deps \
-          --allow-empty-release \
           --parallel=1 \
           --verbose
 
