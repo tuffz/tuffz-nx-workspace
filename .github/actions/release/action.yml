@@ -18,7 +18,15 @@ runs:
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
       shell: bash
-      run: npx nx affected --base=$(git describe --tags $(git rev-list --tags --max-count=1)) --target=version --trackDeps --with-deps --allow-empty-release --parallel=1 --verbose
+      run: |
+        npx nx affected \
+          --base=$(git describe --tags $(git rev-list --tags --max-count=1)) \
+          --target=version \
+          --trackDeps \
+          --with-deps \
+          --allow-empty-release \
+          --parallel=1 \
+          --verbose
 
     - name: Push changes
       uses: ad-m/github-push-action@master
