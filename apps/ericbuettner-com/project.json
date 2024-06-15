@@ -57,6 +57,7 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
+        "allowEmptyRelease": true,
         "baseBranch": "main",
         "commitMessageFormat": "chore({projectName}): 🚀 release version ${version}",
         "preset": {
