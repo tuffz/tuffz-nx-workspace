@@ -28,25 +28,25 @@ describe('hasUrlProtocol', () => {
 
   it('returns false for null', () => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const url = null as any;
+    const url: any = null;
     expect(hasUrlProtocol(url)).toBe(false);
   });
 
   it('returns false for undefined', () => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const url = undefined as any;
+    const url: any = undefined;
     expect(hasUrlProtocol(url)).toBe(false);
   });
 
   it('returns false for non-string input', () => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const url = 123 as any;
+    const url: any = 123;
     expect(hasUrlProtocol(url)).toBe(false);
   });
 
   it('returns false for non-string object input', () => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const url = {} as any;
+    const url: any = {};
     expect(hasUrlProtocol(url)).toBe(false);
   });
 });
