@@ -5,9 +5,13 @@ import { IntroSection } from './intro-section';
 
 export function CharacterCounter() {
   return (
-    <section className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-16 p-8 lg:flex-row lg:items-stretch lg:gap-20 lg:py-20">
-      <IntroSection />
-      <CharacterCounterTextarea />
+    <section className="lg:py-20">
+      <div className="container mx-auto">
+        <div className="flex flex-col items-center justify-center gap-16 p-8 lg:flex-row lg:items-start lg:gap-20">
+          <IntroSection />
+          <CharacterCounterTextarea />
+        </div>
+      </div>
     </section>
   );
 }

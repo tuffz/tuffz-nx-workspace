@@ -3,85 +3,93 @@
 exports[`PageHome matches the snapshot 1`] = `
 <div>
   <section
-    class="mx-auto flex max-w-7xl flex-col items-center justify-center gap-16 p-8 lg:flex-row lg:items-stretch lg:gap-20 lg:py-20"
+    class="lg:py-20"
   >
     <div
-      class="flex flex-col items-center justify-center gap-10 text-center lg:items-start lg:justify-normal lg:gap-14 lg:text-left"
-    >
-      <h1
-        class="text-4xl font-extrabold tracking-tight md:-mb-4 lg:text-6xl dark:text-white"
-      >
-        No more guesswork, count characters in
-         
-        <strong
-          class="underline decoration-lime-500 decoration-8"
-        >
-          real-time
-        </strong>
-        !
-      </h1>
-      <p
-        class="text-lg leading-relaxed opacity-80 dark:text-white"
-      >
-        Introducing
-         
-        <strong
-          class="text-xl font-bold tracking-tight md:-mb-4"
-        >
-          CharacterCounter
-        </strong>
-         
-        - your
-         
-        <strong
-          class="underline decoration-lime-500 decoration-4"
-        >
-          simple
-        </strong>
-         
-        tool for counting characters. It's
-         
-        <strong
-          class="underline decoration-lime-500 decoration-4"
-        >
-          straightforward
-        </strong>
-        ,
-         
-        <strong
-          class="underline decoration-lime-500 decoration-4"
-        >
-          efficient
-        </strong>
-        , and gets the job done
-         
-        <strong
-          class="underline decoration-lime-500 decoration-4"
-        >
-          hassle-free
-        </strong>
-        !
-      </p>
-    </div>
-    <div
-      class="w-full lg:flex lg:flex-col"
+      class="container mx-auto"
     >
       <div
-        class="rounded-t-md border border-gray-300 bg-gray-50 py-2 text-center text-sm text-gray-900 lg:text-base dark:border-gray-600  dark:bg-gray-700 dark:text-white"
+        class="flex flex-col items-center justify-center gap-16 p-8 lg:flex-row lg:items-start lg:gap-20"
       >
-        <strong
-          class="text-lime-500"
-          data-testid="char-count"
+        <div
+          class="flex flex-col items-center justify-center gap-10 text-center lg:items-start lg:justify-normal lg:gap-14 lg:text-left"
         >
-          0
-        </strong>
-         
-        Characters
+          <h1
+            class="text-4xl font-extrabold tracking-tight md:-mb-4 lg:text-6xl dark:text-white"
+          >
+            No more guesswork, count characters in
+             
+            <strong
+              class="underline decoration-lime-500 decoration-8"
+            >
+              real-time
+            </strong>
+            !
+          </h1>
+          <p
+            class="text-lg leading-relaxed opacity-80 dark:text-white"
+          >
+            Introducing
+             
+            <strong
+              class="text-xl font-bold tracking-tight md:-mb-4"
+            >
+              CharacterCounter
+            </strong>
+             
+            - your
+             
+            <strong
+              class="underline decoration-lime-500 decoration-4"
+            >
+              simple
+            </strong>
+             
+            tool for counting characters. It's
+             
+            <strong
+              class="underline decoration-lime-500 decoration-4"
+            >
+              straightforward
+            </strong>
+            ,
+             
+            <strong
+              class="underline decoration-lime-500 decoration-4"
+            >
+              efficient
+            </strong>
+            , and gets the job done
+             
+            <strong
+              class="underline decoration-lime-500 decoration-4"
+            >
+              hassle-free
+            </strong>
+            !
+          </p>
+        </div>
+        <div
+          class="w-full lg:flex lg:flex-col"
+        >
+          <div
+            class="rounded-t-md border border-gray-300 bg-gray-50 py-2 text-center text-sm text-gray-900 lg:text-base dark:border-gray-600  dark:bg-gray-700 dark:text-white"
+          >
+            <strong
+              class="text-lime-500"
+              data-testid="char-count"
+            >
+              0
+            </strong>
+             
+            Characters
+          </div>
+          <textarea
+            class="block min-h-[50vh] w-full rounded-b-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 outline-0 outline-lime-500 focus:border-lime-500 lg:grow lg:text-base dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400"
+            placeholder="Type or paste your content here and watch the character counter work its magic!"
+          />
+        </div>
       </div>
-      <textarea
-        class="block min-h-[50vh] w-full rounded-b-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 outline-0 outline-lime-500 focus:border-lime-500 lg:grow lg:text-base dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400"
-        placeholder="Type or paste your content here and watch the character counter work its magic!"
-      />
     </div>
   </section>
 </div>
