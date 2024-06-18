@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [5.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-social-media-icons-5.0.71...shared-ui-social-media-icons-5.1.0) (2024-06-18)
+
+
+### ✨ Features
+
+* **ui-social-media-icons:** introduce Stack Overflow icon component ([303700f](https://github.com/tuffz/tuffz-nx-workspace/commit/303700f9fb1dca9723a360b595cb797ab5d527a8))
+
 ## [5.0.71](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-social-media-icons-5.0.70...shared-ui-social-media-icons-5.0.71) (2024-06-15)
 
 ## [5.0.70](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-social-media-icons-5.0.69...shared-ui-social-media-icons-5.0.70) (2024-06-11)
