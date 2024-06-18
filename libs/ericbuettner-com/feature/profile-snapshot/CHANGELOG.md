@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-profile-snapshot-4.0.25...ericbuettner-com-feature-profile-snapshot-4.1.0) (2024-06-18)
+
+### Dependency Updates
+
+* `shared-ui-social-media-icons` updated to version `5.1.0`
+
+### ✨ Features
+
+* **profile-snapshot:** introduce Stack Overflow link to social media links ([3f4b777](https://github.com/tuffz/tuffz-nx-workspace/commit/3f4b77747553f423ed59fdfd3b87a425974a8d3b))
+
 ## [4.0.25](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-profile-snapshot-4.0.24...ericbuettner-com-feature-profile-snapshot-4.0.25) (2024-06-15)
 
 ## [4.0.24](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-profile-snapshot-4.0.23...ericbuettner-com-feature-profile-snapshot-4.0.24) (2024-06-11)
