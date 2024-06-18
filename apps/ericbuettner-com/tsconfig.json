@@ -23,8 +23,7 @@
     "**/*.tsx",
     "**/*.js",
     "**/*.jsx",
-    "../../apps/ericbuettner-com/.next/types/**/*.ts",
-    "../../dist/apps/ericbuettner-com/.next/types/**/*.ts",
+    "../../dist/apps/ericbuettner-com/types/**/*.ts",
     "next-env.d.ts",
     ".next/types/**/*.ts"
   ],
