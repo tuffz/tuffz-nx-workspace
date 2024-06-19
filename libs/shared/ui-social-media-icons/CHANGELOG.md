@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [5.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-social-media-icons-5.1.0...shared-ui-social-media-icons-5.2.0) (2024-06-19)
+
+
+### ✨ Features
+
+* **ui-social-media-icons:** introduce Product Hunt icon component ([463319a](https://github.com/tuffz/tuffz-nx-workspace/commit/463319a06bc740dc70423937077f1fbff491d7e8))
+
 ## [5.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-social-media-icons-5.0.71...shared-ui-social-media-icons-5.1.0) (2024-06-18)
 
 
