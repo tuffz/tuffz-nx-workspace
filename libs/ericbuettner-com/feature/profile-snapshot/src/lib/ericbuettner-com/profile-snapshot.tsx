@@ -17,6 +17,7 @@ export function ProfileSnapshot(props: ProfileSnapshotProps) {
     { url: 'https://github.com/tuffz' },
     { url: 'https://gitlab.com/tuffz' },
     { url: 'https://stackoverflow.com/users/2745844/eric-b%C3%BCttner' },
+    { url: 'https://www.producthunt.com/@tuffzcom' },
     { url: 'https://www.linkedin.com/in/eric-buettner/' },
     { url: 'https://twitter.com/tuffzCOM' },
   ];
