@@ -6,6 +6,7 @@ import { SharedUiAnchor } from '@tuffz/shared-ui-anchor';
 import { UiSocialMediaIconGitHub } from './icons/github';
 import { UiSocialMediaIconGitLab } from './icons/gitlab';
 import { UiSocialMediaIconLinkedIn } from './icons/linkedin';
+import { UiSocialMediaIconProductHunt } from './icons/producthunt';
 import { UiSocialMediaIconStackOverflow } from './icons/stackoverflow';
 import { UiSocialMediaIconTwitter } from './icons/twitter';
 import { UiSocialMediaIconX } from './icons/x';
@@ -36,6 +37,10 @@ const platformMappings: Record<string, PlatformMapping> = {
   LinkedIn: {
     component: UiSocialMediaIconLinkedIn,
     domain: ['linkedin.com', 'www.linkedin.com'],
+  },
+  ProductHunt: {
+    component: UiSocialMediaIconProductHunt,
+    domain: ['producthunt.com', 'www.producthunt.com'],
   },
   StackOverflow: {
     component: UiSocialMediaIconStackOverflow,
