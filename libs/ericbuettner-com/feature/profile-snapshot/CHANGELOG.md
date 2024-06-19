@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-profile-snapshot-4.1.0...ericbuettner-com-feature-profile-snapshot-4.2.0) (2024-06-19)
+
+### Dependency Updates
+
+* `shared-ui-social-media-icons` updated to version `5.2.0`
+
+### ✨ Features
+
+* **profile-snapshot:** introduce Product Hunt link to social media links ([3959201](https://github.com/tuffz/tuffz-nx-workspace/commit/3959201c32a6f2f8fff1d426a0d6116af2f93371))
+
 ## [4.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-profile-snapshot-4.0.25...ericbuettner-com-feature-profile-snapshot-4.1.0) (2024-06-18)
 
 ### Dependency Updates
