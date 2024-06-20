@@ -21,8 +21,9 @@ const nextConfig = {
   // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
   // skipTrailingSlashRedirect: true,
 
-  // Optional: Change the output directory `out` -> `dist`
-  distDir: '../../dist/apps/ericbuettner-com',
+  // Optional: Change the output directory (default is `.next`).
+  // The configured `distDir` is located in `dist/apps/<app_name>`, with `<app_name>` being your Nx Next.js project name.
+  distDir: 'out',
 };
 
 const plugins = [
