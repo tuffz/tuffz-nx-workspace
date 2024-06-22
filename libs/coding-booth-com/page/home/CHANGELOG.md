@@ -2,6 +2,17 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-page-home-1.1.35...coding-booth-com-page-home-2.0.0) (2024-06-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* **coding-booth-com-page-home:** change page home component naming
+
+### ♻️ Code Refactoring
+
+* **coding-booth-com-page-home:** change page home component naming ([054a652](https://github.com/tuffz/tuffz-nx-workspace/commit/054a6526a255863c9a14c82ec3e55f286e5636da))
+
 ## [1.1.35](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-page-home-1.1.34...coding-booth-com-page-home-1.1.35) (2024-06-15)
 
 ## [1.1.34](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-page-home-1.1.33...coding-booth-com-page-home-1.1.34) (2024-06-11)
