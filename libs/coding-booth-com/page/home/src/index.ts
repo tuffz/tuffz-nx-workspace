@@ -1,1 +1,1 @@
-export * from './lib/coding-booth-com-page-home';
+export * from './lib/page-home';

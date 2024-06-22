@@ -24,6 +24,9 @@
       "@tuffz/coding-booth-com-page-home": [
         "libs/coding-booth-com/page/home/src/index.ts"
       ],
+      "@tuffz/coding-booth-com-page-not-found": [
+        "libs/coding-booth-com/page/not-found/src/index.ts"
+      ],
       "@tuffz/ericbuettner-com-feature-career-timeline": [
         "libs/ericbuettner-com/feature/career-timeline/src/index.ts"
       ],

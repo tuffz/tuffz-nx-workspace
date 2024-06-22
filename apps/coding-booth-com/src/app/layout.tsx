@@ -16,6 +16,17 @@ export const metadata = {
     apple: '/apple-touch-icon.png',
   },
   manifest: '/site.webmanifest',
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      nositelinkssearchbox: false,
+    },
+  },
 };
 
 export default function RootLayout({
