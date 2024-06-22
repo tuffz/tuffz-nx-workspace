@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-4.0.35...ericbuettner-com-4.1.0) (2024-06-22)
+
+
+### ✨ Features
+
+* **ericbuettner-com:** update metadata structure in RootLayout ([e0016e8](https://github.com/tuffz/tuffz-nx-workspace/commit/e0016e8b048f4916524cf6c6a7ce0cfcba48ddbb))
+
 ## [4.0.35](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-4.0.34...ericbuettner-com-4.0.35) (2024-06-22)
 
 ## [4.0.34](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-4.0.33...ericbuettner-com-4.0.34) (2024-06-21)
