@@ -2,6 +2,24 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-2.0.44...coding-booth-com-2.1.0) (2024-06-22)
+
+### Dependency Updates
+
+* `coding-booth-com-page-not-found` updated to version `1.0.0`
+* `coding-booth-com-page-home` updated to version `2.0.0`
+
+### ✨ Features
+
+* **coding-booth-com:** introduce "not-found" page to Next.js application ([b427363](https://github.com/tuffz/tuffz-nx-workspace/commit/b427363e65e53ea5992c8deb3051df741cedf166))
+* **coding-booth-com:** introduce canonical URL metadata to HomePage ([054ab02](https://github.com/tuffz/tuffz-nx-workspace/commit/054ab02685e5657bd6db244611d4f2ea5de35b58))
+* **coding-booth-com:** update metadata in RootLayout to include robots configuration ([edfd9c4](https://github.com/tuffz/tuffz-nx-workspace/commit/edfd9c4169f29d899ffd0db13ed237f947420775))
+
+
+### ♻️ Code Refactoring
+
+* **coding-booth-com:** update home page to use refactored PageHome component ([c4f6aaa](https://github.com/tuffz/tuffz-nx-workspace/commit/c4f6aaa542e84caf33e60866e93b62c5b9f1a89d))
+
 ## [2.0.44](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-2.0.43...coding-booth-com-2.0.44) (2024-06-22)
 
 ## [2.0.43](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-2.0.42...coding-booth-com-2.0.43) (2024-06-21)
