@@ -1,4 +1,4 @@
-import { CodingBoothComPageHome } from '@tuffz/coding-booth-com-page-home';
+import { PageHome } from '@tuffz/coding-booth-com-page-home';
 
 export const metadata = {
   alternates: {
@@ -7,5 +7,5 @@ export const metadata = {
 };
 
 export default function HomePage() {
-  return <CodingBoothComPageHome />;
+  return <PageHome />;
 }
