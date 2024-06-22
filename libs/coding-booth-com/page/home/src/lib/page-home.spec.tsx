@@ -1,11 +1,11 @@
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 
-import { CodingBoothComPageHome } from './coding-booth-com-page-home';
+import { PageHome } from './page-home';
 
-describe('CodingBoothComPageHome', () => {
+describe('PageHome', () => {
   test('matches the snapshot', () => {
-    const { container } = render(<CodingBoothComPageHome />);
+    const { container } = render(<PageHome />);
     expect(container).toMatchSnapshot();
   });
 });
