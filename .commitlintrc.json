@@ -1,4 +1,47 @@
 {
   "extends": ["@commitlint/config-conventional"],
-  "rules": {}
+  "rules": {
+    "type-enum": [
+      2,
+      "always",
+      [
+        "build",
+        "ci",
+        "docs",
+        "feat",
+        "fix",
+        "perf",
+        "refactor",
+        "revert",
+        "test",
+        "chore"
+      ]
+    ],
+    "scope-enum": [
+      2,
+      "always",
+      [
+        "core",
+        "deps",
+
+        "coding-booth-com",
+        "ericbuettner-com",
+
+        "character-counter",
+        "under-construction",
+
+        "page-home",
+        "page-not-found",
+
+        "career-timeline",
+        "profile-snapshot",
+
+        "shared-ui-anchor",
+        "shared-ui-footer",
+        "shared-ui-image-embed",
+        "shared-ui-social-media-icons",
+        "shared-util-location-formatting"
+      ]
+    ]
+  }
 }
