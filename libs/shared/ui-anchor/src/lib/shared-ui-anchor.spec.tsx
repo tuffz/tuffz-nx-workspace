@@ -1,10 +1,7 @@
 import { render } from '@testing-library/react';
 
-import {
-  SharedUiAnchor,
-  SharedUiAnchorProps,
-  setRelAttribute,
-} from './shared-ui-anchor';
+import { SharedUiAnchor, setRelAttribute } from './shared-ui-anchor';
+import { UiAnchorProps } from './types/ui-anchor-props';
 
 describe('SharedUiAnchor', () => {
   it('renders a link with the provided href and title', () => {
@@ -103,7 +100,7 @@ describe('SharedUiAnchor', () => {
 
 describe('setRelAttribute', () => {
   it('sets rel attribute to "noopener noreferrer" when target is "_blank"', () => {
-    const props: SharedUiAnchorProps = {
+    const props: UiAnchorProps = {
       href: 'https://www.tuffz.info',
       title: 'DummyTitle',
       target: '_blank',
@@ -116,7 +113,7 @@ describe('setRelAttribute', () => {
   });
 
   it('merges props.rel with rel when target is "_blank" and props.rel is defined', () => {
-    const props: SharedUiAnchorProps = {
+    const props: UiAnchorProps = {
       href: 'https://www.tuffz.info',
       title: 'DummyTitle',
       target: '_blank',
@@ -130,7 +127,7 @@ describe('setRelAttribute', () => {
   });
 
   it('sets rel attribute to props.rel when target is not "_blank"', () => {
-    const props: SharedUiAnchorProps = {
+    const props: UiAnchorProps = {
       href: 'https://www.tuffz.info',
       title: 'DummyTitle',
       rel: 'nofollow',
