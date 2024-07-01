@@ -1,3 +1,5 @@
+import { UiNextLink } from '@tuffz/ui-next-link';
+
 export function PageNotFound() {
   return (
     <section className="bg-base-100 mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center gap-16 p-8 lg:gap-20 lg:py-20">
@@ -8,7 +10,13 @@ export function PageNotFound() {
       <p className="text-center text-lg leading-relaxed opacity-80 dark:text-white">
         Whatever you were looking for, you won't find it here.
         <br className="hidden sm:block" /> Even we can't find this page, and we
-        built the site! But you can always find your way from our homepage.
+        built the site! But you can always find your way from our{' '}
+        <UiNextLink
+          href="/"
+          title="Tiny helpers and software tools that make daily work easier"
+          content="homepage"
+        />
+        .
       </p>
     </section>
   );

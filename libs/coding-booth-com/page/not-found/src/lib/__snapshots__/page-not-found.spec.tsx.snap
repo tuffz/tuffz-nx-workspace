@@ -22,7 +22,15 @@ exports[`PageNotFound should render successfully 1`] = `
         <br
           class="hidden sm:block"
         />
-         Even we can't find this page, and we built the site! But you can always find your way from our homepage.
+         Even we can't find this page, and we built the site! But you can always find your way from our
+         
+        <a
+          href="/"
+          title="Tiny helpers and software tools that make daily work easier"
+        >
+          homepage
+        </a>
+        .
       </p>
     </section>
   </div>
