@@ -2,6 +2,21 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ui-anchor-3.0.144...ui-anchor-4.0.0) (2024-07-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ui-anchor:** Renamed SharedUiAnchor component to UiAnchor Component and changed import from
+`@tuffz/shared-ui-anchor` to `@tuffz/ui-anchor`
+* **shared-ui-anchor:** rename and update paths for shared UI anchor library
+
+### ♻️ Code Refactoring
+
+* **shared-ui-anchor:** rename "SharedUiAnchorProps" to "UiAnchorProps" and moved to a new file ([e0bd70c](https://github.com/tuffz/tuffz-nx-workspace/commit/e0bd70c848320e1741d571aac9cd233094cdfb7f))
+* **shared-ui-anchor:** rename and update paths for shared UI anchor library ([b3f9661](https://github.com/tuffz/tuffz-nx-workspace/commit/b3f96618e55dd0ccebcca5751c6de878bc280544))
+* **ui-anchor:** rename SharedUiAnchor to UiAnchor ([619f291](https://github.com/tuffz/tuffz-nx-workspace/commit/619f2916372e34aa9211f7418585ddd06bf98465))
+
 ## [4.0.77](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.76...shared-ui-anchor-4.0.77) (2024-06-15)
 
 ## [4.0.76](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-anchor-4.0.75...shared-ui-anchor-4.0.76) (2024-06-11)
