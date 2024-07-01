@@ -43,5 +43,3 @@ export function UiNextLink(props: UiNextLinkProps) {
     </Link>
   );
 }
-
-export default UiNextLink;
