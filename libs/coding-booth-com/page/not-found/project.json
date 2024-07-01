@@ -1,6 +1,6 @@
 {
   "name": "coding-booth-com-page-not-found",
-  "$schema": "../../../../../node_modules/nx/schemas/project-schema.json",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/coding-booth-com/page/not-found/src",
   "projectType": "library",
   "tags": ["type:feature", "scope:coding-booth-com"],
