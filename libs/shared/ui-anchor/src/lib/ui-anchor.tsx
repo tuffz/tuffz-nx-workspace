@@ -1,4 +1,3 @@
-
 import { UiAnchorProps } from './types/ui-anchor-props';
 
 export function setRelAttribute(props: UiAnchorProps): string | null {
@@ -28,7 +27,7 @@ export function setRelAttribute(props: UiAnchorProps): string | null {
   return relAttributeValue;
 }
 
-export function SharedUiAnchor(props: UiAnchorProps) {
+export function UiAnchor(props: UiAnchorProps) {
   const rel = setRelAttribute(props);
 
   return (
@@ -43,4 +42,4 @@ export function SharedUiAnchor(props: UiAnchorProps) {
   );
 }
 
-export default SharedUiAnchor;
+export default UiAnchor;
