@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.0.1](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-page-home-2.0.0...coding-booth-com-page-home-2.0.1) (2024-07-01)
+
+
+### ♻️ Code Refactoring
+
+* **page-home:** reorder tags in project configuration ([c6dbda8](https://github.com/tuffz/tuffz-nx-workspace/commit/c6dbda84e5f4d672d9349db03edcb5018de9f4d1))
+
 ## [2.0.0](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-page-home-1.1.35...coding-booth-com-page-home-2.0.0) (2024-06-22)
 
 
