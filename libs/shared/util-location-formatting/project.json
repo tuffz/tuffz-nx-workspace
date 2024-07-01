@@ -3,7 +3,7 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/shared/util-location-formatting/src",
   "projectType": "library",
-  "tags": ["scope:shared", "type:util"],
+  "tags": ["type:util", "scope:shared"],
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
