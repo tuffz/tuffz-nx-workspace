@@ -36,11 +36,12 @@
         "career-timeline",
         "profile-snapshot",
 
-        "shared-ui-anchor",
         "shared-ui-footer",
         "shared-ui-image-embed",
         "shared-ui-social-media-icons",
-        "shared-util-location-formatting"
+        "shared-util-location-formatting",
+
+        "ui-anchor"
       ]
     ]
   }
