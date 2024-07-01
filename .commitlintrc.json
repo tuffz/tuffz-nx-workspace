@@ -41,7 +41,8 @@
         "shared-ui-social-media-icons",
         "shared-util-location-formatting",
 
-        "ui-anchor"
+        "ui-anchor",
+        "ui-next-link"
       ]
     ]
   }
