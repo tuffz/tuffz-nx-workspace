@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [5.0.70](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.69...shared-util-location-formatting-5.0.70) (2024-07-01)
+
+
+### ♻️ Code Refactoring
+
+* **shared-util-location-formatting:** reorder tags in project configuration ([3d0967e](https://github.com/tuffz/tuffz-nx-workspace/commit/3d0967ea5c0f83ca797d80325400b1c367ca319a))
+
 ## [5.0.69](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.68...shared-util-location-formatting-5.0.69) (2024-06-15)
 
 ## [5.0.68](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-util-location-formatting-5.0.67...shared-util-location-formatting-5.0.68) (2024-06-11)
