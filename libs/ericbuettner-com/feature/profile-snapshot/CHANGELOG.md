@@ -2,6 +2,12 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.2.1](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-profile-snapshot-4.2.0...ericbuettner-com-feature-profile-snapshot-4.2.1) (2024-07-01)
+
+### Dependency Updates
+
+* `shared-util-location-formatting` updated to version `5.0.70`
+* `shared-ui-social-media-icons` updated to version `5.2.1`
 ## [4.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-profile-snapshot-4.1.0...ericbuettner-com-feature-profile-snapshot-4.2.0) (2024-06-19)
 
 ### Dependency Updates
