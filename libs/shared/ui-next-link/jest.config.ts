@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'shared-ui-next-link',
+  displayName: 'ui-next-link',
   preset: '../../../jest.preset.js',
   transform: {
     '^.+\\.[tj]sx?$': [
