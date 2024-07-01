@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.1.8](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-2.1.7...coding-booth-com-2.1.8) (2024-07-01)
+
+### Dependency Updates
+
+* `shared-ui-footer` updated to version `4.0.78`
+* `coding-booth-com-page-not-found` updated to version `1.1.0`
+* `coding-booth-com-page-home` updated to version `2.0.1`
 ## [2.1.7](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-2.1.6...coding-booth-com-2.1.7) (2024-06-30)
 
 ## [2.1.6](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-2.1.5...coding-booth-com-2.1.6) (2024-06-29)
