@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [5.2.1](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-social-media-icons-5.2.0...shared-ui-social-media-icons-5.2.1) (2024-07-01)
+
+### Dependency Updates
+
+* `ui-anchor` updated to version `4.0.0`
+
+### ♻️ Code Refactoring
+
+* **shared-ui-social-media-icons:** update references to renamed UiAnchor component ([2a88043](https://github.com/tuffz/tuffz-nx-workspace/commit/2a88043bfd6bbe0ef9a8d093f8e2626d640443f9))
+
 ## [5.2.0](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-social-media-icons-5.1.0...shared-ui-social-media-icons-5.2.0) (2024-06-19)
 
 
