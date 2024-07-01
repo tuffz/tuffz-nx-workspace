@@ -2,6 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [3.0.26](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-career-timeline-3.0.25...ericbuettner-com-feature-career-timeline-3.0.26) (2024-07-01)
+
+### Dependency Updates
+
+* `shared-util-location-formatting` updated to version `5.0.70`
 ## [3.0.25](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-career-timeline-3.0.24...ericbuettner-com-feature-career-timeline-3.0.25) (2024-06-15)
 
 ## [3.0.24](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-feature-career-timeline-3.0.23...ericbuettner-com-feature-career-timeline-3.0.24) (2024-06-11)
