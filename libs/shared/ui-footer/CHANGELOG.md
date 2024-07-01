@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.0.78](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-4.0.77...shared-ui-footer-4.0.78) (2024-07-01)
+
+### Dependency Updates
+
+* `ui-anchor` updated to version `4.0.0`
+
+### ♻️ Code Refactoring
+
+* **shared-ui-footer:** update references to renamed UiAnchor component ([5831321](https://github.com/tuffz/tuffz-nx-workspace/commit/5831321800069fbc955885f1dae2cc8589e5c5e2))
+
 ## [4.0.77](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-4.0.76...shared-ui-footer-4.0.77) (2024-06-15)
 
 ## [4.0.76](https://github.com/tuffz/tuffz-nx-workspace/compare/shared-ui-footer-4.0.75...shared-ui-footer-4.0.76) (2024-06-11)
