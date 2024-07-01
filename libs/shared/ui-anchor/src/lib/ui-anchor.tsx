@@ -1,14 +1,6 @@
-import { ReactNode } from 'react';
+import { UiAnchorProps } from './types/ui-anchor-props';
 
-export interface SharedUiAnchorProps {
-  href: string;
-  content?: ReactNode | string;
-  title: string;
-  target?: string;
-  rel?: string;
-}
-
-export function setRelAttribute(props: SharedUiAnchorProps): string | null {
+export function setRelAttribute(props: UiAnchorProps): string | null {
   let relAttributeValue: string | null = null;
 
   if (props.target === '_blank') {
@@ -35,7 +27,7 @@ export function setRelAttribute(props: SharedUiAnchorProps): string | null {
   return relAttributeValue;
 }
 
-export function SharedUiAnchor(props: SharedUiAnchorProps) {
+export function UiAnchor(props: UiAnchorProps) {
   const rel = setRelAttribute(props);
 
   return (
@@ -50,4 +42,4 @@ export function SharedUiAnchor(props: SharedUiAnchorProps) {
   );
 }
 
-export default SharedUiAnchor;
+export default UiAnchor;

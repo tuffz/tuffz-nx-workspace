@@ -3,7 +3,7 @@
   "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/coding-booth-com/page/home/src",
   "projectType": "library",
-  "tags": ["scope:coding-booth-com", "type:page"],
+  "tags": ["type:page", "scope:coding-booth-com"],
   "targets": {
     "lint": {
       "executor": "@nx/eslint:lint"

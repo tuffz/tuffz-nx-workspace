@@ -3,9 +3,9 @@ import { render, screen } from '@testing-library/react';
 import { SharedUiFooter, SharedUiFooterProps } from './shared-ui-footer';
 import { Website } from './website.enum';
 
-// Mock the SharedUiAnchor component
-jest.mock('@tuffz/shared-ui-anchor', () => ({
-  SharedUiAnchor: ({ href, content }: { href: string; content: string }) => (
+// Mock the UiAnchor component
+jest.mock('@tuffz/ui-anchor', () => ({
+  UiAnchor: ({ href, content }: { href: string; content: string }) => (
     <a href={href}>{content}</a>
   ),
 }));

@@ -33,7 +33,6 @@
       "@tuffz/ericbuettner-com-feature-profile-snapshot": [
         "libs/ericbuettner-com/feature/profile-snapshot/src/index.ts"
       ],
-      "@tuffz/shared-ui-anchor": ["libs/shared/ui-anchor/src/index.ts"],
       "@tuffz/shared-ui-footer": ["libs/shared/ui-footer/src/index.ts"],
       "@tuffz/shared-ui-image-embed": [
         "libs/shared/ui-image-embed/src/index.ts"
@@ -43,7 +42,9 @@
       ],
       "@tuffz/shared-util-location-formatting": [
         "libs/shared/util-location-formatting/src/index.ts"
-      ]
+      ],
+      "@tuffz/ui-anchor": ["libs/shared/ui-anchor/src/index.ts"],
+      "@tuffz/ui-next-link": ["libs/shared/ui-next-link/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

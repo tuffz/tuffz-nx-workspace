@@ -1,6 +1,6 @@
 import { JSX } from 'react/jsx-runtime';
 
-import { SharedUiAnchor } from '@tuffz/shared-ui-anchor';
+import { UiAnchor } from '@tuffz/ui-anchor';
 
 // Import SVG components for each platform
 import { UiSocialMediaIconGitHub } from './icons/github';
@@ -88,7 +88,7 @@ export function SharedUiSocialMediaIcons(props: SharedUiSocialMediaIconsProps) {
     ] as PlatformMapping;
 
     return (
-      <SharedUiAnchor
+      <UiAnchor
         href={props.url}
         title={platform}
         target="_blank"
