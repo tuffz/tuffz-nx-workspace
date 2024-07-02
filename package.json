@@ -79,7 +79,7 @@
     "jest-environment-jsdom": "29.7.0",
     "jest-environment-node": "29.7.0",
     "nx": "19.3.2",
-    "postcss": "8.4.38",
+    "postcss": "8.4.39",
     "prettier": "3.3.2",
     "react-refresh": "0.14.2",
     "sass": "1.77.6",
