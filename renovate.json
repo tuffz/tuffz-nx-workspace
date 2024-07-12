@@ -54,5 +54,9 @@
       "matchFileNames": ["package.json"],
       "extends": [":pinDevDependencies"]
     }
-  ]
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 5am"]
+  }
 }
