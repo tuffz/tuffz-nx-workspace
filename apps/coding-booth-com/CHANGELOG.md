@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.1.25](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-2.1.24...coding-booth-com-2.1.25) (2024-07-14)
+
 ## [2.1.24](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-2.1.23...coding-booth-com-2.1.24) (2024-07-13)
 
 ## [2.1.23](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-2.1.22...coding-booth-com-2.1.23) (2024-07-13)
