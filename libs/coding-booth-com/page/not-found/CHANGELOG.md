@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.1](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-page-not-found-1.1.0...coding-booth-com-page-not-found-1.1.1) (2024-07-21)
+
+### Dependency Updates
+
+* `ui-next-link` updated to version `1.0.0`
+
+### ✅ Tests
+
+* **page-not-found:** update snapshot with link underline styling ([b8c373c](https://github.com/tuffz/tuffz-nx-workspace/commit/b8c373c7f6d5f575349a0e454f98515bc3ed0bf1))
+
 ## [1.1.0](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-page-not-found-1.0.0...coding-booth-com-page-not-found-1.1.0) (2024-07-01)
 
 ### Dependency Updates
