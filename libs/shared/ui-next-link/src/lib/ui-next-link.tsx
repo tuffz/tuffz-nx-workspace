@@ -37,6 +37,7 @@ export function UiNextLink(props: UiNextLinkProps) {
       href={props.href}
       title={props.title}
       target={props.target}
+      className="underline underline-offset-2 hover:underline-offset-4"
       {...(rel && { rel })}
     >
       {props.content}
