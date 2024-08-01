@@ -43,17 +43,17 @@
     "@nx/webpack": "19.5.3",
     "@nx/workspace": "19.5.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.15",
-    "@stylistic/eslint-plugin": "2.3.0",
+    "@stylistic/eslint-plugin": "2.4.0",
     "@svgr/webpack": "8.1.0",
     "@swc-node/register": "1.10.9",
     "@swc/cli": "0.4.0",
-    "@swc/core": "1.7.2",
+    "@swc/core": "1.7.3",
     "@swc/helpers": "0.5.12",
     "@swc/jest": "0.2.36",
     "@testing-library/jest-dom": "6.4.8",
     "@testing-library/react": "16.0.0",
     "@types/jest": "29.5.12",
-    "@types/node": "20.14.12",
+    "@types/node": "20.14.13",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@typescript-eslint/eslint-plugin": "7.17.0",
@@ -88,5 +88,10 @@
     "ts-node": "10.9.2",
     "typescript": "5.5.4",
     "url-loader": "4.1.1"
+  },
+  "overrides": {
+    "@jscutlery/semver": {
+      "@nx/devkit": "19.5.3"
+    }
   }
 }
