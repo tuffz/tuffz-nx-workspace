@@ -24,6 +24,9 @@
       "@tuffz/coding-booth-com-feature-utm-parameter-url-builder": [
         "libs/coding-booth-com/feature/utm-parameter-url-builder/src/index.ts"
       ],
+      "@tuffz/coding-booth-com-page-campaign-utm-parameter-url-builder": [
+        "libs/coding-booth-com/page/campaign-utm-parameter-url-builder/src/index.ts"
+      ],
       "@tuffz/coding-booth-com-page-home": [
         "libs/coding-booth-com/page/home/src/index.ts"
       ],
