@@ -49,6 +49,7 @@
       "@tuffz/shared-util-location-formatting": [
         "libs/shared/util-location-formatting/src/index.ts"
       ],
+      "@tuffz/shared-util-urls": ["libs/shared/util-urls/src/index.ts"],
       "@tuffz/ui-anchor": ["libs/shared/ui-anchor/src/index.ts"],
       "@tuffz/ui-next-link": ["libs/shared/ui-next-link/src/index.ts"]
     }

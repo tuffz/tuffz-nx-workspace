@@ -44,7 +44,8 @@
         "shared-util-location-formatting",
 
         "ui-anchor",
-        "ui-next-link"
+        "ui-next-link",
+        "util-urls"
       ]
     ]
   }
