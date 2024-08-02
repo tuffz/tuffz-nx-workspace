@@ -1,4 +1,5 @@
 import { DEFAULT_CONFIG } from './constants/default-config';
+import { hasUrlProtocol } from './has-url-protocol';
 import { UrlConfig } from './types/url-config';
 
 export const addUrlProtocol = (url: string, config?: UrlConfig): string => {
@@ -9,8 +10,9 @@ export const addUrlProtocol = (url: string, config?: UrlConfig): string => {
     return url;
   }
 
-  if (!url.startsWith('http://') && !url.startsWith('https://')) {
+  if (!hasUrlProtocol(url)) {
     return `${protocol}://${url}`;
   }
+
   return url;
 };
