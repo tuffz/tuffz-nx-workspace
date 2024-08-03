@@ -1,4 +1,7 @@
-import { generateQueryParameterString } from './generate-query-parameter-string';
+import {
+  generateQueryParameterString,
+  isValidQueryParameter,
+} from './generate-query-parameter-string';
 import { QueryParameter } from './types/query-parameter';
 
 describe('generateQueryParameterString', () => {
@@ -87,5 +90,87 @@ describe('generateQueryParameterString', () => {
     expect(result).toBe(
       'utm_source=coding-booth.com&utm_medium=link&utm_campaign=crafted-with-heart',
     );
+  });
+
+  it('should handle cases where key is an empty string and/or value is an empty string', () => {
+    const params: QueryParameter[] = [
+      { key: '', value: 'value' }, // empty key
+      { key: 'utm_medium', value: '' }, // empty value
+      { key: '', value: '' }, // both key and value are empty
+      { key: 'utm_source', value: 'coding-booth.com' }, // valid pair
+    ];
+    const result = generateQueryParameterString(params);
+    expect(result).toBe('utm_source=coding-booth.com');
+  });
+});
+
+describe('isValidQueryParameter', () => {
+  it('should return true for a valid key-value pair', () => {
+    const param: QueryParameter = {
+      key: 'utm_source',
+      value: 'coding-booth.com',
+    };
+    expect(isValidQueryParameter(param)).toBe(true);
+  });
+
+  it('should return false for a pair with a null key', () => {
+    const param: QueryParameter = { key: null, value: 'coding-booth.com' };
+    expect(isValidQueryParameter(param)).toBe(false);
+  });
+
+  it('should return false for a pair with an undefined key', () => {
+    const param: QueryParameter = { key: undefined, value: 'coding-booth.com' };
+    expect(isValidQueryParameter(param)).toBe(false);
+  });
+
+  it('should return false for a pair with an empty key', () => {
+    const param: QueryParameter = { key: '', value: 'coding-booth.com' };
+    expect(isValidQueryParameter(param)).toBe(false);
+  });
+
+  it('should return false for a pair with a null value', () => {
+    const param: QueryParameter = { key: 'utm_source', value: null };
+    expect(isValidQueryParameter(param)).toBe(false);
+  });
+
+  it('should return false for a pair with an undefined value', () => {
+    const param: QueryParameter = { key: 'utm_source', value: undefined };
+    expect(isValidQueryParameter(param)).toBe(false);
+  });
+
+  it('should return false for a pair with an empty value', () => {
+    const param: QueryParameter = { key: 'utm_source', value: '' };
+    expect(isValidQueryParameter(param)).toBe(false);
+  });
+
+  it('should return false for a pair with both key and value as null', () => {
+    const param: QueryParameter = { key: null, value: null };
+    expect(isValidQueryParameter(param)).toBe(false);
+  });
+
+  it('should return false for a pair with both key and value as undefined', () => {
+    const param: QueryParameter = { key: undefined, value: undefined };
+    expect(isValidQueryParameter(param)).toBe(false);
+  });
+
+  it('should return false for a pair with both key and value as empty strings', () => {
+    const param: QueryParameter = { key: '', value: '' };
+    expect(isValidQueryParameter(param)).toBe(false);
+  });
+
+  it('should return true for a valid key and value with special characters', () => {
+    const param: QueryParameter = {
+      key: 'utm source',
+      value: 'coding booth.com',
+    };
+    expect(isValidQueryParameter(param)).toBe(true);
+  });
+
+  it('should return true for a valid key and value with numbers', () => {
+    const param: QueryParameter = {
+      key: 'version',
+      value: '1.0',
+    };
+    expect(isValidQueryParameter(param)).toBe(true);
   });
 });

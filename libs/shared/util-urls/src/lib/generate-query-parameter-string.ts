@@ -14,4 +14,10 @@ export const generateQueryParameterString = (
 
 export const isValidQueryParameter = (
   param: QueryParameter,
-): param is ValidQueryParameter => param.key != null && param.value != null;
+): param is ValidQueryParameter => {
+  return isNonEmptyString(param.key) && isNonEmptyString(param.value);
+};
+
+const isNonEmptyString = (value: unknown): value is string => {
+  return typeof value === 'string' && value.trim().length > 0;
+};
