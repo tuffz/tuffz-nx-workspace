@@ -21,6 +21,12 @@
       "@tuffz/coding-booth-com-feature-under-construction": [
         "libs/coding-booth-com/feature/under-construction/src/index.ts"
       ],
+      "@tuffz/coding-booth-com-feature-utm-parameter-url-builder": [
+        "libs/coding-booth-com/feature/utm-parameter-url-builder/src/index.ts"
+      ],
+      "@tuffz/coding-booth-com-page-campaign-utm-parameter-url-builder": [
+        "libs/coding-booth-com/page/campaign-utm-parameter-url-builder/src/index.ts"
+      ],
       "@tuffz/coding-booth-com-page-home": [
         "libs/coding-booth-com/page/home/src/index.ts"
       ],
@@ -43,6 +49,7 @@
       "@tuffz/shared-util-location-formatting": [
         "libs/shared/util-location-formatting/src/index.ts"
       ],
+      "@tuffz/shared-util-urls": ["libs/shared/util-urls/src/index.ts"],
       "@tuffz/ui-anchor": ["libs/shared/ui-anchor/src/index.ts"],
       "@tuffz/ui-next-link": ["libs/shared/ui-next-link/src/index.ts"]
     }

@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodingBoothComPageHome matches the snapshot 1`] = `
+<div>
+  <section
+    class="lg:py-20"
+  >
+    <div
+      class="container mx-auto"
+    >
+      <div
+        class="flex flex-col items-center justify-center gap-16 p-8 lg:flex-row lg:items-start lg:gap-20"
+      >
+        <div
+          class="flex flex-col items-center justify-center gap-10 text-center lg:items-start lg:gap-14 lg:text-left"
+        >
+          <h1
+            class="text-4xl font-extrabold tracking-tight md:-mb-4 lg:text-6xl dark:text-white"
+          >
+            Guaranteed
+             
+            <strong
+              class="underline decoration-lime-500 decoration-8"
+            >
+              error-free
+            </strong>
+             
+            UTM tracking for precise insights with ease!
+          </h1>
+          <p
+            class="text-left text-lg leading-relaxed opacity-80 md:text-center lg:text-left dark:text-white"
+          >
+            Say goodbye to tracking errors and hello to
+             
+            <strong
+              class="underline decoration-lime-500 decoration-4"
+            >
+              precise insights
+            </strong>
+             
+            effortlessly! 
+            <br
+              class="hidden sm:block lg:hidden"
+            />
+             
+            <br
+              class="hidden xl:block"
+            />
+            Our
+             
+            <strong
+              class="text-xl font-bold tracking-tight md:-mb-4"
+            >
+              Campaign UTM Parameter URL Builder
+            </strong>
+            ,
+             
+            <strong
+              class="underline decoration-lime-500 decoration-4"
+            >
+              simplifies
+            </strong>
+             
+            your URL creation process. No more worrying about typos or missing parameters. 
+            <br
+              class="hidden sm:block lg:hidden"
+            />
+             
+            <br
+              class="hidden xl:block"
+            />
+            Easily generate
+             
+            <strong
+              class="underline decoration-lime-500 decoration-4"
+            >
+              all necessary and optional
+            </strong>
+             
+            parameters
+             
+            <strong
+              class="underline decoration-lime-500 decoration-4"
+            >
+              with confidence
+            </strong>
+            .
+          </p>
+        </div>
+        <div
+          class="lg:w-full lg:min-w-96"
+        >
+          <h2
+            class="pb-4 text-2xl font-extrabold tracking-tight lg:text-2xl dark:text-white"
+          >
+            Enter the website URL and campaign information
+          </h2>
+          <p
+            class="pb-4 text-lg leading-relaxed opacity-80 dark:text-white"
+          >
+            Fill out all fields marked with an asterisk (*), and the campaign URL will be generated for you.
+          </p>
+          <div
+            class="pb-4"
+          >
+            <input
+              class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 outline-0 outline-lime-500 hover:bg-gray-50 focus:border-lime-500 lg:grow lg:text-base dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:hover:bg-neutral-800"
+              id="website-url"
+              placeholder="website URL *"
+              required=""
+              type="text"
+            />
+            <div
+              class="px-2.5"
+            >
+              <label
+                class="pt-2 text-sm leading-relaxed opacity-80 dark:text-white"
+                for="website-url"
+              >
+                The full website URL (e.g. https://www.tuffz.com)
+              </label>
+            </div>
+          </div>
+          <div
+            class="pb-4"
+          >
+            <input
+              class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 outline-0 outline-lime-500 hover:bg-gray-50 focus:border-lime-500 lg:grow lg:text-base dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:hover:bg-neutral-800"
+              id="campaign-id"
+              placeholder="campaign ID"
+              type="text"
+            />
+            <div
+              class="px-2.5"
+            >
+              <label
+                class="pt-2 text-sm leading-relaxed opacity-80 dark:text-white"
+                for="campaign-id"
+              >
+                The ads campaign id
+              </label>
+            </div>
+          </div>
+          <div
+            class="pb-4"
+          >
+            <input
+              class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 outline-0 outline-lime-500 hover:bg-gray-50 focus:border-lime-500 lg:grow lg:text-base dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:hover:bg-neutral-800"
+              id="campaign-source"
+              placeholder="campaign source *"
+              required=""
+              type="text"
+            />
+            <div
+              class="px-2.5"
+            >
+              <label
+                class="pt-2 text-sm leading-relaxed opacity-80 dark:text-white"
+                for="campaign-source"
+              >
+                The referrer (e.g. google, newsletter)
+              </label>
+            </div>
+          </div>
+          <div
+            class="pb-4"
+          >
+            <input
+              class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 outline-0 outline-lime-500 hover:bg-gray-50 focus:border-lime-500 lg:grow lg:text-base dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:hover:bg-neutral-800"
+              id="campaign-medium"
+              placeholder="campaign medium *"
+              required=""
+              type="text"
+            />
+            <div
+              class="px-2.5"
+            >
+              <label
+                class="pt-2 text-sm leading-relaxed opacity-80 dark:text-white"
+                for="campaign-medium"
+              >
+                The marketing medium (e.g. cpc, banner, email)
+              </label>
+            </div>
+          </div>
+          <div
+            class="pb-4"
+          >
+            <input
+              class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 outline-0 outline-lime-500 hover:bg-gray-50 focus:border-lime-500 lg:grow lg:text-base dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:hover:bg-neutral-800"
+              id="campaign-name"
+              placeholder="campaign name *"
+              required=""
+              type="text"
+            />
+            <div
+              class="px-2.5"
+            >
+              <label
+                class="pt-2 text-sm leading-relaxed opacity-80 dark:text-white"
+                for="campaign-name"
+              >
+                Product, promo code, or slogan (e.g. summer_sale)
+              </label>
+            </div>
+          </div>
+          <div
+            class="pb-4"
+          >
+            <input
+              class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 outline-0 outline-lime-500 hover:bg-gray-50 focus:border-lime-500 lg:grow lg:text-base dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:hover:bg-neutral-800"
+              id="campaign-term"
+              placeholder="campaign term"
+              type="text"
+            />
+            <div
+              class="px-2.5"
+            >
+              <label
+                class="pt-2 text-sm leading-relaxed opacity-80 dark:text-white"
+                for="campaign-term"
+              >
+                Identify the paid keywords
+              </label>
+            </div>
+          </div>
+          <div
+            class="pb-4"
+          >
+            <input
+              class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 outline-0 outline-lime-500 hover:bg-gray-50 focus:border-lime-500 lg:grow lg:text-base dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:hover:bg-neutral-800"
+              id="campaign-content"
+              placeholder="campaign content"
+              type="text"
+            />
+            <div
+              class="px-2.5"
+            >
+              <label
+                class="pt-2 text-sm leading-relaxed opacity-80 dark:text-white"
+                for="campaign-content"
+              >
+                Use to differentiate ads
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="w-full bg-gray-800 p-8"
+    >
+      <div
+        class="container mx-auto"
+      >
+        <div
+          class="p-8"
+        >
+          <h2
+            class="pb-4 text-2xl font-extrabold tracking-tight lg:text-2xl dark:text-white"
+          >
+            Share the generated campaign URL
+          </h2>
+          <div
+            id="utm-parameter-url-builder-result"
+          >
+            <textarea
+              class="relative inline-flex w-full items-stretch justify-between gap-x-2 break-all rounded-md border border-gray-300 bg-gray-50 px-4 py-3 text-left font-mono text-sm text-gray-900 shadow-sm outline-0 outline-lime-500 [--is-toggle-tooltip:false] hover:bg-gray-50 focus:border-lime-500 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-600 dark:bg-gray-700  dark:text-white dark:hover:bg-neutral-800"
+              placeholder="Fill out required fields above and a URL will be generated for you here."
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
