@@ -29,10 +29,10 @@ runs:
         # Make sure the value of GITHUB_TOKEN will not be persisted in repo's config
         persist-credentials: false
 
-    - name: 🔧 Use Node.js 20
+    - name: 🔧 Use Node.js 20.17.0
       uses: actions/setup-node@v4
       with:
-        node-version: 20
+        node-version: '20.17.0'
         cache: 'npm'
 
     - name: 🔒️ Cache node_modules
