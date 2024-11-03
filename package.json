@@ -51,7 +51,7 @@
     "@swc/core": "1.7.40",
     "@swc/helpers": "0.5.13",
     "@swc/jest": "0.2.37",
-    "@testing-library/jest-dom": "6.5.0",
+    "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.0.1",
     "@types/jest": "29.5.14",
     "@types/node": "20.16.15",
