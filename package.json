@@ -21,11 +21,11 @@
   "private": true,
   "dependencies": {
     "next": "14.2.17",
-    "next-plausible": "3.12.3",
+    "next-plausible": "3.12.4",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-router-dom": "6.28.0",
-    "tslib": "2.8.0"
+    "tslib": "2.8.1"
   },
   "devDependencies": {
     "@babel/core": "7.26.0",
@@ -54,7 +54,7 @@
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.0.1",
     "@types/jest": "29.5.14",
-    "@types/node": "20.17.5",
+    "@types/node": "20.17.6",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
     "@typescript-eslint/eslint-plugin": "8.13.0",
@@ -83,7 +83,7 @@
     "postcss": "8.4.47",
     "prettier": "3.3.3",
     "react-refresh": "0.14.2",
-    "sass": "1.80.5",
+    "sass": "1.80.6",
     "tailwindcss": "3.4.14",
     "ts-jest": "29.2.5",
     "ts-node": "10.9.2",
