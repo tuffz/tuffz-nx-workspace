@@ -1,4 +1,4 @@
-# Coding-Booth.com Feature Character Counter
+# Coding-Booth.com Feature: Character Counter
 
 This library was generated with [Nx](https://nx.dev).
 

@@ -29,9 +29,11 @@
 
         "character-counter",
         "under-construction",
+        "utm-parameter-url-builder",
 
         "page-home",
         "page-not-found",
+        "page-campaign-utm-parameter-url-builder",
 
         "career-timeline",
         "profile-snapshot",
@@ -42,7 +44,8 @@
         "shared-util-location-formatting",
 
         "ui-anchor",
-        "ui-next-link"
+        "ui-next-link",
+        "util-urls"
       ]
     ]
   }
