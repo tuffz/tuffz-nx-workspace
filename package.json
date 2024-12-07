@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.26.0",
-    "@babel/preset-react": "7.25.9",
+    "@babel/preset-react": "7.26.3",
     "@commitlint/cli": "19.6.0",
     "@commitlint/config-conventional": "19.6.0",
     "@jscutlery/semver": "5.3.1",
