@@ -44,7 +44,7 @@
     "@nx/webpack": "19.8.13",
     "@nx/workspace": "19.8.13",
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.15",
-    "@stylistic/eslint-plugin": "2.11.0",
+    "@stylistic/eslint-plugin": "2.12.1",
     "@svgr/webpack": "8.1.0",
     "@swc-node/register": "1.10.9",
     "@swc/cli": "0.5.1",
