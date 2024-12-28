@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [2.1.55](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-2.1.54...coding-booth-com-2.1.55) (2024-12-28)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update nextjs monorepo to v15.1.2 ([0486d5b](https://github.com/tuffz/tuffz-nx-workspace/commit/0486d5bd6d85c8df7487712445868392fb9edee8)), closes [#887](https://github.com/tuffz/tuffz-nx-workspace/issues/887)
+
 ## [2.1.54](https://github.com/tuffz/tuffz-nx-workspace/compare/coding-booth-com-2.1.53...coding-booth-com-2.1.54) (2024-12-28)
 
 
