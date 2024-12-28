@@ -23,7 +23,11 @@ const nextConfig = {
 
   // Optional: Change the output directory (default is `.next`).
   // The configured `distDir` is located in `dist/apps/<app_name>`, with `<app_name>` being your Nx Next.js project name.
-  distDir: 'out',
+  distDir: '../../dist/apps/ericbuettner-com',
+
+  images: {
+    unoptimized: true,
+  },
 };
 
 const plugins = [
