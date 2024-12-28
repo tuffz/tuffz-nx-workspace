@@ -5,17 +5,22 @@ import './global.css';
 
 export const metadata = {
   metadataBase: new URL('https://www.coding-booth.com'),
+
   title: {
     template: '%s | coding-booth.com',
     default: 'Tiny helpers and software tools that make daily work easier',
   },
+
   description: 'Tiny helpers and software tools that make daily work easier',
+
   icons: {
     icon: '/favicon-32x32.png',
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
   },
+
   manifest: '/site.webmanifest',
+
   robots: {
     index: true,
     follow: true,

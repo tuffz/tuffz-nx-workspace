@@ -2,6 +2,7 @@ import { PageNotFound } from '@tuffz/coding-booth-com-page-not-found';
 
 export const metadata = {
   title: '404 - Nothing to see here 👀',
+
   robots: {
     index: false,
     googleBot: {
