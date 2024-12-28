@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [4.1.54](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-4.1.53...ericbuettner-com-4.1.54) (2024-12-28)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update nextjs monorepo to v15.1.2 ([0486d5b](https://github.com/tuffz/tuffz-nx-workspace/commit/0486d5bd6d85c8df7487712445868392fb9edee8)), closes [#887](https://github.com/tuffz/tuffz-nx-workspace/issues/887)
+
 ## [4.1.53](https://github.com/tuffz/tuffz-nx-workspace/compare/ericbuettner-com-4.1.52...ericbuettner-com-4.1.53) (2024-12-28)
 
 
