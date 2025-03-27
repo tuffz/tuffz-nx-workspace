@@ -1,4 +1,4 @@
-# coding-booth-com-page-home
+# Coding-Booth.com Page: Home
 
 This library was generated with [Nx](https://nx.dev).
 
