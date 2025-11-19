@@ -21,7 +21,7 @@
   "private": true,
   "dependencies": {
     "next": "15.1.2",
-    "next-plausible": "3.12.4",
+    "next-plausible": "3.12.5",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-router-dom": "7.1.1",
