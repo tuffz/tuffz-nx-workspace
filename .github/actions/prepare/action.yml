@@ -22,7 +22,7 @@ runs:
       run: git config user.email "tuffz-bot@tuffz.com" && git config user.name "🤖 tuffz Bot"
 
     - name: 🔍️ Checkout all commits
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         token: ${{ inputs.git_bot_token || github.token }}
         fetch-depth: 0
