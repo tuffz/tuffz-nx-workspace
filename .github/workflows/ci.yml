@@ -63,7 +63,7 @@ jobs:
         with:
           cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
 
-      - uses: nrwl/nx-set-shas@v4
+      - uses: nrwl/nx-set-shas@v5
 
       - name: 💄 Check code formatting by using prettier config
         run: npx nx format:check
@@ -93,7 +93,7 @@ jobs:
         with:
           cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
 
-      - uses: nrwl/nx-set-shas@v4
+      - uses: nrwl/nx-set-shas@v5
 
       - name: ✅ Tests
         if: github.event_name == 'push'
@@ -164,7 +164,7 @@ jobs:
         with:
           cache_node_modules_key: node-modules-${{ hashFiles('package-lock.json') }}
 
-      - uses: nrwl/nx-set-shas@v4
+      - uses: nrwl/nx-set-shas@v5
 
       - name: 📦️ Build
         if: github.event_name == 'push'
