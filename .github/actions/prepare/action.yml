@@ -37,7 +37,7 @@ runs:
 
     - name: 🔒️ Cache node_modules
       id: cache-node-modules
-      uses: actions/cache@v4
+      uses: actions/cache@v6
       with:
         lookup-only: ${{ inputs.cache_lookup_only }}
         path: '**/node_modules'
